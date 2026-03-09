@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>QuizLab</title>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Mono:wght@400;500&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet" />
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  :root {
+    --bg: #0f0f11; --surface: #18181c; --surface2: #1f1f25; --border: #2a2a32;
+    --accent: #c8f169; --accent-dim: #9dbf3f; --text: #e8e8ec; --text-muted: #7a7a8a;
+    --correct: #69f1a8; --wrong: #f16969;
+    --correct-bg: rgba(105,241,168,0.08); --wrong-bg: rgba(241,105,105,0.08);
+    --radius: 12px;
+  }
+  html, body { background: var(--bg); color: var(--text); font-family: 'DM Sans', sans-serif; min-height: 100vh; overflow-x: hidden; }
+  body::before {
+    content: ''; position: fixed; inset: 0;
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.04'/%3E%3C/svg%3E");
+    pointer-events: none; z-index: 0; opacity: 0.6;
+  }
+  @keyframes fadeUp { from { opacity:0; transform:translateY(18px); } to { opacity:1; transform:translateY(0); } }
+  @keyframes spin { to { transform: rotate(360deg); } }
+
+  .container { position: relative; z-index: 1; }
+
+  /* Loading */
+  #loadWrap {
+    min-height: 100vh; display: flex; flex-direction: column;
+    align-items: center; justify-content: center; gap: 20px;
+  }
+  .spinner { width:36px; height:36px; border:2px solid var(--border); border-top-color:var(--accent); border-radius:50%; animation:spin 0.7s linear infinite; }
+  .loading-text { font-family:'DM Mono',monospace; font-size:12px; color:var(--text-muted); letter-spacing:0.08em; }
+  .error-box { background:var(--wrong-bg); border:1px solid var(--wrong); border-radius:var(--radius); padding:28px 36px; max-width:500px; text-align:center; }
+  .error-box h2 { font-family:'DM Serif Display',serif; font-size:22px; color:var(--wrong); margin-bottom:12px; }
+  .error-box p { font-size:14px; color:var(--text-muted); line-height:1.7; }
+  .error-box code { font-family:'DM Mono',monospace; background:var(--surface2); padding:2px 6px; border-radius:4px; color:var(--accent); font-size:13px; }
+
+  /* Home */
+  #homeWrap { min-height:100vh; display:none; flex-direction:column; align-items:center; padding:80px 24px 60px; animation:fadeUp 0.35s ease both; }
+  #homeWrap.visible { display:flex; }
+
+  .home-header { text-align:center; margin-bottom:64px; }
+  .logo-pill { display:inline-block; background:var(--accent); color:#0f0f11; font-family:'DM Mono',monospace; font-size:11px; font-weight:500; letter-spacing:0.12em; text-transform:uppercase; padding:5px 14px; border-radius:100px; margin-bottom:24px; }
+  h1 { font-family:'DM Serif Display',serif; font-size:clamp(40px,6vw,72px); line-height:1.05; letter-spacing:-0.02em; margin-bottom:16px; }
+  h1 em { font-style:italic; color:var(--accent); }
+  .home-sub { color:var(--text-muted); font-size:16px; font-weight:300; max-width:420px; margin:0 auto; line-height:1.6; }
+
+  .quiz-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(260px,1fr)); gap:16px; width:100%; max-width:900px; }
+
+  .quiz-card {
+    background:var(--surface); border:1px solid var(--border); border-radius:var(--radius);
+    padding:28px 28px 24px; cursor:pointer;
+    transition:border-color 0.2s, transform 0.2s, background 0.2s;
+    position:relative; overflow:hidden; text-decoration:none; display:block;
+  }
+  .quiz-card::before { content:''; position:absolute; top:0; left:0; right:0; height:2px; background:var(--accent); transform:scaleX(0); transform-origin:left; transition:transform 0.25s ease; }
+  .quiz-card:hover { border-color:#3d3d4a; transform:translateY(-2px); background:var(--surface2); }
+  .quiz-card:hover::before { transform:scaleX(1); }
+
+  .card-num { font-family:'DM Mono',monospace; font-size:11px; color:var(--accent); letter-spacing:0.1em; margin-bottom:12px; }
+  .card-title { font-family:'DM Serif Display',serif; font-size:22px; margin-bottom:8px; line-height:1.2; color:var(--text); }
+  .card-meta { font-size:13px; color:var(--text-muted); display:flex; align-items:center; gap:8px; margin-top:20px; }
+  .card-meta span { display:flex; align-items:center; gap:5px; }
+  .card-badge { margin-left:auto; background:rgba(200,241,105,0.1); color:var(--accent); font-family:'DM Mono',monospace; font-size:10px; padding:3px 8px; border-radius:6px; }
+  .prev-score { position:absolute; top:18px; right:18px; font-family:'DM Mono',monospace; font-size:11px; color:var(--accent); background:rgba(200,241,105,0.1); padding:3px 9px; border-radius:20px; }
+
+  ::-webkit-scrollbar { width:6px; }
+  ::-webkit-scrollbar-track { background:transparent; }
+  ::-webkit-scrollbar-thumb { background:var(--border); border-radius:3px; }
+</style>
+</head>
+<body>
+<div class="container">
+  <div id="loadWrap">
+    <div class="spinner"></div>
+    <div class="loading-text">Loading questions&#8230;</div>
+  </div>
+  <div id="homeWrap">
+    <div class="home-header">
+      <div class="logo-pill">QuizLab</div>
+      <h1>Test Your<br /><em>Knowledge</em></h1>
+      <p class="home-sub" id="homeSub">Pick a quiz to begin.</p>
+    </div>
+    <div class="quiz-grid" id="quizGrid"></div>
+  </div>
+</div>
+<script>
+  // ── CONFIG ──────────────────────────────────────
+  const JSON_PATH = './First500.json';
+  const QUIZ_SIZE = 20;
+  // ────────────────────────────────────────────────
+
+  async function init() {
+    try {
+      const res = await fetch(JSON_PATH);
+      if (!res.ok) throw new Error('HTTP ' + res.status);
+      const text = await res.text();
+      const all  = JSON.parse(text);
+      if (!Array.isArray(all) || all.length === 0) throw new Error('JSON must be a non-empty array.');
+
+      const normalised = all.map(function(q) {
+        return {
+          qn:      q.qn !== undefined ? q.qn : q.question,
+          options: q.options,
+          answer:  q.answer !== undefined ? Number(q.answer) : Number(q.correct_answer)
+        };
+      });
+
+      const quizzes = [];
+      for (var i = 0; i < normalised.length; i += QUIZ_SIZE) {
+        quizzes.push(normalised.slice(i, i + QUIZ_SIZE));
+      }
+
+      // Read any stored scores
+      var storedScores = {};
+      try { storedScores = JSON.parse(localStorage.getItem('ql_scores') || '{}'); } catch(e) {}
+
+      const total = all.length;
+      document.getElementById('homeSub').textContent =
+        total + ' question' + (total !== 1 ? 's' : '') +
+        ' across ' + quizzes.length + ' quiz' + (quizzes.length !== 1 ? 'zes' : '') + '. Pick one to begin.';
+
+      document.getElementById('quizGrid').innerHTML = quizzes.map(function(q, i) {
+        var scoreData = storedScores[i];
+        var hasScore  = scoreData !== undefined && scoreData !== null;
+        return '<a class="quiz-card" href="quiz.html?q=' + i + '">' +
+          '<div class="card-num">QUIZ ' + String(i + 1).padStart(2, '0') + '</div>' +
+          '<div class="card-title">Quiz ' + (i + 1) + '</div>' +
+          (hasScore ? '<div class="prev-score">' + scoreData + '/' + q.length + '</div>' : '') +
+          '<div class="card-meta">' +
+            '<span>' +
+              '<svg width="12" height="12" viewBox="0 0 12 12" fill="none"><circle cx="6" cy="6" r="5" stroke="currentColor" stroke-width="1.2"/><path d="M6 3.5V6.5L7.5 8" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/></svg>' +
+              q.length + ' questions' +
+            '</span>' +
+            '<div class="card-badge">' + (hasScore ? Math.round(scoreData / q.length * 100) + '%' : 'Start \u2192') + '</div>' +
+          '</div>' +
+        '</a>';
+      }).join('');
+
+      document.getElementById('loadWrap').style.display = 'none';
+      document.getElementById('homeWrap').classList.add('visible');
+
+    } catch(err) {
+      document.getElementById('loadWrap').innerHTML =
+        '<div class="error-box">' +
+          '<h2>Could not load questions</h2>' +
+          '<p>Make sure <code>' + JSON_PATH + '</code> is in the same folder.<br/><br/>Error: <code>' + err.message + '</code></p>' +
+        '</div>';
+    }
+  }
+
+  init();
+</script>
+</body>
+</html>

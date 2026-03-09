@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>QuizLab — Results</title>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Mono:wght@400;500&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet" />
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  :root {
+    --bg: #0f0f11; --surface: #18181c; --surface2: #1f1f25; --border: #2a2a32;
+    --accent: #c8f169; --accent-dim: #9dbf3f; --text: #e8e8ec; --text-muted: #7a7a8a;
+    --correct: #69f1a8; --wrong: #f16969;
+    --correct-bg: rgba(105,241,168,0.08); --wrong-bg: rgba(241,105,105,0.08);
+    --neutral-bg: rgba(255,255,255,0.03); --radius: 12px;
+  }
+  html, body { background:var(--bg); color:var(--text); font-family:'DM Sans',sans-serif; min-height:100vh; overflow-x:hidden; }
+  body::before {
+    content:''; position:fixed; inset:0;
+    background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.04'/%3E%3C/svg%3E");
+    pointer-events:none; z-index:0; opacity:0.6;
+  }
+  @keyframes fadeUp { from { opacity:0; transform:translateY(18px); } to { opacity:1; transform:translateY(0); } }
+
+  .container { position:relative; z-index:1; }
+
+  .error-box { background:var(--wrong-bg); border:1px solid var(--wrong); border-radius:var(--radius); padding:28px 36px; max-width:500px; text-align:center; margin:80px auto; }
+  .error-box h2 { font-family:'DM Serif Display',serif; font-size:22px; color:var(--wrong); margin-bottom:12px; }
+  .error-box p { font-size:14px; color:var(--text-muted); line-height:1.7; }
+
+  /* Results layout */
+  #resultsWrap { min-height:100vh; padding:0 24px 80px; max-width:760px; margin:0 auto; animation:fadeUp 0.35s ease both; }
+
+  .results-topbar { display:flex; align-items:center; justify-content:space-between; padding:28px 0 40px; gap:16px; }
+
+  .back-btn { background:none; border:1px solid var(--border); color:var(--text-muted); padding:8px 16px; border-radius:8px; cursor:pointer; font-family:'DM Sans',sans-serif; font-size:13px; transition:all 0.15s; display:flex; align-items:center; gap:6px; flex-shrink:0; text-decoration:none; }
+  .back-btn:hover { border-color:var(--text-muted); color:var(--text); }
+
+  .results-title { font-family:'DM Serif Display',serif; font-size:18px; }
+
+  .score-hero { background:var(--surface); border:1px solid var(--border); border-radius:16px; padding:40px; text-align:center; margin-bottom:32px; position:relative; overflow:hidden; }
+  .score-hero::before { content:''; position:absolute; top:-60px; left:50%; transform:translateX(-50%); width:200px; height:200px; background:radial-gradient(circle,rgba(200,241,105,0.1) 0%,transparent 70%); pointer-events:none; }
+
+  .score-label { font-family:'DM Mono',monospace; font-size:11px; color:var(--text-muted); letter-spacing:0.1em; text-transform:uppercase; margin-bottom:16px; }
+  .score-number { font-family:'DM Serif Display',serif; font-size:80px; line-height:1; color:var(--accent); margin-bottom:8px; }
+  .score-denom  { font-size:13px; color:var(--text-muted); margin-bottom:28px; }
+  .score-bar-wrap { background:var(--bg); border-radius:8px; height:8px; overflow:hidden; max-width:300px; margin:0 auto 28px; }
+  .score-bar-fill { height:100%; border-radius:8px; background:linear-gradient(90deg,var(--accent-dim),var(--accent)); width:0%; transition:width 1s cubic-bezier(0.4,0,0.2,1); }
+  .score-message { font-size:15px; color:var(--text-muted); }
+
+  .results-actions { display:flex; gap:10px; margin-bottom:40px; flex-wrap:wrap; }
+
+  .btn-primary { background:var(--accent); color:#0f0f11; border:none; border-radius:9px; padding:13px 26px; font-family:'DM Sans',sans-serif; font-size:14px; font-weight:600; cursor:pointer; transition:opacity 0.15s, transform 0.1s; text-decoration:none; display:inline-block; }
+  .btn-primary:hover { opacity:0.88; transform:translateY(-1px); }
+  .btn-secondary { background:var(--surface); border:1px solid var(--border); color:var(--text); border-radius:9px; padding:13px 22px; font-family:'DM Sans',sans-serif; font-size:14px; cursor:pointer; transition:border-color 0.15s, background 0.15s; text-decoration:none; display:inline-block; }
+  .btn-secondary:hover { border-color:#3d3d4a; background:var(--surface2); }
+
+  .breakdown-header { font-family:'DM Mono',monospace; font-size:11px; color:var(--text-muted); letter-spacing:0.1em; text-transform:uppercase; margin-bottom:16px; }
+  .breakdown-list { display:flex; flex-direction:column; gap:14px; }
+
+  .bk-item { border:1px solid var(--border); border-radius:10px; padding:20px; background:var(--surface); border-left:3px solid transparent; }
+  .bk-item.bk-correct { border-left-color:var(--correct); }
+  .bk-item.bk-wrong   { border-left-color:var(--wrong); }
+  .bk-item.bk-skip    { border-left-color:var(--text-muted); }
+
+  .bk-meta { display:flex; align-items:center; gap:10px; margin-bottom:12px; }
+  .bk-qnum { font-family:'DM Mono',monospace; font-size:10px; color:var(--text-muted); }
+  .bk-badge { font-family:'DM Mono',monospace; font-size:10px; padding:2px 8px; border-radius:4px; }
+  .bk-correct .bk-badge { background:var(--correct-bg); color:var(--correct); }
+  .bk-wrong   .bk-badge { background:var(--wrong-bg);   color:var(--wrong); }
+  .bk-skip    .bk-badge { background:rgba(122,122,138,0.12); color:var(--text-muted); }
+
+  .bk-question { font-size:14px; line-height:1.55; margin-bottom:14px; color:var(--text); }
+
+  .bk-options { display:flex; flex-direction:column; gap:7px; }
+  .bk-opt { display:flex; align-items:flex-start; gap:10px; padding:10px 14px; border-radius:8px; border:1px solid var(--border); background:var(--neutral-bg); font-size:13px; color:var(--text-muted); }
+  .bk-opt.opt-correct { border-color:var(--correct); background:var(--correct-bg); color:var(--correct); }
+  .bk-opt.opt-wrong   { border-color:var(--wrong);   background:var(--wrong-bg);   color:var(--wrong); }
+  .bk-opt-letter { flex-shrink:0; width:20px; height:20px; border-radius:5px; border:1px solid currentColor; font-family:'DM Mono',monospace; font-size:10px; display:flex; align-items:center; justify-content:center; opacity:0.65; }
+  .bk-opt.opt-correct .bk-opt-letter,
+  .bk-opt.opt-wrong   .bk-opt-letter { opacity:1; font-weight:600; }
+  .bk-opt-icon { margin-left:auto; font-size:13px; flex-shrink:0; }
+
+  ::-webkit-scrollbar { width:6px; }
+  ::-webkit-scrollbar-track { background:transparent; }
+  ::-webkit-scrollbar-thumb { background:var(--border); border-radius:3px; }
+
+  @media (max-width:500px) {
+    .score-number { font-size:60px; }
+    .results-actions { flex-direction:column; }
+    .results-actions .btn-primary, .results-actions .btn-secondary { width:100%; text-align:center; }
+  }
+</style>
+</head>
+<body>
+<div class="container">
+  <div id="resultsWrap">
+    <div class="results-topbar">
+      <a class="back-btn" href="index.html">
+        <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M9 2L4 7L9 12" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        Home
+      </a>
+      <div class="results-title" id="resultsTitle"></div>
+      <div></div>
+    </div>
+
+    <div class="score-hero">
+      <div class="score-label">Your Score</div>
+      <div class="score-number" id="scoreNum">0</div>
+      <div class="score-denom"  id="scoreDenom"></div>
+      <div class="score-bar-wrap"><div class="score-bar-fill" id="scoreBar"></div></div>
+      <div class="score-message" id="scoreMsg"></div>
+    </div>
+
+    <div class="results-actions" id="resultsActions"></div>
+
+    <div class="breakdown-header">Question Breakdown</div>
+    <div class="breakdown-list" id="breakdownList"></div>
+  </div>
+</div>
+<script>
+  const LETTERS = ['A','B','C','D','E','F'];
+
+  function init() {
+    var params  = new URLSearchParams(window.location.search);
+    var quizIdx = parseInt(params.get('q') || '0', 10);
+
+    var data;
+    try {
+      data = JSON.parse(localStorage.getItem('ql_result') || 'null');
+    } catch(e) { data = null; }
+
+    if (!data || data.quizIdx !== quizIdx) {
+      document.getElementById('resultsWrap').innerHTML =
+        '<div class="error-box"><h2>No results found</h2>' +
+        '<p>It looks like you navigated here directly. <a href="index.html" style="color:var(--accent)">Go back home</a> and attempt a quiz first.</p></div>';
+      return;
+    }
+
+    var quiz        = data.quiz;
+    var userAnswers = data.userAnswers;
+    var score       = data.score;
+
+    document.title = 'QuizLab — Quiz ' + (quizIdx + 1) + ' Results';
+    document.getElementById('resultsTitle').textContent = 'Quiz ' + (quizIdx + 1) + ' Results';
+    document.getElementById('scoreNum').textContent     = score;
+    document.getElementById('scoreDenom').textContent   = 'out of ' + quiz.length + ' questions';
+
+    var pct  = Math.round(score / quiz.length * 100);
+    var msgs = [
+      [0,  40,  "Keep studying \u2014 you'll get there!"],
+      [40, 60,  "Getting there, keep it up!"],
+      [60, 80,  "Solid effort! Review your mistakes."],
+      [80, 95,  "Great job! Almost perfect."],
+      [95, 101, "Outstanding! Full marks territory."]
+    ];
+    var entry = msgs.find(function(m) { return pct >= m[0] && pct < m[1]; });
+    document.getElementById('scoreMsg').textContent = entry ? entry[2] : '';
+    setTimeout(function() { document.getElementById('scoreBar').style.width = pct + '%'; }, 100);
+
+    // Action buttons
+    document.getElementById('resultsActions').innerHTML =
+      '<a class="btn-primary"   href="quiz.html?q=' + quizIdx + '">\u21BB Reattempt Quiz</a>' +
+      '<a class="btn-secondary" href="index.html">\u2190 Back to Home</a>';
+
+    // Breakdown
+    document.getElementById('breakdownList').innerHTML = quiz.map(function(q, i) {
+      var chosen  = userAnswers[i];
+      var correct = q.answer;
+      var skipped = chosen === null || chosen === undefined;
+      var isRight = !skipped && chosen === correct;
+
+      var cls   = skipped ? 'bk-skip' : isRight ? 'bk-correct' : 'bk-wrong';
+      var badge = skipped ? 'SKIPPED'  : isRight ? '\u2713 CORRECT' : '\u2717 WRONG';
+
+      var optsHTML = q.options.map(function(opt, j) {
+        var isCorrectOpt  = j === correct;
+        var isChosenWrong = !skipped && j === chosen && j !== correct;
+        var optCls = 'bk-opt';
+        var icon   = '';
+        if (isCorrectOpt)  { optCls += ' opt-correct'; icon = '<span class="bk-opt-icon">\u2713</span>'; }
+        if (isChosenWrong) { optCls += ' opt-wrong';   icon = '<span class="bk-opt-icon">\u2717</span>'; }
+        return '<div class="' + optCls + '">' +
+          '<span class="bk-opt-letter">' + LETTERS[j] + '</span>' +
+          '<span>' + opt + '</span>' +
+          icon +
+        '</div>';
+      }).join('');
+
+      return '<div class="bk-item ' + cls + '">' +
+        '<div class="bk-meta">' +
+          '<span class="bk-qnum">Q' + (i + 1) + '</span>' +
+          '<span class="bk-badge">' + badge + '</span>' +
+        '</div>' +
+        '<div class="bk-question">' + q.qn + '</div>' +
+        '<div class="bk-options">' + optsHTML + '</div>' +
+      '</div>';
+    }).join('');
+  }
+
+  init();
+</script>
+</body>
+</html>

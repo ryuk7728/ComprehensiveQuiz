@@ -1,0 +1,5402 @@
+[
+  {
+    "question": "A _____ does not keep track of address of every element in the list.",
+    "options": [
+      "Stack",
+      "String",
+      "Linear Array",
+      "Queue"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "A binary search tree whose left subtree and right subtree differ in hight by at most 1 unit is called",
+    "options": [
+      "AVL tree",
+      "Red Black tree",
+      "B trees",
+      "Spanning trees"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "A linked-list is a _____ structure",
+    "options": [
+      "Static",
+      "Array of",
+      "Dynamic",
+      "Fixed"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "Aposterior analysis are more accurate than apriori analysis because -",
+    "options": [
+      "It contains the real data",
+      "It assumes all other factors to be dynamic",
+      "It assumes all other factors to be constant",
+      "It is a result of reverse-engineering"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "Arrays are best data structures",
+    "options": [
+      "For relatively permanent collections of data.",
+      "For the size of the structure and the data in the structure are constantly changing",
+      "For both of above situation",
+      "For none of the above"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "If the array is already sorted, which of these algorithms will exhibit the best performance",
+    "options": [
+      "Merge Sort",
+      "Insertion Sort",
+      "Quick Sort",
+      "Heap Sort"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "Inserting an item into the stack when stack is not full is called _____ Operation and deletion of item form the stack, when stack is not empty is called .......operation.",
+    "options": [
+      "Push and Pop",
+      "Pop and Push",
+      "Insert and Delete",
+      "Delete and Insert"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "Minimum number of spanning tree in a connected graph is",
+    "options": [
+      "0",
+      "n",
+      "2n",
+      "1"
+    ],
+    "correct_answer": "3"
+  },
+  {
+    "question": "Shell sort uses",
+    "options": [
+      "Insertion Sort",
+      "Quick Sort",
+      "Merge Sort",
+      "Selection Sort"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "The logical or mathematical model of a particular organization of data is called a",
+    "options": [
+      "Data Structure",
+      "Data Configuration",
+      "Data arrangement",
+      "Data formation"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "What will be the running-time of Dijkstra's single source shortest path algorithm, if the graph G(V,E) is stored in form of adjacency list and binary heap is used",
+    "options": [
+      "O(|V|^2)",
+      "O(|V| log |V|)",
+      "O(|E| + |V| log |V|)",
+      "None of these"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "When does top value of the stack changes?",
+    "options": [
+      "Before deletion",
+      "After Deletion",
+      "While checking for underflow",
+      "At the time of deletion"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "Which if the following is/are the levels of implementation of data structure",
+    "options": [
+      "Abstract level",
+      "Application level",
+      "Implementation level",
+      "All of the above"
+    ],
+    "correct_answer": "3"
+  },
+  {
+    "question": "Which of the following is not the part of ADT description?",
+    "options": [
+      "Data",
+      "Operations",
+      "Both A and B",
+      "None of A and B"
+    ],
+    "correct_answer": "3"
+  },
+  {
+    "question": "Which of the following is true about the characteristics of abstract data types? A. It exports a set of operations B. It exports a type.",
+    "options": [
+      "A is true, B is true",
+      "A is true and B is false",
+      "A is false and B is true",
+      "A is false and B is false"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "Which of the following algorithm cannot be desiged without recursion",
+    "options": [
+      "Tower of Hanoi",
+      "Fibonacci Series",
+      "Tree Traversal",
+      "Polynomial Evaluation"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "Which of the following has search effeciency of O(1)-",
+    "options": [
+      "Tree",
+      "Heap",
+      "Hash Table",
+      "Linked List"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "_____ is very useful in situation when data have to stored and then retrieved in reverse order.",
+    "options": [
+      "Stack",
+      "Queue",
+      "Single Linked List",
+      "Doubly Linked List"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "_____ is not the component of data structure.",
+    "options": [
+      "Operations",
+      "Storage Structures",
+      "Algorithms",
+      "None of the above"
+    ],
+    "correct_answer": "3"
+  },
+  {
+    "question": "_____ is a pile in which items are added at one end and removed from the other.",
+    "options": [
+      "Stack",
+      "Queue",
+      "Single Linked List",
+      "Double Linked List"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "In order traversal of binary search tree will produce -",
+    "options": [
+      "unsorted list",
+      "reverse of input",
+      "sorted list",
+      "none of the above"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "What data structure can be used to check if a syntax has balanced paranthesis ?",
+    "options": [
+      "Queue",
+      "Stack",
+      "Tree",
+      "List"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "Which of the following data structures are indexed structures?",
+    "options": [
+      "Linear arrays",
+      "Linked Lists",
+      "Graphs",
+      "Trees"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "A graphical display of the fundamental products in a truth-table is known as",
+    "options": [
+      "Mapping",
+      "Graphing",
+      "T-Map",
+      "K-Map"
+    ],
+    "correct_answer": "3"
+  },
+  {
+    "question": "The minimum number of NAND gates required to implement the Boolean function. A+AB'+AB'C is equal to",
+    "options": [
+      "Zero",
+      "1",
+      "4",
+      "7"
+    ],
+    "correct_answer": "0"
+  },
+{
+    "question": "Which of the following logic expression is incorrect?",
+    "options": [
+      "1 ⊕ 0 = 1",
+      "1 ⊕ 1 ⊕ 1 = 1",
+      "1 ⊕ 1 = 0",
+      "1 ⊕ 1 ⊕ 0 = 1"
+    ],
+    "correct_answer": "3"
+  },
+  {
+    "question": "How many illegitimate states has synchronous mod-6 counter ?",
+    "options": [
+      "3",
+      "2",
+      "1",
+      "6"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "To build a mod-19 counter the number of flip-flops required is",
+    "options": [
+      "3",
+      "5",
+      "7",
+      "9"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "Mod-6 and mod-12 counters are most commonly used in",
+    "options": [
+      "frequency counters",
+      "multiplexed displays",
+      "digital clocks",
+      "power consumption meters"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "X=1010100 and Y=1000011 using 1's complement Y-X is",
+    "options": [
+      "-10111",
+      "-10011",
+      "-10001",
+      "-11001"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "_____ in a table represents a relationship among a set of values.",
+    "options": [
+      "Column",
+      "Key",
+      "Row",
+      "Entry"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "A domain is atomic if elements of the domain are considered to be _____ units.",
+    "options": [
+      "Different",
+      "Indivisbile",
+      "Constant",
+      "Divisible"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "Database _____ which is a snapshot of the data in the database at a given instant in time",
+    "options": [
+      "Schema",
+      "Domain",
+      "Instance",
+      "Relation"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "_____, which is the logical design of the Database",
+    "options": [
+      "Instance",
+      "Schema",
+      "Relation",
+      "Domain"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "For each attribute of a relation, there is a set of permitted values, called the _____ of that attribute.",
+    "options": [
+      "Domain",
+      "Relation",
+      "Set",
+      "Schema"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "The term _____ is used to refer to a row.",
+    "options": [
+      "Attribute",
+      "Tuple",
+      "Field",
+      "Instance"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "The tuples of the relations can be of _____ order.",
+    "options": [
+      "Any",
+      "Same",
+      "Sorted",
+      "Constant"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "A relational database consists of a collection of",
+    "options": [
+      "Tables",
+      "Fields",
+      "Records",
+      "Keys"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "A _____ is a property of the entire relation, rather than of the individual tuples in which each tuple is unique.",
+    "options": [
+      "Rows",
+      "Key",
+      "Attribute",
+      "Fields"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "A _____ integrity constraint requires that the values appearing in specified attributes of any tuple in the referencing relation also appear in specified attributes of at least one tuple in the referenced relation.",
+    "options": [
+      "Referential",
+      "Referencing",
+      "Specific",
+      "Primary"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "A attribute in a relation is a foreign key if the _____ key from one relation is used as an attribute in that relation",
+    "options": [
+      "Candidate",
+      "Primary",
+      "Super",
+      "Sub"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "A table on the many side of a one to many or many to many relationship must:",
+    "options": [
+      "Be in Second Normal Form (2NF)",
+      "Be in Third Normal Form (3NF)",
+      "Have a single attribute key",
+      "Have a composite key"
+    ],
+    "correct_answer": "3"
+  },
+  {
+    "question": "Consider attributes ID, CITY and NAME. Which one of this can be considered as a super key?",
+    "options": [
+      "NAME",
+      "ID",
+      "CITY",
+      "none of the above"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "Functional Dependencies are the types of constraints that are based on",
+    "options": [
+      "Key",
+      "Key revisited",
+      "Superset key",
+      "None of these"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "In a relation between the entities the type and condition of the relation should be specified. That is called as _____ attribute",
+    "options": [
+      "Descriptive",
+      "Derived",
+      "Recursive",
+      "Relative"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "Not applicable condition can be represented in relation entry as",
+    "options": [
+      "NA",
+      "0",
+      "NULL",
+      "Blank Space"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "Tables in second normal form (2NF):",
+    "options": [
+      "Eliminate all hidden dependencies",
+      "Eliminate the possibility of a insertion anomalies",
+      "Have a composite key",
+      "Have all non key fields depend on the whole primary key"
+    ],
+    "correct_answer": "3"
+  },
+  {
+    "question": "The _____ is the one in which the primary key of one relation is used as a normal attribute in another relation.",
+    "options": [
+      "Referential relation",
+      "Referencing relation",
+      "Referenced relation",
+      "Referred relation"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "The attribute AGE is calculated from DATE OF BIRTH. The attribute AGE is",
+    "options": [
+      "Single valued",
+      "Multi valued",
+      "stored",
+      "Derived"
+    ],
+    "correct_answer": "3"
+  },
+  {
+    "question": "The attribute name could be structured as a attribute consisting of first name, middle initial, and last name. This type of attribute is called",
+    "options": [
+      "Simple attribute",
+      "Composite attribute",
+      "Multivalued attribute",
+      "Derived attribute"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "The descriptive property possessed by each entity set is",
+    "options": [
+      "Entity",
+      "Attribute",
+      "Relation",
+      "Model"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "The function that an entity plays in a relationship is called that entity's",
+    "options": [
+      "Participation",
+      "Position",
+      "Role",
+      "Instance"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "The relation with the attribute which is the primary key is referenced in another relation. The relation which has the attribute as primary key is called",
+    "options": [
+      "Referential relation",
+      "Referencing relation",
+      "Referenced relation",
+      "Referred relation"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "Which forms simplifies and ensures that there is minimal data aggregates and repetitive groups:",
+    "options": [
+      "1NF",
+      "2NF",
+      "3NF",
+      "4NF"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "Which of the following is a single valued attribute",
+    "options": [
+      "Register_number",
+      "Address",
+      "SUBJECT_TAKEN",
+      "Reference"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "An _____ is a set of entities of the same type that share the same properties, or attributes.",
+    "options": [
+      "Entity set",
+      "Attribute set",
+      "Relation set",
+      "Entity model"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "Entity is a",
+    "options": [
+      "Object of relation",
+      "Present working model",
+      "Thing in real world",
+      "Model of relation"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "Which is a bottom-up approach to database design that design by examining the relationship between attributes:",
+    "options": [
+      "Functional dependency",
+      "Database modeling",
+      "Normalization",
+      "Decomposition"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "Which of the following can be a multivalued attribute ?",
+    "options": [
+      "Phone_number",
+      "Register Number",
+      "Date_of_birth",
+      "All of the mentioned"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "Which one of the following is a set of one or more attributes taken collectively to uniquely identify a record?",
+    "options": [
+      "Candidate key",
+      "Sub key",
+      "Super key",
+      "Foreign key"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "The term attribute refers to a _____ of a table.",
+    "options": [
+      "Record",
+      "Column",
+      "Tuple",
+      "Key"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "Empdt1 (empcode, name, street, city, state, pincode). For any pincode, there is only one city and state. Also, for given street, city and state, there is just one pincode. In normalization terms, empdt1 is a relation in",
+    "options": [
+      "1 NF only",
+      "2 NF and hence also in 1 NF",
+      "3NF and hence also in 2NF and 1NF",
+      "BCNF and hence also in 3NF, 2NF and 1NF"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "In the _____ normal form, a composite attribute is converted to individual attributes.",
+    "options": [
+      "First",
+      "Second",
+      "Third",
+      "Fourth"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "The subset of super key is a candidate key under what condition ?",
+    "options": [
+      "No proper subset is a super key",
+      "All subsets are super keys",
+      "Subset is a super key",
+      "Each subset is a super key"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "_____ users work on canned transactions",
+    "options": [
+      "sophisticated",
+      "naïve",
+      "DBA",
+      "casual"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "_____ is the deadlock free lock",
+    "options": [
+      "Conservative 2PL",
+      "Basic 2PL",
+      "Rigorous 2PL",
+      "Strict 2PL"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "_____ is the first schema to be designed when you are developing a DBMS",
+    "options": [
+      "conceptual",
+      "relational",
+      "physical",
+      "hierarchical"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "Which of this is not a implementation data model",
+    "options": [
+      "UML",
+      "Relational",
+      "Hierarchical",
+      "network"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "DBMS cannot be classified on",
+    "options": [
+      "data model",
+      "Number of sites",
+      "Number of users",
+      "Concurrency level"
+    ],
+    "correct_answer": "3"
+  },
+  {
+    "question": "The _____ checks the query syntax to determine whether it is formulated according to the syntax rules of the query language.",
+    "options": [
+      "Scanner",
+      "Parser",
+      "Validation",
+      "query tree"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "When transaction Ti requests a data item currently held by Tj Ti is allowed to wait only if it has a timestamp larger than that of Tj (that is, Ti is younger than Tj). Otherwise, Tj is rolled back (Tj is wounded by Ti). This is",
+    "options": [
+      "Wait-die",
+      "Wait-wound",
+      "Wound-wait",
+      "Wait"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "_____ rollback requires the system to maintain additional information about the state of all the running transactions.",
+    "options": [
+      "Total",
+      "Partial",
+      "Time",
+      "Commit"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "A deadlock exists in the system if and only if the wait-for graph contains a",
+    "options": [
+      "Cycle",
+      "Direction",
+      "Bi-direction",
+      "Rotation"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "A lock that allows concurrent transactions to access different rows of the same table is known as a",
+    "options": [
+      "Database-level lock",
+      "Table-level lock",
+      "Page-level lock",
+      "Row-level lock"
+    ],
+    "correct_answer": "3"
+  },
+  {
+    "question": "A primary key is combined with a foreign key creates",
+    "options": [
+      "Parent-Child relation ship between the tables that connect them",
+      "Many to many relationship between the tables that connect them",
+      "Network model between the tables that connect them",
+      "None of the mentioned"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "A system is in a _____ state if there exists a set of transactions such that every transaction in the set is waiting for another transaction in the set.",
+    "options": [
+      "Idle",
+      "Waiting",
+      "Deadlock",
+      "Ready"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "A window into a portion of a database is",
+    "options": [
+      "Schema",
+      "View",
+      "Query",
+      "Data dictionary"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "All lock information is managed by a _____, which is responsible for assigning and policing the locks used by the transactions.",
+    "options": [
+      "Scheduler",
+      "DBMS",
+      "Lock manager",
+      "Locking agent"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "An entity set that does not have sufficient attributes to form a primary key is termed a",
+    "options": [
+      "Strong entity set",
+      "Variant set",
+      "Weak entity set",
+      "Variable set"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "Consider a directed line(->) from the relationship set advisor to both entity sets instructor and student. This indicates cardinality",
+    "options": [
+      "One to many",
+      "One to one",
+      "Many to many",
+      "Many to one"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "For a weak entity set to be meaningful, it must be associated with another entity set, called the",
+    "options": [
+      "Identifying set",
+      "Owner set",
+      "Neighbour set",
+      "Strong entity set"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "Given the basic ER and relational models, which of the following is INCORRECT?",
+    "options": [
+      "An attribute of an entity can have more than one value",
+      "An attribute of an entity can be composite",
+      "In a row of a relational table, an attribute can have more than one value",
+      "In a row of a relational table, an attribute can have exactly one value or a NULL value"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "If transaction Ti gets an explicit lock on the file Fc in exclusive mode, then it has an _____ on all the records belonging to that file.",
+    "options": [
+      "Explicit lock in exclusive mode",
+      "Implicit lock in shared mode",
+      "Explicit lock in shared mode.",
+      "Implicit lock in exclusive mode"
+    ],
+    "correct_answer": "3"
+  },
+  {
+    "question": "If you were collecting and storing information about your music collection, an album would be considered a(n)",
+    "options": [
+      "Relation",
+      "Entity",
+      "Instance",
+      "Attribute"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "Key to represent relationship between tables is called",
+    "options": [
+      "Primary key",
+      "Secondary Key",
+      "Foreign Key",
+      "None of the mentioned"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "The deadlock in a set of transaction can be determined by",
+    "options": [
+      "Read-only graph",
+      "Wait graph",
+      "Wait-for graph",
+      "All of the mentioned"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "The deadlock state can be changed back to stable state by using _____ statement.",
+    "options": [
+      "Commit",
+      "Rollback",
+      "Savepoint",
+      "Deadlock"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "The entity relationship set is represented in E-R diagram as",
+    "options": [
+      "Double diamonds",
+      "Undivided rectangles",
+      "Dashed lines",
+      "Diamond"
+    ],
+    "correct_answer": "3"
+  },
+  {
+    "question": "The Rectangles divided into two parts represents",
+    "options": [
+      "Entity set",
+      "Relationship set",
+      "Attributes of a relationship set",
+      "Primary key"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "The situation where the lock waits only for a specified amount of time for another lock to be released is",
+    "options": [
+      "Lock timeout",
+      "Wait-wound",
+      "Timeout",
+      "Wait"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "We indicate roles in E-R diagrams by labeling the lines that connect _____ to _____.",
+    "options": [
+      "Diamond, diamond",
+      "Rectangle, diamond",
+      "Rectangle, rectangle",
+      "Diamond, rectangle"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "Weak entity set is represented as",
+    "options": [
+      "Underline",
+      "Double line",
+      "Double diamond",
+      "Double rectangle"
+    ],
+    "correct_answer": "3"
+  },
+  {
+    "question": "What are the ways of dealing with deadlock?",
+    "options": [
+      "Deadlock prevention",
+      "Deadlock recovery",
+      "Deadlock detection",
+      "All of the mentioned"
+    ],
+    "correct_answer": "3"
+  },
+  {
+    "question": "What is a relationship called when it is maintained between two entities?",
+    "options": [
+      "Unary",
+      "Binary",
+      "Ternary",
+      "Quaternary"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "What term is used to refer to a specific record in your music database; for instance; information stored about a specific album?",
+    "options": [
+      "Relation",
+      "Instance",
+      "Table",
+      "Column"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "When transaction Ti requests a data item currently held by Tj, Ti is allowed to wait only if it has a timestamp smaller than that of Tj (that is, Ti is older than Tj). Otherwise, Ti is rolled back (dies). This is",
+    "options": [
+      "Wait-die",
+      "Wait-wound",
+      "Wound-wait",
+      "wait"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "Which of the following are introduced to reduce the overheads caused by the log-based recovery?",
+    "options": [
+      "Checkpoints",
+      "Indices",
+      "Deadlocks",
+      "Locks"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "Which of the following indicates the maximum number of entities that can be involved in a relationship?",
+    "options": [
+      "Minimum cardinality",
+      "Maximum cardinality",
+      "ERD",
+      "Greater Entity Count"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "Which of the following is a procedure for acquiring the necessary locks for a transaction where all necessary locks are acquired before any are released?",
+    "options": [
+      "Record controller",
+      "Exclusive lock",
+      "Authorization rule",
+      "Two phase lock"
+    ],
+    "correct_answer": "3"
+  },
+  {
+    "question": "Which of the following protocols ensures conflict serializability and safety from deadlocks?",
+    "options": [
+      "Two-phase locking protocol",
+      "Time-stamp ordering protocol",
+      "Graph based protocol",
+      "Node based protocol"
+    ],
+    "correct_answer": "1"
+  }
+,
+  {
+    "question": "Which refers to a property of computer to run several operation simultaneously and possible as computers await response of each other",
+    "options": [
+      "Concurrency",
+      "Deadlock",
+      "Backup",
+      "Recovery"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "Which of the following gives a logical structure of the database graphically ?",
+    "options": [
+      "Entity-relationship diagram",
+      "Entity diagram",
+      "Database diagram",
+      "Architectural representation"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "Which of the following is the block that is not permitted to be written back to the disk?",
+    "options": [
+      "Dead code",
+      "Read only",
+      "Pinned",
+      "Zapped"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "_______ means that data used during the execution of a transaction cannot be used by a second transaction until the first one is completed.",
+    "options": [
+      "Serializability",
+      "Atomicity",
+      "Isolation",
+      "Time stamping"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "DBMS periodically suspends all processing and synchronizes its files and journals through the use of",
+    "options": [
+      "Checkpoint facility",
+      "Backup facility",
+      "Recovery manager",
+      "Database change log"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "Each modification done in database transaction are first recorded into the",
+    "options": [
+      "Harddrive",
+      "Log",
+      "Disk",
+      "Datamart"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "If an transaction is performed in a database and committed, the changes are taken to the previous state of transaction by",
+    "options": [
+      "Flashback",
+      "Rollback",
+      "Redo",
+      "Cannot be done"
+    ],
+    "correct_answer": "3"
+  },
+  {
+    "question": "If the state of the database no longer reflects a real state of the world that the database is supposed to capture, then such a state is called",
+    "options": [
+      "Consistent state",
+      "Parallel state",
+      "Atomic state",
+      "Inconsistent state"
+    ],
+    "correct_answer": "3"
+  },
+  {
+    "question": "The name of the transaction file shall be provided by the operator and the file that contains the edited transactions ready for execution shall be called",
+    "options": [
+      "Batch. Exe",
+      "Trans. Exe",
+      "Opt. Exe",
+      "Edit.Exe"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "When the transaction finishes the final statement the transaction enters into",
+    "options": [
+      "Active state",
+      "Committed state",
+      "Partially committed state",
+      "Abort state"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "Which of the following is an atomic sequence of database actions?",
+    "options": [
+      "Transaction",
+      "Concurrency",
+      "Relations",
+      "Reliability"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "Which of the following is not a state in transaction ?",
+    "options": [
+      "Active",
+      "Terminated",
+      "Aborted",
+      "Partially committed"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "A transaction may not always complete its execution successfully. Such a transaction is termed",
+    "options": [
+      "Aborted",
+      "Terminated",
+      "Closed",
+      "All of the mentioned"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "In order to maintain transactional integrity and database consistency, what technology does a DBMS deploy?",
+    "options": [
+      "Triggers",
+      "Pointers",
+      "Locks",
+      "Cursors"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "Let us consider phone_number ,which can take single or several values . Treating phone_numberas an _________ permits instructors to have several phone numbers (including zero) associated with them.",
+    "options": [
+      "Entity",
+      "Attribute",
+      "Relation",
+      "Value"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "The total participation by entities is represented in E-R diagram as",
+    "options": [
+      "Dashed line",
+      "Double line",
+      "Double rectangle",
+      "Circle"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "If memory access takes 20 ns with cache and 110 ns without it, then the ratio (cache uses a 10 ns memory) is _____.",
+    "options": [
+      "93%",
+      "90%",
+      "88%",
+      "83%"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "In a memory-mapped I/O system, which of the following will not be there?",
+    "options": [
+      "LDA",
+      "IN",
+      "OUT",
+      "ADD"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "Suppose that a bus has 16 data lines and requires 4 cycles of 250 nsecs each to transfer data. The bandwidth of this bus would be 2 Megabytes/sec. If the cycle time of the bus was reduced to 125 nsecs and the number of cycles required for transfer stayed the same what would the bandwidth of the bus?",
+    "options": [
+      "1 Megabyte/sec",
+      "2 Megabyte/sec",
+      "3 Megabyte/sec",
+      "4 Megabyte/sec"
+    ],
+    "correct_answer": "3"
+  },
+  {
+    "question": "The average time required to reach a storage location in memory and obtain its contents is called_____.",
+    "options": [
+      "Latency time",
+      "Access time",
+      "Turnaround time",
+      "Response time"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "The circuit used to store one bit of data is known as_______.",
+    "options": [
+      "Register",
+      "Encoder",
+      "Decoder",
+      "Flipflop"
+    ],
+    "correct_answer": "3"
+  },
+  {
+    "question": "The load instruction is mostly used to designate a transfer from memory to a processor register known as____",
+    "options": [
+      "Accumulator",
+      "Instruction Register",
+      "Program counter",
+      "Memory address Register"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "The multiplicand register & multiplier register of a hardware circuit implementing booth's algorithm have (11101) & (1100). The result shall be ______.",
+    "options": [
+      "(812)10",
+      "(-812)10",
+      "(-12)10",
+      "(12)10"
+    ],
+    "correct_answer": "3"
+  },
+  {
+    "question": "The time interval between adjacent bits is called the_____.",
+    "options": [
+      "Word-time",
+      "Bit-time",
+      "Turn around time",
+      "Slice time"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "(2FAOC)16 is equivalent to _____.",
+    "options": [
+      "(195 084)10",
+      "(001011111010 0000 1100)2",
+      "(011011011011 0000 1100)2",
+      "None of these"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "_________ register keeps track of the instructions stored in program stored in memory.",
+    "options": [
+      "Address Register",
+      "Data Register",
+      "Program counter",
+      "Accumulator"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "A group of bits that tell the computer to perform a specific operation is known as____.",
+    "options": [
+      "Instruction code",
+      "Micro-operation",
+      "Accumulator",
+      "Register"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "A k-bit field can specify any one of_____.",
+    "options": [
+      "3k registers",
+      "2k registers",
+      "k2 registers",
+      "k3 registers"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "Cache memory works on the principle of_____.",
+    "options": [
+      "Locality of data",
+      "Locality of memory",
+      "Locality of reference",
+      "Locality of reference and memory"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "Computers use addressing mode techniques for ____________.",
+    "options": [
+      "giving programming versatility to the user by providing facilities as pointers to memory counters for loop control",
+      "to reduce no. of bits in the field of instruction",
+      "specifying rules for modifying or interpreting address field of the instruction",
+      "All the above"
+    ],
+    "correct_answer": "3"
+  },
+  {
+    "question": "In a microprocessor system, the RST instruction will cause an interrupt",
+    "options": [
+      "only if an interrupt service routine is being executed",
+      "only if a bit in the interrupt mask is made 0",
+      "only if interrupts have been enabled by an EI instruction",
+      "None of these"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "In a vectored interrupt.",
+    "options": [
+      "the branch address is assigned to a fixed location in memory.",
+      "the interrupting source supplies the branch information to the processor through an interrupt vector.",
+      "the branch address is obtained from a register in the processor",
+      "None of the above"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "In Reverse Polish notation, expression A*B+C*D is written as",
+    "options": [
+      "AB*CD*+",
+      "A*BCD*+",
+      "AB*C*D+",
+      "AB*+CD*"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "Memory unit accessed by content is called______.",
+    "options": [
+      "Read only memory",
+      "Programmable Memory",
+      "Virtual Memory",
+      "Associative Memory"
+    ],
+    "correct_answer": "3"
+  },
+  {
+    "question": "Microprocessor 8085 is the enhanced version of ......... with essentially the same construction set",
+    "options": [
+      "8080",
+      "8088",
+      "8800",
+      "6800"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "MIMD stands for _____.",
+    "options": [
+      "Multiple instruction multiple data",
+      "Multiple instruction memory data",
+      "Memory instruction multiple data",
+      "Multiple information memory data"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "n bits in operation code imply that there are ___________ possible distinct",
+    "options": [
+      "n^2",
+      "2n",
+      "2^n",
+      "n2"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "Number of machine cycles required for RET instruction in 8085 microprocessor is",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "PSW is saved in stack when there is a _____.",
+    "options": [
+      "interrupt recognized",
+      "execution of RST instruction",
+      "Execution of CALL instruction",
+      "All of these"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "The addressing mode used in an instruction of the form ADD X Y, is _____.",
+    "options": [
+      "Absolute",
+      "Indirect",
+      "indexed",
+      "base addressed"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "The amount of time required to read a block of data from a disk into memory is  composed of seek time, rotational latency, and transfer time. Rotational latency refers to ______.",
+    "options": [
+      "the time takes for the platter to make a full rotation",
+      "the time it takes for the read write head to move into position over the appropriate track",
+      "the time it takes for the platter to rotate the correct sector under the head",
+      "none of the above"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "The average time required to reach a storage location in memory and obtain its contents is called the _____.",
+    "options": [
+      "seek time",
+      "turn around time",
+      "access time",
+      "transfer time"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "The circuit converting binary data in to decimal is_____.",
+    "options": [
+      "Encoder",
+      "Decoder",
+      "Muitiplexer",
+      "Code converter"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "To put the microprocessor in the wait state",
+    "options": [
+      "lower the HOLD input",
+      "lower the READY input",
+      "raise the HOLD input",
+      "None of these"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "Translation from symbolic program into Binary is done in_____.",
+    "options": [
+      "Two passes.",
+      "Three passes.",
+      "Four passes.",
+      "Five passes"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "Von Neumann architecture is ______.",
+    "options": [
+      "SISD",
+      "SIMD",
+      "MISD",
+      "MIMD"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "What characteristic of RAM memory makes it not suitable for permanent storage?",
+    "options": [
+      "too slow",
+      "unreliable",
+      "it is volatile",
+      "too bulky"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "Which of the following is not a weighted code?",
+    "options": [
+      "Decimal Number system",
+      "Excess 3-code",
+      "Binary number System",
+      "None of these"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "A three input NOR gate gives logic high output only when_____.",
+    "options": [
+      "one input is high",
+      "one input is low",
+      "two input are low",
+      "all input are low"
+    ],
+    "correct_answer": "3"
+  },
+  {
+    "question": "An instruction used to set the carry flag in a computer can be classified as",
+    "options": [
+      "Data transfer",
+      "Program Control",
+      "Logical",
+      "Arithmetic"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "Assembly language ________.",
+    "options": [
+      "uses alphabetic codes in place of binary numbers used in machine language",
+      "is the easiest language to write programs",
+      "need not be translated into machine language",
+      "None of these"
+    ],
+    "correct_answer": "0"
+  },
+{
+    "question": "Which two are valid constructors for Thread?\n1. Thread(Runnable r, String name)\n2. Thread()\n3. Thread(int priority)\n4. Thread(Runnable r, ThreadGroup g)\n5. Thread(Runnable r, int priority)",
+    "options": [
+      "1 and 3",
+      "2 and 4",
+      "1 and 2",
+      "2 and 5"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "class can have many methods with the same name as long as the number of parameters or type of parameters is different. This OOP concept is known as",
+    "options": [
+      "Method Invocating",
+      "Method Overloading",
+      "Method Overriding",
+      "Method Labeling"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "Which of the following is considered as a blue print that defines the variables and methods common to all of its objects of a specific kind?",
+    "options": [
+      "object",
+      "class",
+      "method",
+      "data type"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "What will be printed as the output of the following program? public class testincr { public static void main(String args[]) { int i = 0; i = i++ + i; System.out.println(\"I = \" +i); } }",
+    "options": [
+      "I = 0",
+      "I = 1",
+      "I = 2",
+      "I = 3"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "cout stands for",
+    "options": [
+      "class output",
+      "character output",
+      "common output",
+      "call output"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "R has n tuples and S has m tuples, then the Cartesian product of R and S will produce ___________ tuples.",
+    "options": [
+      "n+m",
+      "n*m",
+      "n / m",
+      "n-m"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "Inline functions are invoked at the time of",
+    "options": [
+      "Run time",
+      "Compile time",
+      "Depends on how it is invoked",
+      "Both b and c above"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "Mater slave flipflop can be constructed with",
+    "options": [
+      "SR Latch",
+      "adder",
+      "JK flipflop",
+      "multiplier"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "Minterms are also called",
+    "options": [
+      "standard sum",
+      "standard product",
+      "standard division",
+      "standard subtraction"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "Voltage operated circuits represent",
+    "options": [
+      "Decimal variables",
+      "Hexadecimal variables",
+      "Binary variables",
+      "Octa variables"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "What is the meaning of the return data type void?",
+    "options": [
+      "An empty memory space is returned so that the developers can utilize it.",
+      "void returns no data type.",
+      "void is not supported in Java",
+      "None of the above"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "What is the stored in the object obj in following lines of code? box obj;",
+    "options": [
+      "Memory address of allocated memory.",
+      "NULL",
+      "Any arbitrary pointer",
+      "Garbage"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "What will be the output of the following program? class B { static int count = 100; public void increment() { count++; } public static void main(String []args) { B b1 = new B(); b1.increment(); B b2 = new B(); System.out.println(b2.count); } }",
+    "options": [
+      "100",
+      "101",
+      "3",
+      "error"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "What will be the Output? class Animal { String name = \"animal\"; String makeNoise() { return \"generic noise\"; } } class Dog extends Animal { String name = \"dog\"; String makeNoise() { return \"bark\"; } } public class Test { public static void main(String[] args) { Animal an = new Dog(); System.out.println(an.name+\" \"+an.makeNoise()); } }",
+    "options": [
+      "animal generic noise",
+      "animal bark",
+      "dog bark",
+      "dog generic noise"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "When a thread terminates its processing, into what state that thread enters?",
+    "options": [
+      "Running state",
+      "Waiting state",
+      "Beginning state",
+      "Dead state"
+    ],
+    "correct_answer": "3"
+  },
+  {
+    "question": "Which of these interface declares core method that all collections will have?",
+    "options": [
+      "set",
+      "EventListner",
+      "Comparator",
+      "Collection"
+    ],
+    "correct_answer": "3"
+  },
+  {
+    "question": "\" Is the requirement properly understood? \",relates to _________",
+    "options": [
+      "Traceability",
+      "Comprehensibility",
+      "Adaptability",
+      "Verifiability"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "\"Can the requirement be changed  without a large impact on other requirements?\",is related to _______",
+    "options": [
+      "Comprehensibility",
+      "Verifiability",
+      "Adaptability",
+      "Traceability"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "\"Is the origin of the requirement  clearly stated?\" relates to _________",
+    "options": [
+      "Traceability",
+      "Verifiability",
+      "Adaptability",
+      "Comprehensibility"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "#include <iostream> using namespace std; int main () { cout << (3 > 4 && 3 > 1) << endl; return 0; }",
+    "options": [
+      "0",
+      "1",
+      "error",
+      "10"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "Inheritance is a way to",
+    "options": [
+      "pass arguments and improve data hiding",
+      "pass arguments and add features to existing classes without rewriting them",
+      "make general classes into more specific classes and add features to existing classes without rewriting them",
+      "improve data hiding and encapsulation."
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "Operator overloading is",
+    "options": [
+      "making C++ operators work with objects",
+      "giving new meaning to existing C++ operators",
+      "making new C++ operators",
+      "both (a) and (b)"
+    ],
+    "correct_answer": "3"
+  },
+  {
+    "question": "A data structure where elements can be added or removed at either end but not in the middle",
+    "options": [
+      "Linked lists",
+      "Stacks",
+      "Queues",
+      "Deque"
+    ],
+    "correct_answer": "3"
+  },
+  {
+    "question": "In a extended-binary tree nodes with 2 children are called ........",
+    "options": [
+      "Interior Node",
+      "Domestic Node",
+      "Internal Node",
+      "Inner Node"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "Which of the following statements are true?",
+    "options": [
+      "Shortest remaining time first scheduling may cause starvation",
+      "Starvation may be caused by preemptive scheduling.",
+      "In terms of response time robin round is better than FCFS",
+      "All of the above statements are true"
+    ],
+    "correct_answer": "3"
+  },
+  {
+    "question": "-------------contains the 8-bit opcode currently being executed.",
+    "options": [
+      "Memory Address Register",
+      "Instruction Register",
+      "Memory Buffer Register",
+      "Program Pointer"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "A binary digit is called a",
+    "options": [
+      "Bit",
+      "Byte",
+      "Number",
+      "Character"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "A page fault",
+    "options": [
+      "Occurs when there is an error in a specific page.",
+      "Occurs when a program accesses a page of main memory.",
+      "Occurs when a program accesses a page not currently in main memory.",
+      "Occurs when a program accesses a page belonging to another program."
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "A solution to the problem of external fragmentation is :",
+    "options": [
+      "compaction",
+      "smaller memory space",
+      "larger memory space",
+      "None of these"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "A Stack-organised Computer uses instruction of",
+    "options": [
+      "Indirect addressing",
+      "Two-addressing",
+      "Zero addressing",
+      "Index addressing"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "An address in main memory is called",
+    "options": [
+      "Physical address",
+      "Memory address",
+      "Logical address",
+      "Word address"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "An interface that provides I/O transfer of data directly to and form the memory unit and peripheral is termed as",
+    "options": [
+      "DDA.",
+      "Serial interface.",
+      "BR.",
+      "DMA."
+    ],
+    "correct_answer": "3"
+  },
+  {
+    "question": "Assembly language",
+    "options": [
+      "uses alphabetic codes in place of binary numbers used in machine language",
+      "is the easiest language to write programs",
+      "need not be translated into machine language",
+      "is the easiest language to solve problems"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "BAT refers to…",
+    "options": [
+      "Boot Files",
+      "Batch Files",
+      "Executable Files",
+      "None"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": " (-27) base 10 can be represented in a signed magnitude format and in a 1’s complement format as (",
+    "options": [
+      "100100 & 011011",
+      "100100 & 111011",
+      "011011 & 100100",
+      "111011 & 100100"
+    ],
+    "correct_answer": "3"
+  },
+  {
+    "question": "Content of the program counter is added to the address part of the instruction in order to obtain the effective address is called.",
+    "options": [
+      "relative address mode",
+      "implied mode.",
+      "index addressing mode.",
+      "register mode."
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "If the main memory is of 8K bytes and the cache memory is of 2K words. It uses associative mapping. Then each word of cache memory shall be",
+    "options": [
+      "11 bits",
+      "21 bits",
+      "16 bits",
+      "20 bits"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "If the value V(x) of the target operand is contained in the address field itself, the addressing mode is",
+    "options": [
+      "immediate.",
+      "direct.",
+      "indirect.",
+      "implied."
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "In a vectored interrupt",
+    "options": [
+      "the branch address is assigned to a fixed location in memory",
+      "the interrupting source supplies the branch information to the processor through an interrupt vector",
+      "the branch address is obtained from a register in the processor",
+      "None of the above"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "In FIFO page replacement algorithm, when a page must be replaced:",
+    "options": [
+      "random page is chosen",
+      "newest page is chosen",
+      "oldest page is chosen",
+      "none of the mentioned"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "Memory management technique in which system stores and retrieves data from secondary storage for use in main memory is called:",
+    "options": [
+      "fragmentation",
+      "paging",
+      "mapping",
+      "Starvation"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "Requirements which are a consequence of organisational policies and procedures are termed as_______",
+    "options": [
+      "product requirement",
+      "External requirement",
+      "Process requiement",
+      "Organisational requirements"
+    ],
+    "correct_answer": "3"
+  },
+  {
+    "question": "Routine is not loaded until it is called. All routines are kept on disk in a relocatable load format. The main program is loaded into memory & is executed. This type of loading is called... ?",
+    "options": [
+      "Static loading",
+      "Dynamic loading",
+      "Dynamic linking",
+      "Overlays"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "Status bit is also called",
+    "options": [
+      "Binary bit",
+      "Flag bit",
+      "Signed bit",
+      "Unsigned bit"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "Swap space exists in:",
+    "options": [
+      "CPU",
+      "secondary memory",
+      "primary memory",
+      "none of the mentioned"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "The address of a page table in memory is pointed by:",
+    "options": [
+      "stack pointer",
+      "page table base register",
+      "page register",
+      "program counter"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "The FIFO algorithm",
+    "options": [
+      "executes first the job that last entered the queue",
+      "executes first the job that first entered the queue",
+      "execute first the job that has been in the queue the longest",
+      "executes first the job with the least processor needs"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "The idea of cache memory is based",
+    "options": [
+      "on the property of locality of reference",
+      "on the heuristic 90-10 rule",
+      "on the fact that references generally tend to cluster",
+      "based on main memory concept"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "The memory unit that communicates directly with the CPU is called the",
+    "options": [
+      "main memory",
+      "Secondary memory",
+      "shared memory",
+      "auxiliary memory."
+    ],
+    "correct_answer": "0"
+  }
+,
+  {
+    "question": "The set of pages that a process is currently using is called as",
+    "options": [
+      "Program",
+      "Page Group",
+      "Working Set",
+      "Working Group"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "Von Neumann architecture is",
+    "options": [
+      "SISD",
+      "SIMD",
+      "MIMD",
+      "MISD"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "What is the content of Stack Pointer (SP)?",
+    "options": [
+      "Address of the current instruction",
+      "Address of the next instruction",
+      "Address of the top element of the stack",
+      "Size of the stack."
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "Which of the following is not a property of transactions?",
+    "options": [
+      "Atomicity",
+      "Concurrency",
+      "Isolation",
+      "Redundancy"
+    ],
+    "correct_answer": "3"
+  },
+  {
+    "question": "Which of the following is lowest in memory hierarchy?",
+    "options": [
+      "Cache memory",
+      "Secondary memory",
+      "Registers",
+      "RAM"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "Working set model for page replacement is based on the assumption of:",
+    "options": [
+      "locality",
+      "random access",
+      "globalization",
+      "modularity"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "(1010.011)2 =",
+    "options": [
+      "(10.365)10",
+      "(10.375)10",
+      "(11.365)10",
+      "(11.375)10"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "(10110001101011.11110010)2 in hexadecimal is",
+    "options": [
+      "2C5B.F2",
+      "2C6B.F2",
+      "3D5B.F2",
+      "3D6B.F2"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "(41)10 in binary is",
+    "options": [
+      "101101",
+      "101011",
+      "101001",
+      "101101"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "(a+b+c)'=",
+    "options": [
+      "a'b'c'",
+      "a'+b'+c'",
+      "abc",
+      "a+b+c"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "(x')' is",
+    "options": [
+      "complement",
+      "dual complement",
+      "duality",
+      "reflection"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "------------------Read the instruction from its memory location into the processor",
+    "options": [
+      "instruction fetch",
+      "operand address calculation",
+      "operand fetch",
+      "operand store"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "-----------------contains the word to be stored in memory or just received from memory",
+    "options": [
+      "Memory Buffer Register",
+      "Memory Address Register",
+      "Instruction Register",
+      "Program Counter"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "-9 with signed 2's complement representation is",
+    "options": [
+      "10001001",
+      "11110110",
+      "11110111",
+      "11110011"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "-9 with signed magnitude representation is",
+    "options": [
+      "10001001",
+      "11110110",
+      "11110111",
+      "11110011"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": ".................. is known as a greedy algorithm, because it chooses at each step the cheapest edge to add to subgraph S.",
+    "options": [
+      "Kruskal's algorithm",
+      "Prim's algorithm",
+      "Dijkstra algorithm",
+      "Bellman ford algorithm"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": ".….. is generic and that can run on any OS.",
+    "options": [
+      "Kernel level thread",
+      "User level thread",
+      "Both (1) & (2)",
+      "None of the above"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "10's complement of 012398 is",
+    "options": [
+      "987802",
+      "987602",
+      "987902",
+      "987502"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "10's complement of 246700 is",
+    "options": [
+      "753300",
+      "753311",
+      "753320",
+      "754371"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "16x4 RAM indicates that memory location are",
+    "options": [
+      "4",
+      "8",
+      "12",
+      "16"
+    ],
+    "correct_answer": "3"
+  },
+  {
+    "question": "2 left shifts are referred to as multiplication with",
+    "options": [
+      "2",
+      "4",
+      "8",
+      "16"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "2's complement of 1101100 is",
+    "options": [
+      "11100",
+      "10100",
+      "110100",
+      "100100"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "2^3 would have",
+    "options": [
+      "three values",
+      "four values",
+      "six values",
+      "eight values"
+    ],
+    "correct_answer": "3"
+  },
+  {
+    "question": "2x1 mux has",
+    "options": [
+      "1 select line",
+      "2 select lines",
+      "3 select lines",
+      "4 select lines"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "3 bits full adder contains",
+    "options": [
+      "3 combinational inputs",
+      "4 combinational inputs",
+      "6 combinational inputs",
+      "8 combinational inputs"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "3x8 decoder will have",
+    "options": [
+      "3 inputs",
+      "4 inputs",
+      "5 inputs",
+      "6 inputs"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "4 bit gray code can be converted into",
+    "options": [
+      "4bit binary",
+      "3bit binary",
+      "2bit binary",
+      "1bit binary"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "4bit parallel adder produces output of",
+    "options": [
+      "1 bit",
+      "2 bits",
+      "3 bits",
+      "4 bits"
+    ],
+    "correct_answer": "3"
+  },
+  {
+    "question": "7 segment generates output",
+    "options": [
+      "a to b",
+      "a to f",
+      "a to g",
+      "a to z"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "7404 is a",
+    "options": [
+      "single inverter",
+      "decimal inverter",
+      "hex inverter",
+      "binary inverter"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "8 input mux will have",
+    "options": [
+      "2 select lines",
+      "3 select lines",
+      "4 select lines",
+      "5 select lines"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "842 + 537 =",
+    "options": [
+      "0001 0011 0111 0101",
+      "0111 0011 0111 0101",
+      "0001 0111 0111 0101",
+      "0001 0011 0111 0111"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "8723 in BCD",
+    "options": [
+      "1000_0111_0010_0011",
+      "1000_0001_0010_0011",
+      "1000_0101_0010_0011",
+      "1000_0111_0110_0011"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "9 in binary code is represented by",
+    "options": [
+      "1000",
+      "1001",
+      "1010",
+      "101"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "9's complement of 012395 is",
+    "options": [
+      "987641",
+      "987631",
+      "987621",
+      "987601"
+    ],
+    "correct_answer": "3"
+  },
+  {
+    "question": "9's complement of 546700 is",
+    "options": [
+      "453299",
+      "453399",
+      "543399",
+      "543299"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "Value of first linked list index is:",
+    "options": [
+      "1",
+      "-1",
+      "0",
+      "2"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "A min-heap is also known as:",
+    "options": [
+      "decreasing heap",
+      "Low heap",
+      "descending heap",
+      "Small heap"
+    ],
+    "correct_answer": "3"
+  },
+  {
+    "question": "One of the applications of a linked list:",
+    "options": [
+      "Polynomial evaluation",
+      "Postfix expression evaluation",
+      "Prefix expression evaluation",
+      "Distance evaluation"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "The post order traversal of a binary tree is :DEBFCA, find out the preorder traversal:",
+    "options": [
+      "ABFCDE",
+      "ADBFEC",
+      "ABDECF",
+      "ABDCEF"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "Which of the following is a sorting algorithm?",
+    "options": [
+      "BUBBLE-SORT",
+      "INSERTION SORT",
+      "QUICK SORT",
+      "SHELL SORT"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "The time complexity of the following algorithm is: sum(a,n) { s=0; for i= 1 to n { s=s+a[i]; } return s; }",
+    "options": [
+      "3n+2",
+      "2n+3",
+      "n+1",
+      "2n+2"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "Which of the following statements is false:",
+    "options": [
+      "Arrays are static data structures",
+      "data elements in linked list need not be stored in adjacent space in memory",
+      "pointer stores the next data element of a list",
+      "linked lists are collection of nodes that contain information part and the next pointer"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "A ___________ tree is a tree where for each parent node, there is only one associated child node",
+    "options": [
+      "balanced binary tree",
+      "rooted complete binary tree",
+      "complete binary tree",
+      "degenerate tree"
+    ],
+    "correct_answer": "3"
+  },
+  {
+    "question": "Which of the following statements hold true for binary trees?",
+    "options": [
+      "The left subtree of a node contains only nodes with keys less than the node's key",
+      "The right subtree of a node contains only nodes with keys greater than the node's key.",
+      "The right subtree of a node contains only nodes with keys greater than the node's key and the left subtree of a node contains only nodes with keys less than the node's key",
+      "Noth left and right subtree nodes contains only nodes with keys less than the node's key"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "Which of the following ways is a in-order traversal?",
+    "options": [
+      "Root->left sub tree-> right sub tree",
+      "Root->right sub tree-> left sub tree",
+      "left sub tree-> Root->right sub tree",
+      "right sub tree-> Root->left sub tree"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "Which of the following ways is a post-order traversal?",
+    "options": [
+      "Root->right sub tree-> left sub tree",
+      "Root->left sub tree-> right sub tree",
+      "right sub tree-> left sub tree->Root",
+      "left sub tree-> right sub tree->root"
+    ],
+    "correct_answer": "3"
+  },
+  {
+    "question": "Simplified form of the boolean expression (X + Y + XY) (X + Z) is",
+    "options": [
+      "X + Y + Z",
+      "XY + YZ",
+      "X + YZ",
+      "XZ + Y"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "Which of the following boolean expressions is not logically equivalent to all of the rest ?",
+    "options": [
+      "ab + (cd)' + cd + bd'",
+      "a(b+c) + cd",
+      "ab + ac + (cd)'",
+      "bd' + c'd' + ab + cd"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "Which of the following statements is true ?",
+    "options": [
+      "(A + B) (A + C) = AC + BC",
+      "(A + B) (A + C) = AB + C",
+      "(A + B)(A + C) = A + BC",
+      "(A + B) (A + C)= AC + B"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "The main difference between JK and RS flip-flop is that",
+    "options": [
+      "JK flip flop needs a clock pulse",
+      "There is a feedback in JK lip lop",
+      "JK flip-flop accepts both inputs as 1",
+      "JK flip-flop is acronym of Junction cathode multivibrator"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "Which of the following unit will choose to transform decimal number to binary code ?",
+    "options": [
+      "Encoder",
+      "Decoder",
+      "Multiplexer",
+      "Counter"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "The clock signals are used in sequential logic circuits to",
+    "options": [
+      "Tell the time of the day",
+      "Tell how much time has elapsed since the system was turned on",
+      "Carry parallel data signals",
+      "Synchronize events in various parts of system"
+    ],
+    "correct_answer": "3"
+  },
+  {
+    "question": "Using 10's complement 72532- 3250 is",
+    "options": [
+      "69282",
+      "69272",
+      "69252",
+      "69232"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "A Boolean function may be transformed into",
+    "options": [
+      "Logical Diagram",
+      "Logical Graph",
+      "Map",
+      "Matrix"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "A circuit that converts n inputs to 2^n outputs is called",
+    "options": [
+      "encoder",
+      "decoder",
+      "comparator",
+      "carry look ahead"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "Adding 1001 and 0010 gives output of",
+    "options": [
+      "1011",
+      "1111",
+      "0",
+      "1010"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "Adjacent squares represents a",
+    "options": [
+      "circle",
+      "variable",
+      "literal",
+      "minterm"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "BCD to seven segment is a",
+    "options": [
+      "Encoder",
+      "Decoder",
+      "Comparator",
+      "Carry Look Ahead"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "Decimal digit in BCD can be represented by",
+    "options": [
+      "1 input line",
+      "2 input lines",
+      "3 input lines",
+      "4 input lines"
+    ],
+    "correct_answer": "3"
+  },
+  {
+    "question": "Decoder is a",
+    "options": [
+      "Combinational Circuit",
+      "Sequential Circuit",
+      "Complex Circuit",
+      "Gate"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "Design procedure of combinational circuit involves",
+    "options": [
+      "4 steps",
+      "5 steps",
+      "6 steps",
+      "8 steps"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "Eight minterms will be used for",
+    "options": [
+      "three variables",
+      "four variables",
+      "five variables",
+      "six variables"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "Encoders are made by three",
+    "options": [
+      "AND gate",
+      "OR gate",
+      "NAND gate",
+      "XOR gate"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "Flip-flops can be constructed with two",
+    "options": [
+      "NAND gates",
+      "OR gates",
+      "AND gates",
+      "NOT gates"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "In BCD no. 1010 has",
+    "options": [
+      "meaning",
+      "no meaning",
+      "value",
+      "Vcc"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "In design procedure input output values are assigned with",
+    "options": [
+      "numeric values",
+      "letter symbols",
+      "0's",
+      "1's"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "In excitation table of D flipflop next state is equal to",
+    "options": [
+      "present state",
+      "next state",
+      "input state",
+      "D state"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "Is it possible to find two algebraic expressions that specify same function",
+    "options": [
+      "No",
+      "Yes",
+      "Maybe",
+      "Never"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "Magnitude comparator compares using operation of",
+    "options": [
+      "Addition",
+      "Subtraction",
+      "Division",
+      "Multiplication"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "Minterms are arranged in map in a sequence of",
+    "options": [
+      "binary sequence",
+      "gray code",
+      "binary variables",
+      "BCD code"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "One operation that is not given by magnitude comparator.",
+    "options": [
+      "Equal",
+      "Less",
+      "Greater",
+      "Addition"
+    ],
+    "correct_answer": "3"
+  },
+  {
+    "question": "One that is not type of flip-flop is",
+    "options": [
+      "JK",
+      "T",
+      "RS",
+      "ST"
+    ],
+    "correct_answer": "3"
+  },
+  {
+    "question": "Output of AND gates in SOP is connected to",
+    "options": [
+      "NOT gates",
+      "OR gates",
+      "AND gates",
+      "EX-OR gates"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "RS flip-flops are also called",
+    "options": [
+      "RS Latch",
+      "SR Latch",
+      "TS Latch",
+      "ST Latch"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "Table that is not a part of asynchronous analysis procedure",
+    "options": [
+      "transition table",
+      "state table",
+      "flow table",
+      "excitation table"
+    ],
+    "correct_answer": "3"
+  },
+  {
+    "question": "To perform product of maxterms Boolean function must be brought into",
+    "options": [
+      "AND terms",
+      "OR terms",
+      "NOT terms",
+      "NAND terms"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "Two variables will be represented by",
+    "options": [
+      "eight minterms",
+      "six minterms",
+      "five minterms",
+      "four minterms"
+    ],
+    "correct_answer": "3"
+  },
+  {
+    "question": "X=1010100 and Y=1000011 using 2's complement X-Y is",
+    "options": [
+      "10111",
+      "101101",
+      "10011",
+      "10001"
+    ],
+    "correct_answer": "3"
+  },
+  {
+    "question": "x+y=z represents operation that is",
+    "options": [
+      "AND",
+      "OR",
+      "NOT",
+      "EX-OR"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "\"Kaizen\" is a Japanese term meaning",
+    "options": [
+      "Fool proof mechanism",
+      "Just-in-time (JIT)",
+      "Setting standards",
+      "Continuous improvement"
+    ],
+    "correct_answer": "3"
+  },
+  {
+    "question": "\"Taking the product to the customer\"",
+    "options": [
+      "Push strategy",
+      "Pull strategy",
+      "Link strategy",
+      "Final strategy"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "________ is an excellent example for sustainable fibre.",
+    "options": [
+      "Ceramic",
+      "Polyester",
+      "Wool",
+      "Lyocell"
+    ],
+    "correct_answer": "3"
+  },
+  {
+    "question": "________ refers unity of design in a garment",
+    "options": [
+      "Harmony",
+      "Line",
+      "Shape",
+      "Form"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "_________ is where profit is expressed as a percentage of the sale price.",
+    "options": [
+      "Break-down",
+      "Break-up",
+      "Markdown",
+      "Markup"
+    ],
+    "correct_answer": "3"
+  },
+  {
+    "question": "_________ machines allow manipulation of fabric on both sides of the needle for topstitching and lapped seaming",
+    "options": [
+      "Cylinder",
+      "Flatbed",
+      "Post",
+      "Raised bed"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "__________ are made of durable materials are permanently sewn into garments for production information",
+    "options": [
+      "Labels",
+      "Tags",
+      "Stringers",
+      "Care taps"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "__________ creating a pattern by pinning fabric to a dressmaker's dummy and manipulating it until the look is achieved.",
+    "options": [
+      "Flat patterning",
+      "Draping",
+      "Pinning",
+      "Dart manipulation"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "__________ date is the merchandiser’s deadline for having all prototypes and pricing for a new product line completed.",
+    "options": [
+      "Line preview",
+      "Deadline",
+      "Line presentation",
+      "Line releases"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "__________ is a diagram of a precise arrangement of pattern pieces for a specific style and the sizes to be cut from a single spread.",
+    "options": [
+      "Plotter",
+      "Marker",
+      "Design",
+      "Grading"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "__________ is a guide containing steps to make a garment",
+    "options": [
+      "Thimble",
+      "Needle threader",
+      "Sewing gauge",
+      "Pattern"
+    ],
+    "correct_answer": "3"
+  },
+  {
+    "question": "__________ is the application of computer technology to the development of a garment to the point of production.",
+    "options": [
+      "SAM",
+      "CAD",
+      "CIM",
+      "CIF"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "__________ is the feel, drape and degree of stiffens and softness of the fabric, it also creates a visual effect upon the wearer.",
+    "options": [
+      "Texture",
+      "Surface effect",
+      "Hairiness",
+      "Hang"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "__________ is the natural polymer that makes up the living cells of all vegetation.",
+    "options": [
+      "Enzymes",
+      "Keratin",
+      "Cellulose",
+      "Lumen"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "__________ occurs when pricing is used as the basis to make consumers “feel more favourable” about a product",
+    "options": [
+      "Value based pricing",
+      "Discount pricing",
+      "Membership pricing",
+      "Psychological pricing"
+    ],
+    "correct_answer": "3"
+  },
+  {
+    "question": "__________ process improves the yarn strength, evenness and decreases the imperfections due to removal of short fibres and making the fibres more parallel.",
+    "options": [
+      "Carding",
+      "Combing",
+      "Drawing",
+      "Drafting"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "__________ refers to the total number of loops in a measured area of fabric.",
+    "options": [
+      "Stitch density",
+      "Stitch length",
+      "Areal density",
+      "Course length"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "__________ retailing offers merchandises to consumers in a catalog as directional format",
+    "options": [
+      "Mail order",
+      "E- Commerce",
+      "E-retailing",
+      "Chain store"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "__________ seams are those in which all seam allowance are contained within the finished seam",
+    "options": [
+      "Mock seam",
+      "Self-enclosed seam",
+      "Lap seam",
+      "Bound Seam"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "__________ series programme provides standards for data documentation and audits as part of a quality management system.",
+    "options": [
+      "TQM",
+      "QMS",
+      "ISO",
+      "AQL"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "__________ special types of forms for data collection.",
+    "options": [
+      "Spec sheet",
+      "Check sheet",
+      "Work sheet",
+      "Make sheet"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "__________ standards are designed to help organize QA/QC activities.",
+    "options": [
+      "ISO 14000",
+      "ISO 6000",
+      "ISO 8583",
+      "ISO 9000"
+    ],
+    "correct_answer": "3"
+  },
+  {
+    "question": "__________ statistically calculated number of sample items to inspect and the number of defects allowed.",
+    "options": [
+      "Sampling Plan",
+      "Scheduling plan",
+      "Cutting plan",
+      "Inspection plan"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "__________ also known as dressmaker's dummies, are padded so that material may be pinned to them:",
+    "options": [
+      "Pinning mannequin",
+      "Mannequin",
+      "Dress form",
+      "Character form"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "___________ is the systematic gathering, recording, and analyzing of data about problems relating to the marketing of goods and services.",
+    "options": [
+      "Marketing Research",
+      "Production planning",
+      "Process planning",
+      "Purchase planning"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "____________ is a difference between actual and garment measurement at any given point",
+    "options": [
+      "Set",
+      "Ease",
+      "Seam",
+      "Allowance"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "__________is the angle at which the cutting device contacts the spread.",
+    "options": [
+      "1800",
+      "900",
+      "Cutting pitch",
+      "Longitudinal"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "A __________ is a stock of fabric plies that have been prepared for cutting",
+    "options": [
+      "Lay",
+      "Marker",
+      "Fabric",
+      "Bundle"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "A merchandise __________ is a collection of various styles, quantities and prices related merchandise, usually grouped under one classification within a department.",
+    "options": [
+      "Parts",
+      "Assortment",
+      "Segmentation",
+      "Market"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "For pigment printing, which following type of thickener system is preferably used",
+    "options": [
+      "Oil-in-water",
+      "Water-in-oil",
+      "Sodium alginate",
+      "Guar gum"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "In a sizing machine the number of lease rods is given by__________.",
+    "options": [
+      "Equal to number of warperse beams",
+      "number of warperse beams – 1",
+      "Number of warperse beams – 2",
+      "not depends on warperse beams"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "In the delivery roller nip point, fibres are getting twisted together and the yarn is formed.",
+    "options": [
+      "Twisting",
+      "Parallelisation",
+      "Spinning triangle",
+      "Spinning bar"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "Kalamkari is the most ancient industry in _________.",
+    "options": [
+      "Andhra Pradesh",
+      "Karnataka",
+      "Madhya Pradesh",
+      "Tamil Nadu"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "Label of international association for research and testing in the field of textile ecology is given by __________ eco label.",
+    "options": [
+      "ECO-TEX",
+      "ECO Steam",
+      "ECOS",
+      "OEKO-TEX"
+    ],
+    "correct_answer": "3"
+  },
+  {
+    "question": "Lead-time means",
+    "options": [
+      "Total time taken to Produce Sample",
+      "Time taken to Process the Garment",
+      "Time from conforming to shipping the order",
+      "Stitching Time alone"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "Major challenges in material management is __________",
+    "options": [
+      "consistent flow of materials for production",
+      "campus planning",
+      "cost of raw material",
+      "marketing cost"
+    ],
+    "correct_answer": "0"
+  }
+
+,
+  {
+    "question": "Maximum how many thread will be using in Over Lock machine.",
+    "options": [
+      "3nos",
+      "4nos",
+      "5nos",
+      "6nos"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "Pareto charts are used to __________ .",
+    "options": [
+      "Identify inspection points in a process",
+      "Outline production schedules",
+      "Organize errors, problems or defects",
+      "Show material flow"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "PDM stands for ______________",
+    "options": [
+      "Product development management",
+      "Product design management",
+      "Product data Management",
+      "Product decoding management"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "The business of buying fashion merchandise from a variety of resources and reselling it to ultimate consumers __________ .",
+    "options": [
+      "Wholesalers",
+      "Fashion retailing",
+      "Marketing",
+      "Merchandising"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "The count of yarn is 20 Ne and its equivalent count in tex system will be __________.",
+    "options": [
+      "31 tex",
+      "32 tex",
+      "29.5 tex",
+      "30.7 tex"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "The crop cultivated without pesticides and chemicals, but using synthetic fertilizers are said to be ___________ one.",
+    "options": [
+      "Eco-friendly",
+      "Organic",
+      "In-organic",
+      "Sustainable"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "The optimum conditions for bleaching cotton with hydrogen peroxide are",
+    "options": [
+      "pH 7, 60°C",
+      "pH 7, boil",
+      "pH 10, 60°C",
+      "pH 10, boil"
+    ],
+    "correct_answer": "3"
+  },
+  {
+    "question": "The toddlers apparel, for the child who has learned to walk are sized:",
+    "options": [
+      "2T,3T,4T",
+      "4 to 7",
+      "3,6and 9 months",
+      "4X to 6X"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "This machine sews a seam, cuts both pieces of fabric about 1/4\" from the seam, and overcast stitches all in a single pass.",
+    "options": [
+      "Blind stitch machine",
+      "Walking foot machine",
+      "Zig zag machine",
+      "Serger"
+    ],
+    "correct_answer": "3"
+  },
+  {
+    "question": "Two thread chain stitch refer __________ classes.",
+    "options": [
+      "300",
+      "400",
+      "301",
+      "401"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "Uniformity ratio is the ratio of:",
+    "options": [
+      "2.5% span length and 50% span length",
+      "50% span length and 2.5% span length",
+      "Mean length and upper half mean length",
+      "Upper half mean length and mean length"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "Utilization of __________ fibre in clothing has added to the fast depleting of forests.",
+    "options": [
+      "Cotton",
+      "Wool",
+      "Silk",
+      "rayon"
+    ],
+    "correct_answer": "3"
+  },
+  {
+    "question": "Which among them is not a good weave absorbent towel?",
+    "options": [
+      "Honeycomb",
+      "Herringbone",
+      "Huckaback",
+      "Terry"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "__________ may result from friction among materials and spreading equipment",
+    "options": [
+      "Rly alignment",
+      "Static Electricity",
+      "Tension",
+      "Shrink"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "Expand PBS:",
+    "options": [
+      "Progressive bundle system",
+      "Production bundle sets",
+      "Promoting business sales",
+      "Product buying status"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "Violet (purple) is made up of the combination of __________ .",
+    "options": [
+      "Red and Blue",
+      "Red and Green",
+      "Red and Yellow",
+      "Red and Orange"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "__________is the description of the database",
+    "options": [
+      "schema",
+      "schema construct",
+      "schema evolution",
+      "snapshot"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "The advantage of DBMS over file systems is",
+    "options": [
+      "self describing nature",
+      "Logical data independence",
+      "multiple user",
+      "Physical data independence"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "The set of all attributes of a relation is called default _____________.",
+    "options": [
+      "Primary Key",
+      "Super Key",
+      "Foreign Key",
+      "Alternate key"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "The ____________ identifies the language tokens in the text of the query.",
+    "options": [
+      "Scanner",
+      "Parser",
+      "Validation",
+      "query tree"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "During _____________ state, transaction issues read and write operations.",
+    "options": [
+      "Active",
+      "committed",
+      "Partially committed",
+      "failed"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "______________ FD have same set of attributes on both sides.",
+    "options": [
+      "Trivial",
+      "non-trivial",
+      "Fully",
+      "Paritial"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "______________ join requires that the two join attributes have the same name in both relations.",
+    "options": [
+      "Theta Join",
+      "Equi join",
+      "Self join",
+      "Natural join"
+    ],
+    "correct_answer": "3"
+  },
+  {
+    "question": "In ______________ Schedule only one transaction at a time is active.",
+    "options": [
+      "Conflict",
+      "view",
+      "serial",
+      "non serial"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "The attributes in foreign key and primary key have the same ____________.",
+    "options": [
+      "Number of tuples",
+      "Number of attributes",
+      "Domain",
+      "Symbol"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "In ______________ Schedule transactions are executing with interleaved process.",
+    "options": [
+      "Conflict",
+      "view",
+      "serial",
+      "non serial"
+    ],
+    "correct_answer": "3"
+  },
+  {
+    "question": "Minimal super key of a relation is called _______________.",
+    "options": [
+      "Primary Key",
+      "Super Key",
+      "Foreign Key",
+      "Alternate key"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "The combination of selection and Cartesian product operators is ____________ operator",
+    "options": [
+      "Division",
+      "Set difference",
+      "Join",
+      "Union"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "The participation constraints and cardinality ratio together called as _______________ constraints.",
+    "options": [
+      "Structural",
+      "Un Structural",
+      "Integrity",
+      "Referential"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "The complexity of binary search algorithm is",
+    "options": [
+      "O(n)",
+      "O(log n)",
+      "O(log n)",
+      "O(n log n)"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "The complexity of Bubble sort algorithm is",
+    "options": [
+      "O(n)",
+      "O(log n)",
+      "O(n^2)",
+      "O(n log n)"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "The complexity of Insertion sort algorithm is",
+    "options": [
+      "O(n)",
+      "O(n^2)",
+      "O(log n)",
+      "O(n log n)"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "The complexity of Merge sort algorithm is",
+    "options": [
+      "O(n)",
+      "O(n log n)",
+      "O(n^2)",
+      "O(log n)"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "Which of the following sorting algorithms does not have a worst case running time of O(n2)",
+    "options": [
+      "Insertion sort",
+      "Merge sort",
+      "Quick sort",
+      "Bubble sort"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "Apriory algorithm analysis does not include",
+    "options": [
+      "Time Complexity",
+      "Space Complexity",
+      "Program Complexity",
+      "Time and Space Complexity"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "Match the following − (1) Bubble Sort (A) Ο(n) (2) Shell Sort (B) Ο(n2) (3) Selection Sort (C) Ο(n log n)",
+    "options": [
+      "1 → A, 2 → B, 3 → C",
+      "1 → B, 2 → C, 3 → A",
+      "1 → A, 2 → C, 3 → B",
+      "1 → B, 2 → A, 3 → C"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "To represent hierarchical relationship between elements, which data structure is suitable?",
+    "options": [
+      "Deque",
+      "Priority Queue",
+      "Tree",
+      "All of these"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "A technique called ______ is used to create a subnetting effect",
+    "options": [
+      "ARP",
+      "RARP",
+      "proxy ARP",
+      "none of the above"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "In _______ forwarding, the destination address is a network address in the routing table",
+    "options": [
+      "next-hop",
+      "network-specific",
+      "host-specific",
+      "default"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "In IPv4 header, an HLEN value of decimal 10 means _______.",
+    "options": [
+      "A) there are 10 bytes of options",
+      "there are 40 bytes of options",
+      "there are 10 bytes in the header",
+      "there are 40 bytes in the header"
+    ],
+    "correct_answer": "3"
+  },
+  {
+    "question": "The Open Shortest Path First (OSPF) protocol is an intradomain routing protocol based on _______ routing.",
+    "options": [
+      "distance vector",
+      "link state",
+      "path vector",
+      "link path"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "UDP packets are encapsulated in ___________.",
+    "options": [
+      "an Ethernet frame",
+      "an TCP segment",
+      "an IP datagram",
+      "IP header"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "What is the first address of a block of classless addresses if one of the addresses is 12.2.2.76/27?",
+    "options": [
+      "12.2.2.0",
+      "12.2.2.32",
+      "12.2.2.64",
+      "none of these"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "An adaptive sorting algorithm −",
+    "options": [
+      "adapts to new computers",
+      "takes advantage of already sorted elements",
+      "takes input which is already sorted",
+      "Take input which is unsorted"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "In a MIN-Heap",
+    "options": [
+      "parent nodes have values greater than or equal to their childs",
+      "parent nodes have values less than or equal to their childs",
+      "both statements are true",
+      "both statements are wrong"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "A linked list in which last node contain the link of the first node is called",
+    "options": [
+      "Singly linked list",
+      "Doubly linked list",
+      "Circular linked list",
+      "Array"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "Example of primitive recursion is",
+    "options": [
+      "Tower of Hanoi",
+      "Ackermann’s function",
+      "Tower of Hanoi and Ackermann’s function both",
+      "None"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "In linked lists there are no NULL links in:",
+    "options": [
+      "Singly linked list",
+      "Doubly linked list",
+      "Circular linked list",
+      "linear linked list"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "Stack works on the principles:",
+    "options": [
+      "FCFS",
+      "LIFO",
+      "FCFS and LIFO",
+      "SJF"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "The complexity of the average case of an algorithm is",
+    "options": [
+      "Much more complicated to analyze then that of worst case",
+      "Much more simpler to analyze than that of worst case",
+      "Sometimes more complicated and some other times simpler than that of worst case",
+      "None of these"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "The condition Top= -1 indicates that",
+    "options": [
+      "Stack is empty",
+      "Stack is full",
+      "Stack has only one element",
+      "stack has two elements"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "Which of the following is not the required condition for binary search algorithm?",
+    "options": [
+      "The list must be sorted",
+      "There should be the direct access to the middle element in any sub list",
+      "There must be mechanism to delete and/or insert elements in list",
+      "list is unsorted"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "Which of the following statements are wrong statements?",
+    "options": [
+      "Array is a linear data structure.",
+      "Every element of array must be of same type.",
+      "In array, Insert element is called push operation.",
+      "Array is homogenous."
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "Which of the following traversal techniques lists the nodes of a binary search tree in ascending order?",
+    "options": [
+      "Post-order",
+      "In-order",
+      "Pre-order",
+      "Pre-Post order"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "A method to provide secure transmission of email is called ____.",
+    "options": [
+      "TLS",
+      "SA",
+      "IPSec",
+      "PGP"
+    ],
+    "correct_answer": "3"
+  },
+  {
+    "question": "A packet whose destination is outside the local TCP/IP network segment is sent to ..............",
+    "options": [
+      "File server",
+      "DNS server",
+      "DHCP server",
+      "Default gateway"
+    ],
+    "correct_answer": "3"
+  },
+  {
+    "question": "As the data packet moves from the upper to the lower layers, headers are _______.",
+    "options": [
+      "Added",
+      "Removed",
+      "Rearranged",
+      "Modified"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "Distance vector routing algorithm is a dynamic routing algorithm. The routing tables in distance vector routing algorithm are updated...........",
+    "options": [
+      "automatically",
+      "by server",
+      "by exchanging information with neighbour nodes",
+      "with back up database"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "Which of the following field of the TCP header tells how many bytes may be sent starting at the byte acknowledged?",
+    "options": [
+      "TCP header length",
+      "Window size",
+      "Acknowledgement number",
+      "Urgent pointer"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "Binary search tree has best case run-time complexity of Ο(log n). What could the worst case?",
+    "options": [
+      "O(n)",
+      "O(n^2)",
+      "Ο(n^3)",
+      "O(nlogn)"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "In C programming, when we remove an item from bottom of the stack, then −",
+    "options": [
+      "The stack will fall down",
+      "Stack will rearranged items",
+      "It will convert to LIFO",
+      "This operation is not allowed"
+    ],
+    "correct_answer": "3"
+  },
+  {
+    "question": "Quick sort algorithm is an example of",
+    "options": [
+      "Greedy approach",
+      "Improved binary search",
+      "Dynamic Programming",
+      "Divide and conquer"
+    ],
+    "correct_answer": "3"
+  },
+  {
+    "question": "Re-balancing of AVL tree costs",
+    "options": [
+      "Ο(1)",
+      "Ο(log n)",
+      "Ο(n)",
+      "Ο(n^2)"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "Which one of the below mentioned is not a linear data structure",
+    "options": [
+      "Queues",
+      "Stacks",
+      "Arrays",
+      "Trees"
+    ],
+    "correct_answer": "3"
+  },
+  {
+    "question": "_____________is a step-by-step procedure for calculation",
+    "options": [
+      "Data Structure",
+      "Abstract Data Type",
+      "Primitive Data Type",
+      "Algorithm"
+    ],
+    "correct_answer": "3"
+  },
+  {
+    "question": "A binary tree is generated by inserting in order of the following integers: 50, 15, 62, 5, 20, 58, 3, 8, 37, 60, 24 the number of nodes in the left of the root respectively is",
+    "options": [
+      "(3,7)",
+      "(7,3)",
+      "(4,6)",
+      "(6,4)"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "A complete binary tree of level 5 has how many nodes?",
+    "options": [
+      "15",
+      "63",
+      "25",
+      "30"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "A doubly linked list facilitates list traversal in",
+    "options": [
+      "Single direction",
+      "Any direction",
+      "Circular direction",
+      "Revere direction"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "A full binary tree with n leaves contains ______ nodes",
+    "options": [
+      "n",
+      "log n",
+      "2n - 1",
+      "2n+1"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "A full binary tree with n non-leaf nodes contains ____________ nodes",
+    "options": [
+      "log n",
+      "2n",
+      "2n - 1",
+      "2n + 1"
+    ],
+    "correct_answer": "3"
+  },
+  {
+    "question": "A linked list is which type of data structure.",
+    "options": [
+      "Linear",
+      "Non Linear",
+      "Hierarchical",
+      "None"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "A mathematical-model with a collection of operations defined on that model is called",
+    "options": [
+      "Data structure",
+      "Abstract Data Type",
+      "Pimitive Data Type",
+      "Algorithm"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "A multi-dimensional array array[0:2, 10:20, 3:4, -10:2] contains _________ elements.",
+    "options": [
+      "240",
+      "858",
+      "390",
+      "160"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "A node carries information regarding",
+    "options": [
+      "Data",
+      "Link",
+      "Data and Link",
+      "None"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "A singly linked list facilitates list traversal in",
+    "options": [
+      "Single direction",
+      "Any direction",
+      "Circular direction",
+      "Reverse direction"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "A two-dimensional array array[1:3, 1:3] contains _________ elements.",
+    "options": [
+      "3",
+      "6",
+      "9",
+      "7"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "An algorithm must be generic enough to solve all problems of a particular class. This property is termed as ____________.",
+    "options": [
+      "Finiteness",
+      "Definiteness",
+      "Generality",
+      "Effectiveness"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "Answer of following postfix expression: 2,3,10+*8,2/-",
+    "options": [
+      "20",
+      "22",
+      "23",
+      "25"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "Balancing symbol is a application of _______________.",
+    "options": [
+      "Singly linked list",
+      "Doubly linked list",
+      "Doubly linked list",
+      "Linked stack"
+    ],
+    "correct_answer": "3"
+  },
+  {
+    "question": "Binary search algorithm cannot be applied to",
+    "options": [
+      "sorted linked list",
+      "sorted binary trees",
+      "sorted linear array",
+      "pointer array"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "Consider the following tree with 9 nodes. Root = 14, Children(14) = 2,11, Children(2) = 1,3, Children(11) = 10,30, Children(3) = 7, Children(10) = 40. How many children does the root have?",
+    "options": [
+      "2",
+      "4",
+      "8",
+      "9"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "Consider the following tree with 9 nodes. Root = 14, Children(14) = 2,11, Children(2) = 1,3, Children(11) = 10,30, Children(3) = 7, Children(10) = 40. How many descendents does the root have?",
+    "options": [
+      "2",
+      "4",
+      "8",
+      "9"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "Consider the following tree with 9 nodes. Root = 14, Children(14) = 2,11, Children(2) = 1,3, Children(11) = 10,30, Children(3) = 7, Children(10) = 40. How many leaves does it have?",
+    "options": [
+      "2",
+      "4",
+      "7",
+      "9"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "Consider the following tree with 9 nodes. Root = 14, Children(14) = 2,11, Children(2) = 1,3, Children(11) = 10,30, Children(3) = 7, Children(10) = 40. How many of the nodes have at least one sibling?",
+    "options": [
+      "2",
+      "4",
+      "3",
+      "9"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "Consider the following tree with 9 nodes. Root = 14, Children(14) = 2,11, Children(2) = 1,3, Children(11) = 10,30, Children(3) = 7, Children(10) = 40. What is the depth of the tree?",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "9"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "Consider the following tree with 9 nodes. Root = 14, Children(14) = 2,11, Children(2) = 1,3, Children(11) = 10,30, Children(3) = 7, Children(10) = 40. What is the value stored in the parent node of the node containing 30?",
+    "options": [
+      "2",
+      "10",
+      "11",
+      "14"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "Consider the following tree with 9 nodes. Root = 14, Children(14) = 2,11, Children(2) = 1,3, Children(11) = 10,30, Children(3) = 7, Children(10) = 40. Which pair of nodes have equal number of descendants?",
+    "options": [
+      "(2,11)",
+      "(1,3)",
+      "(10,30)",
+      "(7,14)"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "For the array A[1:u1, 1:u2] where α is the base address, A[i,1] has its address given by",
+    "options": [
+      "(i – 1)u2",
+      "α + (i – 1)u2",
+      "α + i * u2",
+      "α + (I – 1) * u1"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "In a linked list, the pointer of the last node contains",
+    "options": [
+      "Link to the first node",
+      "NULL",
+      "Link",
+      "Pointer to the tail node"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "In a Single Link List_________ node contains no links.",
+    "options": [
+      "First",
+      "Last",
+      "Last but one",
+      "middle"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "In polynomial manipulation, nodes consists of three field representing",
+    "options": [
+      "Coefficient, exponential and link",
+      "Previous item link, data item, next item link",
+      "Coefficient, data item and link",
+      "Link, Coefficient and exponential"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "In Single Linked List a node contain minimum how many fields(assuming one for data).",
+    "options": [
+      "2",
+      "3",
+      "1",
+      "0"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "In which linked list, nodes in form of ring?",
+    "options": [
+      "Singly linked list",
+      "Doubly linked list",
+      "Circular linked list",
+      "Linked Stack"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "In which notation operator comes between operand?",
+    "options": [
+      "Infix",
+      "Inorder",
+      "Postfix",
+      "Prefix"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "In which notation operator is comes after operand?",
+    "options": [
+      "Infix",
+      "Postfix",
+      "Prefix",
+      "Preorder"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "In which notation operator is comes before operand?",
+    "options": [
+      "Infix",
+      "Postfix",
+      "Postorder",
+      "Prefix"
+    ],
+    "correct_answer": "3"
+  },
+  {
+    "question": "Input instance for which algorithm take maximum possible time is called",
+    "options": [
+      "Worst Case",
+      "Best Case",
+      "Average Case",
+      "Null Case"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "Input instance for which algorithm take minimum possible time is called",
+    "options": [
+      "Worst case",
+      "Best case",
+      "Average case",
+      "Null Case"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "Linear order linked list is provided through _________",
+    "options": [
+      "variables",
+      "arrays",
+      "Pointer",
+      "Strings"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "Linked list START=NULL is ____________",
+    "options": [
+      "Underflow",
+      "Overflow",
+      "Full",
+      "Empty"
+    ],
+    "correct_answer": "3"
+  },
+  {
+    "question": "Queue works on the principles:",
+    "options": [
+      "FCFS",
+      "LIFO",
+      "FCFS and LIFO",
+      "Neither FCFS nor LIFO"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "Representation of data structure in memory is known as:",
+    "options": [
+      "Recursive",
+      "Abstract data type",
+      "Storage structure",
+      "File structure"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "Single link list performs which of the following methods 1) Insertion 2) Modification 3) Searching",
+    "options": [
+      "1 and 2",
+      "2 and 3",
+      "1 and 3",
+      "1, 2, 3"
+    ],
+    "correct_answer": "3"
+  },
+  {
+    "question": "The average case occur in linear search algorithm",
+    "options": [
+      "When item is somewhere in the middle of the array",
+      "When item is not in the array at all",
+      "When item is the last element in the array",
+      "When item is the last element in the array or is not there at all"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "The first step of development of an algorithm is",
+    "options": [
+      "Problem analysis",
+      "Problem statement",
+      "Algorithm analysis",
+      "Implementation"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "The infix expression for the postfix expression : 5,6,2+*12,4/-",
+    "options": [
+      "5*(6+2)-12/4",
+      "5+6-2*12/4",
+      "(5+6)-2/12*4",
+      "None"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "The list with no node is called as",
+    "options": [
+      "Empty list",
+      "Zero list",
+      "Null list",
+      "Vacant list"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "The maximum number of nodes on level i of a binary tree is",
+    "options": [
+      "2i",
+      "3i",
+      "i + 1",
+      "2i+2"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "The number of elements in array Array[1:u] is given by",
+    "options": [
+      "(1 - u)",
+      "(u)",
+      "(u – 1 + 1)",
+      "(u – 1 - 1)"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "The number of elements in array Array[l1:u1, l2:u2, l3:u3] is given by",
+    "options": [
+      "(u1- l1 – 1)(u2 – l2 - 1) (u3 – l3 - 1)",
+      "(u1*u2*u3)",
+      "(u1 – l1)(u2 – l2)(u3-l3)",
+      "(u1- l1 + 1)(u2 – l2 + 1)(u3 – l3 + 1)"
+    ],
+    "correct_answer": "3"
+  },
+  {
+    "question": "The number of elements in array Array[l1:u1, l2:u2] is given by",
+    "options": [
+      "(u1- l1 – 1)(u2 – l2 - 1)",
+      "(u1*u2)",
+      "(u1 – l1)(u2 – l2)",
+      "(u1- l1 + 1)(u2 – l2 + 1)"
+    ],
+    "correct_answer": "3"
+  },
+  {
+    "question": "The number of swapping needed to sort the numbers 8, 22, 7, 9, 31, 19, 5, 13 in ascending order, using insertion sort is",
+    "options": [
+      "11",
+      "12",
+      "13",
+      "14"
+    ],
+    "correct_answer": "3"
+  },
+  {
+    "question": "The postfix expression for the infix expression : a+b*c/d",
+    "options": [
+      "abc*d/+",
+      "a*bcd/+",
+      "ab*cd/+",
+      "abcd*/+"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "The prefix expression for the infix expression : a+b*c/d",
+    "options": [
+      "+ab*/cd",
+      "+*ab/cd",
+      "+a*b/cd",
+      "None"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "The term MAX and MIN is related to the",
+    "options": [
+      "Stacks",
+      "Queues",
+      "Heaps",
+      "Splays"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "The time complexity of linear search algorithm over an array of n element is",
+    "options": [
+      "O(log2 n)",
+      "O(n)",
+      "O(n log2 n)",
+      "O(n^2)"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "The time complexity of the algorithm in a best case would be expressed as",
+    "options": [
+      "O(1)",
+      "O(n)",
+      "O(n2)",
+      "O(n+1)"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "The Worst case occur in linear search algorithm when",
+    "options": [
+      "Item is somewhere in the middle of array",
+      "Item is not in the array at all",
+      "Item is the last element in the array",
+      "Item is the last element in the array or is not there at all"
+    ],
+    "correct_answer": "3"
+  },
+  {
+    "question": "Traversing binary tree first root and then left and right subtrees called _____________ traversal.",
+    "options": [
+      "Postorder",
+      "Preorder",
+      "In order",
+      "Binary order"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "Type of storage is used to represent Lists",
+    "options": [
+      "Random",
+      "Sequential",
+      "Dynamic",
+      "Logical"
+    ],
+    "correct_answer": "2"
+  }
+
+,
+  {
+    "question": "What is the worst-case time for serial search finding a single item in an array?",
+    "options": [
+      "Constant time",
+      "Logarithmic time",
+      "Linear time",
+      "Quadratic time"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "What kind of list is best to answer questions such as \"What is the item at position n?\"",
+    "options": [
+      "Lists implemented with an array",
+      "Doubly-linked lists",
+      "Singly-linked lists",
+      "Doubly-linked or singly linked lists are equally best"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "Which among the following pairs of operations is supported by an array ADT?",
+    "options": [
+      "Store and Retrieve",
+      "Insert and Delete",
+      "Copy and Delete",
+      "Append and Copy"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "Which are the correct array initialization statements?",
+    "options": [
+      "int A[3]={1,2,3};",
+      "int A[3]={123};",
+      "int A[3]=”123”;",
+      "int A[3]=1,2,3;"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "Which case analysis appropriate when the response time of the algorithm is critical?",
+    "options": [
+      "Worst case",
+      "Best case",
+      "Average Case",
+      "Null case"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "Which data structure will you use to evaluate prefix notation?",
+    "options": [
+      "Queue",
+      "Stack",
+      "Array",
+      "Linked List"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "Which is not an application of array?",
+    "options": [
+      "Dense matrix",
+      "Ordered list",
+      "Sparse Matrix",
+      "Linked List"
+    ],
+    "correct_answer": "3"
+  },
+  {
+    "question": "Which of the following case does not exist in complexity theory",
+    "options": [
+      "Best case",
+      "Worst case",
+      "Average case",
+      "Null case"
+    ],
+    "correct_answer": "3"
+  },
+  {
+    "question": "Which of the following is considered an Abstract Data Type?",
+    "options": [
+      "Array",
+      "reference variable",
+      "any of the primitive types (e.g., int, double, char)",
+      "Stack"
+    ],
+    "correct_answer": "3"
+  },
+  {
+    "question": "Which of the following is not a application of Stack?",
+    "options": [
+      "Evaluation of Police notation",
+      "Tower of Hanoi",
+      "Stack Machine",
+      "None"
+    ],
+    "correct_answer": "3"
+  },
+  {
+    "question": "Which of the following is not a limitation of binary search algorithm?",
+    "options": [
+      "Must use a sorted array",
+      "Requirement of sorted array is expensive when a lot of insertion and deletions are needed",
+      "There must be a mechanism to access middle element directly",
+      "Binary search algorithm is not efficient when the data elements are more than 1000."
+    ],
+    "correct_answer": "3"
+  },
+  {
+    "question": "Which of the following is not the operation on Queue?",
+    "options": [
+      "Insertion",
+      "Deletion",
+      "Updating",
+      "Displaying"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "Which of the following is the application of the singly linked list?",
+    "options": [
+      "Sparse matrix",
+      "Polish notation",
+      "Tower of Hanoi",
+      "Polynomial Addition"
+    ],
+    "correct_answer": "3"
+  },
+  {
+    "question": "Which of the following is the condition of circular queue overflow?",
+    "options": [
+      "Front=0 and Rear=size",
+      "Front+1=Rear",
+      "Both a & b",
+      "Neither a nor b"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "Which of the following name related to stacks?",
+    "options": [
+      "Push",
+      "Pop",
+      "Top",
+      "All"
+    ],
+    "correct_answer": "3"
+  },
+  {
+    "question": "Which of the following pair of data structures are both non-linear type?",
+    "options": [
+      "Stack, Graph",
+      "Stack, Linked List",
+      "Tree, Linked List",
+      "Tree, Graph"
+    ],
+    "correct_answer": "3"
+  },
+  {
+    "question": "Which of the following sorting method is unstable?",
+    "options": [
+      "Insertion",
+      "Bubble",
+      "Selection",
+      "Heap"
+    ],
+    "correct_answer": "3"
+  },
+  {
+    "question": "Which of the following statement is false?",
+    "options": [
+      "Every tree is a bipartite graph",
+      "A tree contains cycle",
+      "A tree with n nodes contains n-1 edges",
+      "A tree is connected graph"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "Which of the following will contain more memory space?",
+    "options": [
+      "Singly linked list",
+      "Doubly linked list",
+      "Array",
+      "Circular linked list"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "ER model shows the _______",
+    "options": [
+      "Static view",
+      "Functional view",
+      "Dynamic view",
+      "All the above"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "_______________ is a measure of the degree of interdependence between modules",
+    "options": [
+      "Cohesion",
+      "Coupling",
+      "Corrosion",
+      "None of the mentioned"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "QFD stands for",
+    "options": [
+      "quality function design",
+      "quality function development",
+      "quality function deployment",
+      "none of the mentioned"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "The work associated with software engineering can be categorized into three generic phases, regardless of application area, project size, or complexity namely the__________ phase which focuses on what, the_________ phase which focuses on how and the_________ phase which focuses on change 1. Support, 2. Development, 3. Definition",
+    "options": [
+      "1, 2, 3",
+      "2, 1, 3",
+      "3, 2, 1",
+      "3, 1, 2"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "What are the four dimensions of Dependability",
+    "options": [
+      "Usability, Reliability, Security, Flexibility",
+      "Availability, Reliability, Maintainability, Security",
+      "Availability, Reliability, Security, Safety",
+      "Security, Safety, Testability, Usability"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "Which is not one of the types of prototype of Prototyping Model?",
+    "options": [
+      "Horizontal Prototype",
+      "Vertical Prototype",
+      "Diagonal Prototype",
+      "Domain Prototype"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "Which one of the following models is not suitable for accommodating any change?",
+    "options": [
+      "Build & Fix Model",
+      "Prototyping Model",
+      "RAD Model",
+      "Waterfall Model"
+    ],
+    "correct_answer": "3"
+  },
+  {
+    "question": "Which of the following data structure can't store the non homogeneous data elements?",
+    "options": [
+      "Arrays",
+      "Records",
+      "Pointers",
+      "None"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "Given two sorted lists of size m and n respectively. The number of comparisons needed in the worst case by the merge sort algorithm will be?",
+    "options": [
+      "mn",
+      "max(m,n)",
+      "min(m,n)",
+      "m+n-1"
+    ],
+    "correct_answer": "3"
+  },
+  {
+    "question": "A variable P is called pointer if",
+    "options": [
+      "P contains the address of an element in DATA.",
+      "P points to the address of first element in DATA",
+      "P can store only memory addresses",
+      "P contain the DATA and the address of DATA"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "Each data item in a record may be a group item composed of sub-items; those items which are indecomposable are called",
+    "options": [
+      "elementary items",
+      "atoms",
+      "scalars",
+      "all of above"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "Which of the following data structure store the NON homogeneous data elements?",
+    "options": [
+      "Arrays",
+      "Records",
+      "Pointers",
+      "None"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "A ________ is a data-structure that organizes data similar to a line in the super-market, where the first one in the line is the first to be out:",
+    "options": [
+      "Queues",
+      "Stacks",
+      "Arrays",
+      "Structures"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "A binary tree with n internal nodes has a max. of external nodes equal to:",
+    "options": [
+      "n",
+      "n+1",
+      "n-1",
+      "2n"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "A matrix which has most of its values equal to 0:",
+    "options": [
+      "Sparse Matrix",
+      "Zero matrix",
+      "Empty matrix",
+      "Diagonal matrix"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "A max-heap is also known as:",
+    "options": [
+      "increasing heap",
+      "ascending heap",
+      "High heap",
+      "Big heap"
+    ],
+    "correct_answer": "3"
+  },
+  {
+    "question": "A right in-threaded binary tree contains:",
+    "options": [
+      "inorder successor",
+      "inorder predecessor",
+      "postorder successor",
+      "preorder successor"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "A set of several trees that are not linked to each other in any way",
+    "options": [
+      "Forests",
+      "Graphs",
+      "B Trees",
+      "AVL trees"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "A sparse matrix can also be represented using:",
+    "options": [
+      "queue",
+      "Stack",
+      "tree",
+      "Linked List"
+    ],
+    "correct_answer": "3"
+  },
+  {
+    "question": "A tree having any number of nodes:",
+    "options": [
+      "Binary tree",
+      "General tree",
+      "AVL tree",
+      "B tree"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "A tree in which the value in every node is more than node values in its left subtree and less than node-values in its right subtree:",
+    "options": [
+      "Binary search tree",
+      "AVL tree",
+      "B tree",
+      "Splay tree"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "All the non-leaf nodes except the root node in a multi-way search tree of order, n have atleast ........... children",
+    "options": [
+      "n",
+      "n-1",
+      "2n",
+      "n/2"
+    ],
+    "correct_answer": "3"
+  },
+  {
+    "question": "An algorithm that calls itself directly or indirectly is known as:",
+    "options": [
+      "Sub - Algorithm",
+      "Recursive Algorithm",
+      "Polish notation",
+      "Traversal Algorithm"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "Complexity of heap sort",
+    "options": [
+      "O(n)",
+      "O(2n)",
+      "O(logn)",
+      "O(nlogn)"
+    ],
+    "correct_answer": "3"
+  },
+  {
+    "question": "Heaps are of two types:",
+    "options": [
+      "High and low",
+      "Max and Min",
+      "B and B+",
+      "Complete and Binary"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "Height of a full binary tree with n internal nodes is:",
+    "options": [
+      "n",
+      "log n",
+      "n log n",
+      "n-1"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "If there are more than one paths between two nodes, it is a:",
+    "options": [
+      "tree",
+      "list",
+      "graph",
+      "path"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "Incase of min-heap, the value present in any node is:",
+    "options": [
+      "greater than all its children",
+      "smaller than all its children",
+      "equal to all its children",
+      "greater than values in left subtree and smaller than values in right subtree"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "Shell sort is an improvisation over ........... sort.",
+    "options": [
+      "quick",
+      "insertion",
+      "merge",
+      "selection"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "The algorithm used in dynamic memory allocation with minimum time:",
+    "options": [
+      "First fit",
+      "Best fit",
+      "Worst fit",
+      "Next fit"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "The degree of a leaf node is:",
+    "options": [
+      "-1",
+      "1",
+      "0",
+      "undefined"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "The depth of a complete binary tree is given by:",
+    "options": [
+      "n log n",
+      "log n",
+      "n log n +1",
+      "log n +1"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "The inorder traversal of tree will yield a sorted listing of elements of tree:",
+    "options": [
+      "Binary tree",
+      "Binary Search Tree",
+      "Heaps",
+      "Splays"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "The leaf nodes of a tree have height equal to:",
+    "options": [
+      "height of the tree",
+      "zero",
+      "one",
+      "degree"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "The terms Tail and Head are related to",
+    "options": [
+      "Singly Linked List",
+      "Circular Linked list",
+      "Doubly Linked List",
+      "Queues"
+    ],
+    "correct_answer": "3"
+  },
+  {
+    "question": "The variables which can be accessed by all modules in a program, are known as:",
+    "options": [
+      "Local variables",
+      "External variables",
+      "Internal variables",
+      "Global variable"
+    ],
+    "correct_answer": "3"
+  },
+  {
+    "question": "To reduce disk-accesses while searching for a record, the tree used is ............ tree.",
+    "options": [
+      "binary search tree",
+      "General tree",
+      "B tree",
+      "AVL tree"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "When representing any algebraic expression E which uses only binary operations in a 2-tree:",
+    "options": [
+      "the variables in E will appear as external nodes and operations as internal nodes",
+      "the operations in E will appear as external nodes and variables as internal nodes",
+      "the variables and operations in E will appear only as internal nodes",
+      "the variables and operations in E appear only as external nodes"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "Which of the following abstract data types is not used by integer abstract data type group?",
+    "options": [
+      "Short",
+      "int",
+      "Float",
+      "Long"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "Which of the following data structures can’t store non homogeneous data-elements:",
+    "options": [
+      "Arrays",
+      "Records",
+      "Pointers",
+      "Strucutres"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "Which of the following is a two-way list:",
+    "options": [
+      "grounded header list",
+      "circular header list",
+      "linked list with header & trailer nodes",
+      "none of the above"
+    ],
+    "correct_answer": "3"
+  },
+  {
+    "question": "While calculating time-complexity, the program-time which is considered is:",
+    "options": [
+      "compile time",
+      "Execution time",
+      "run time",
+      "Analysis time"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "The TTL field has value 10. How many routers (max) can process this datagram?",
+    "options": [
+      "11",
+      "5",
+      "10",
+      "1"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "Which field helps to check rearrangement of the fragments?",
+    "options": [
+      "offset",
+      "flag",
+      "TTL",
+      "identifier"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "The assignment operator is denoted by",
+    "options": [
+      "->",
+      "<-",
+      "=",
+      "=="
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "____ means that the data used during the execution of a transaction cannot be used by a second transaction until the first one is completed.",
+    "options": [
+      "Consistency",
+      "Atomicity",
+      "Durability",
+      "Isolation"
+    ],
+    "correct_answer": "3"
+  },
+  {
+    "question": "_______________ has made PL/SQL code run faster without requiring any additional work on the part of the programmer.",
+    "options": [
+      "SQL Server",
+      "My SQL",
+      "Oracle",
+      "SQL Lite"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "Isolation of the transactions is ensured by",
+    "options": [
+      "Transaction management",
+      "Application programmer",
+      "Concurrency control",
+      "Recovery management"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "8. In precedence of set operators the expression is evaluated from",
+    "options": [
+      "Left to left",
+      "Left to right",
+      "Right to left",
+      "From user specification"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "Which of the following is the oldest database model?",
+    "options": [
+      "Relational",
+      "Deductive",
+      "Physical",
+      "Network"
+    ],
+    "correct_answer": "3"
+  },
+  {
+    "question": "___________ combines the data manipulating power of SQL with the data processing power of Procedural languages.",
+    "options": [
+      "PL/SQL",
+      "SQL",
+      "Advanced SQL",
+      "PQL"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "_______________ is a procedural extension of Oracle – SQL that offers language constructs similar to those in imperative programming languages.",
+    "options": [
+      "SQL",
+      "PL/SQL",
+      "Advanced SQL",
+      "PQL"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "_______________ provides option for entering SQL queries as execution time, rather than at the development stage",
+    "options": [
+      "PL/SQL",
+      "SQL*Plus",
+      "SQL",
+      "Dynamic SQL"
+    ],
+    "correct_answer": "3"
+  },
+  {
+    "question": "_________________ is a sequence of zero or more characters enclosed by single quotes.",
+    "options": [
+      "Integers literal",
+      "String literal",
+      "String units",
+      "String label"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "A ___________________ is an explicit numeric, character, string or Boolean value not represented by an identifier.",
+    "options": [
+      "Comments",
+      "Literals",
+      "Delimiters",
+      "Identifiers"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "A collection of data designed to be used by different people is called a/an",
+    "options": [
+      "Organization",
+      "Database",
+      "Relationship",
+      "Schema"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "A line of PL/SQL text contains groups of characters known as",
+    "options": [
+      "Lexical Units",
+      "Literals",
+      "Textual Units",
+      "Identifiers"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "A table can be logically connected to another table by defining a",
+    "options": [
+      "Super key",
+      "Candidate key",
+      "Primary key",
+      "Unique key"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "A transaction is delimited by statements (or function calls) of the form __________.",
+    "options": [
+      "Begin transaction and end transaction",
+      "Start transaction and stop transaction",
+      "Get transaction and post transaction",
+      "Read transaction and write transaction"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "By default sql server has ___________ isolation level",
+    "options": [
+      "READ COMMITTED",
+      "READ UNCOMMITTED",
+      "SERIALIZABLE",
+      "REPEATABLE READ"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "Consider money is transferred from (1) account-A to account-B and (2) account-B to account-A. Which of the following form a transaction ?",
+    "options": [
+      "Only 1",
+      "Only 2",
+      "Both 1 and 2 individually",
+      "only 1 or only 2"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "Constraint checking can be disabled in existing _______________ and _____________ constraints so that any data you modify or add to the table is not checked against the constraint.",
+    "options": [
+      "CHECK, FOREIGN KEY",
+      "DELETE, FOREIGN KEY",
+      "CHECK, PRIMARY KEY",
+      "PRIMARY KEY, FOREIGN KEY"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "Ensuring isolation property is the responsibility of the",
+    "options": [
+      "Recovery-management component of the DBMS",
+      "Concurrency-control component of the DBMS",
+      "Transaction-management component of the DBMS",
+      "Buffer management component in DBMS"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "For select operation the ________ appear in the subscript and the ___________ argument appears in the paranthesis after the sigma.",
+    "options": [
+      "Predicates, relation",
+      "Relation, Predicates",
+      "Operation, Predicates",
+      "Relation, Operation"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "Identify the characteristics of transactions",
+    "options": [
+      "Atomicity",
+      "Durability",
+      "Isolation",
+      "All of the mentioned"
+    ],
+    "correct_answer": "3"
+  },
+  {
+    "question": "If no header is specified, the block is said to be an _______________ PL/SQL block",
+    "options": [
+      "Strong",
+      "Weak",
+      "Empty",
+      "Anonymous"
+    ],
+    "correct_answer": "3"
+  },
+  {
+    "question": "If the state of the database no longer reflects a real state of the world that the database is supposed to capture, then such a state is called",
+    "options": [
+      "Consistent state",
+      "Parallel state",
+      "Durable state",
+      "Inconsistent state"
+    ],
+    "correct_answer": "3"
+  },
+  {
+    "question": "In SQL, the CREATE TABLESPACE is used",
+    "options": [
+      "To create a place in the database for storage of scheme objects, rollback segments, and naming the data files to comprise the tablespace.",
+      "To create a database trigger.",
+      "To add/rename data files, to change storage",
+      "All of the mentioned"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "In SQL, which command is used to issue multiple CREATE TABLE, CREATE VIEW and GRANT statements in a single transaction?",
+    "options": [
+      "CREATE PACKAGE",
+      "CREATE SCHEMA",
+      "CREATE CLUSTER",
+      "All of the mentioned"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "Problems occurs if we don’t implement proper locking strategy",
+    "options": [
+      "Dirty reads",
+      "Phantom reads",
+      "Lost updates",
+      "Unrepeatable reads"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "SNAPSHOT is used for (DBA)",
+    "options": [
+      "Synonym",
+      "Tablespace",
+      "System server",
+      "Dynamic data replication"
+    ],
+    "correct_answer": "3"
+  },
+  {
+    "question": "The ___________ operation, denoted by −, allows us to find tuples that are in one relation but are not in another.",
+    "options": [
+      "Union",
+      "Set-difference",
+      "Difference",
+      "Intersection"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "The best data structure to check whether an arithmetic expression has balanced parentheses is a",
+    "options": [
+      "Queue",
+      "List",
+      "Stack",
+      "Array"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "The database system must take special actions to ensure that transactions operate properly without interference from concurrently executing database statements. This property is referred to as",
+    "options": [
+      "Atomicity",
+      "Durability",
+      "Isolation",
+      "All of the mentioned"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "The Oracle RDBMS uses the ____ statement to declare a new transaction start and its properties.",
+    "options": [
+      "BEGIN",
+      "SET TRANSACTION",
+      "BEGIN TRANSACTION",
+      "COMMIT"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "The property of transaction that persists all the crashes is",
+    "options": [
+      "Atomicity",
+      "Durability",
+      "Isolation",
+      "All of the mentioned"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "The relationship between DEPARTMENT and EMPLOYEE is a",
+    "options": [
+      "One-to-one relationship",
+      "One-to-many relationship",
+      "Many-to-many relationship",
+      "Many-to-one relationship"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "The SQL statement SELECT SUBSTR(‘123456789’, INSTR(‘abcabcabc’,’b’), 4) FROM EMP; prints",
+    "options": [
+      "6789",
+      "2345",
+      "1234",
+      "456789"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "Transaction processing is associated with everything below except",
+    "options": [
+      "Producing detail summary or exception reports",
+      "Recording a business activity",
+      "Confirming a action or triggering a response",
+      "Maintaining a data"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "We use ______________ name PL/SQL program objects and units.",
+    "options": [
+      "Lexical Units",
+      "Literals",
+      "Delimiters",
+      "Identifiers"
+    ],
+    "correct_answer": "3"
+  },
+  {
+    "question": "What are the different events in Triggers?",
+    "options": [
+      "Define, Create",
+      "Drop, Comment",
+      "Insert, Update, Delete",
+      "Select, Commit"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "When SQL statements are embedded inside 3GL, we call such a program as",
+    "options": [
+      "Nested query",
+      "Nested programming",
+      "Distinct query",
+      "Embedded SQL"
+    ],
+    "correct_answer": "3"
+  },
+  {
+    "question": "Which character function can be used to return a specified portion of a character string?",
+    "options": [
+      "INSTR",
+      "SUBSTRING",
+      "SUBSTR",
+      "POS"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "Which is a join condition contains an equality operator:",
+    "options": [
+      "Equijoins",
+      "Cartesian",
+      "Natural",
+      "Left"
+    ],
+    "correct_answer": "0"
+  }
+
+
+
+
+]
