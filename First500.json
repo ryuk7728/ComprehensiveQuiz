@@ -5394,6 +5394,6521 @@
       "Left"
     ],
     "correct_answer": "0"
+  },
+
+  
+  {
+    "question": "Which is a unary operation: ",
+    "options": [
+      "Selection operation",
+      "Primitive operation",
+      "Projection operation",
+      "Generalized selection"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "Which is the subset of SQL commands used to manipulate Oracle Database Structures, including tables?",
+    "options": [
+      "Data Definition Language",
+      "Data Manipulation Language",
+      "Data Described Language",
+      "Data Retrieval Language"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "Which of the following fixed database roles can add or remove user IDs?",
+    "options": [
+      "db_accessadmin",
+      "db_securityadmin",
+      "db_setupadmin",
+      "db_sysadmin"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "Which of the following has “all-or-none” property ?",
+    "options": [
+      "Atomicity",
+      "Durability",
+      "Isolation",
+      "All of the mentioned"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "Which of the following is an attribute that can uniquely identify a row in a table? ",
+    "options": [
+      "Secondary key",
+      "Candidate key",
+      "Foreign key",
+      "Alternate key"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "Which of the following is not outer join ?",
+    "options": [
+      "Left outer join",
+      "Right outer join",
+      "Full outer join",
+      "All of the mentioned"
+    ],
+    "correct_answer": "3"
+  },
+  {
+    "question": "Which of the following is the process of selecting the data storage and data access characteristics of the database?",
+    "options": [
+      "Logical database design",
+      "physical database design",
+      "Testing and performance tuning",
+      "Evaluation and selecting"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "Which of the following is TRUE for the System Variable $date$?",
+    "options": [
+      "Can be assigned to a global variable.",
+      "Can be assigned to any field only during design time.",
+      "Can be assigned to any variable or field during run time.",
+      "Can be assigned to a local variable."
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "Which of the following schemas does define a view or views of the database for particular users?",
+    "options": [
+      "Internal schema",
+      "Conceptual schema",
+      "Physical schema",
+      "External schema"
+    ],
+    "correct_answer": "3"
+  },
+  {
+    "question": "Which of the following SQL command can be used to modify existing data in a database table?",
+    "options": [
+      "MODIFY",
+      "UPDATE",
+      "CHANGE",
+      "NEW"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "Which of the following statements is/are not true for SQL profiler?",
+    "options": [
+      "Enables you to monitor events",
+      "Check if rows are being inserted properly",
+      "Check the performance of a stored procedure",
+      "All of these"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "Which of the following terms does refer to the correctness and completeness of the data in a database?",
+    "options": [
+      "Data security",
+      "Data constraint",
+      "Data independence",
+      "Data integrity"
+    ],
+    "correct_answer": "3"
+  },
+  {
+    "question": "An adaptive sorting algorithm −",
+    "options": [
+      "adapts to new computers",
+      "takes advantage of already sorted elements.",
+      "takes input which is already sorted.",
+      "none of the these"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "Stack is used for ",
+    "options": [
+      "CPU Resource Allocation",
+      "Breadth First Traversal",
+      "Recursion",
+      "Depth First Traversal"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "The time required to search an element in a linked of length n is",
+    "options": [
+      "O(n2)",
+      "O(n log2 n)",
+      "O(n)",
+      "O(log2 n)"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "__________ states that only valid data will be written to the database.",
+    "options": [
+      "Consistency",
+      "Atomicity",
+      "Durability",
+      "Isolation"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "B+ trees are preferred to binary trees in databases because ",
+    "options": [
+      "Disk capacities are greater than memory capacities",
+      "Disk access is much slower than memory access",
+      "Disk data transfer rates are much less than memory data transfer rates",
+      "Disks are more reliable than memory"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "Consider the following nested representation of binary trees: (X Y Z) indicates Y and Z are the left and right sub stress, respectively, of node X. Note that Y and Z may be NULL, or further nested. Which of the following represents a valid binary tree?",
+    "options": [
+      "(1 2 (4 5 6 7))",
+      "(1 (2 3 4) 5 6) 7)",
+      "(1 (2 3 4)(5 6 7))",
+      "(1 (2 3 NULL) (4 5))"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "Consider the label sequences obtained by the following pairs of traversals on a labeled binary tree. Which of these pairs identify a tree uniquely? i) preorder and postorder ii) inorder and postorder iii) preorder and inorder iv) level order and postorder",
+    "options": [
+      "(i) only",
+      "(ii), (iii)",
+      "(iii) only",
+      "(iv) only"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "In a complete binary tree, the number of leaves with n internal nodes is: ",
+    "options": [
+      "2n",
+      "2(n-1)+1",
+      "n+1",
+      "n"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "In the worst case, the number of comparisons needed to search a singly linked list of length n for a given element is",
+    "options": [
+      "log 2n",
+      "n/2",
+      "log n-1",
+      "n"
+    ],
+    "correct_answer": "3"
+  },
+  {
+    "question": "Let LASTPOST, LASTIN and LASTPRE denote the last vertex visited in a postorder, inorder and preorder traversal. Respectively, of a complete binary tree. Which of the following is always true?",
+    "options": [
+      "LASTIN = LASTPOST",
+      "LASTIN = LASTPRE",
+      "LASTPRE = LASTPOST",
+      "None of the above"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "Let s be a sorted array of n integers. Let t(n) denote the time taken for the most efficient algorithm to determined if there are two elements with sum less than 1000 in s. which of the following statements is true?",
+    "options": [
+      "t (n) is 0 (1)",
+      "n < t (n) < n",
+      "n log 2 n < t (n) < n log 3n",
+      "t(n) is O(n)"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "Level order traversal of a rooted tree can be done by starting from the root and performing",
+    "options": [
+      "preorder traversal",
+      "in-order traversal",
+      "depth first search",
+      "breadth first search"
+    ],
+    "correct_answer": "3"
+  },
+  {
+    "question": "Postorder traversal of a given binary search tree, T produces the following sequence of keys 10, 9, 23, 22, 27, 25, 15, 50, 95, 60, 40, 29. Which one of the following sequences of keys can be the result of an in-order traversal of the tree T? [Image of a Binary Search Tree]",
+    "options": [
+      "9, 10, 15, 22, 23, 25, 27, 29, 40, 50, 60, 95",
+      "9, 10, 15, 22, 40, 50, 60, 95, 23, 25, 27, 29",
+      "29, 15, 9, 10, 25, 22, 23, 27, 40, 60, 50, 95",
+      "95, 50, 60, 40, 27, 23, 22, 25, 10, 9, 15, 29"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "Suppose the numbers 7, 5, 1, 8, 3, 6, 0, 9, 4, 2 are inserted in that order into an initially empty binary search tree. The binary search tree uses the usual ordering on natural numbers. What is the in-order traversal sequence of the resultant tree?",
+    "options": [
+      "7 5 1 0 3 2 4 6 8 9",
+      "0 2 4 3 1 6 5 9 8 7",
+      "0 1 2 3 4 5 6 7 8 9",
+      "9 8 6 4 2 3 0 1 5 7"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "The Breadth First Search algorithm has been implemented using the queue data structure. One possible order of visiting the nodes of the following graph is ",
+    "options": [
+      "MNOPQR",
+      "NQMPOR",
+      "QMNPRO",
+      "QMNPOR"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "The following numbers are inserted into an empty binary search tree in the given order: 10, 1, 3, 5, 15, 12, 16. What is the height of the binary search tree (the height is the maximum distance of a leaf node from the root)?",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "6"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "The height of a binary tree is the maximum number of edges in any root to leaf path. The maximum number of nodes in a binary tree of height h is:",
+    "options": [
+      "2^(h-1)-1",
+      "2^(h+1) - 1",
+      "2^h + 1",
+      "2^(h+1)"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "The preorder traversal sequence of a binary search tree is 30, 20, 10, 15, 25, 23, 39, 35, 42. Which one of the following is the postorder traversal sequence of the same tree?",
+    "options": [
+      "10, 20, 15, 23, 25, 35, 42, 39, 30",
+      "15, 10, 25, 23, 20, 42, 35, 39, 30",
+      "15, 20, 10, 23, 25, 42, 35, 39, 30",
+      "15, 10, 23, 25, 20, 35, 42, 39, 30"
+    ],
+    "correct_answer": "3"
+  },
+  {
+    "question": "The recurrence relation capturing the optimal time of the Tower of Hanoi problem with n discs is",
+    "options": [
+      "T(n) = 2T(n – 2) + 2",
+      "T(n) = 2T(n – 1) + n",
+      "T(n) = 2T(n/2) + 1",
+      "T(n) = 2T(n – 1) + 1"
+    ],
+    "correct_answer": "3"
+  },
+  {
+    "question": "To implement Dijkstra’s shortest path algorithm on unweighted graphs so that it runs in linear time, the data structure to be used is:",
+    "options": [
+      "Queue",
+      "Stack",
+      "B-Tree",
+      "Array"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "What is the maximum height of any AVL-tree with 7 nodes? Assume that the height of a tree with a single node is 0. ",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "Which of the following sorting algorithms has the lowest worst-case complexity?",
+    "options": [
+      "Merge Sort",
+      "Quick Sort",
+      "Bubble Sort",
+      "Selection Sort"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "Which one of the following in place sorting algorithms needs the minimum number of swaps?",
+    "options": [
+      "Quick sort",
+      "Insertion sort",
+      "Selection sort",
+      "Heap Sort"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "Which one of the following is a key factor for preferring B trees to binary search trees for indexing database relations?",
+    "options": [
+      "Database relations have a large number of records",
+      "Database relations are sorted on the primary key",
+      "B-trees require less memory than binary search trees",
+      "Data transfer form disks is in blocks."
+    ],
+    "correct_answer": "3"
+  },
+  {
+    "question": "Merge sort uses ?",
+    "options": [
+      "Divide and conquer strategy",
+      "Backtracking approach",
+      "Heuristic search",
+      "Greedy approach"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "The following sequence of operation is performed on stack : push(1),push(2),pop,push(1),push(2),pop,pop,pop,push(2),pop. The sequence of popped out values are ?",
+    "options": [
+      "2,2,1,1,2",
+      "2,2,1,2,2",
+      "2,1,2,2,1",
+      "2,1,2,2,2"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "The number of swapping needed to sort numbers 8,22,7,9,31,19,5,13 in ascending order using bubble sort is ?",
+    "options": [
+      "10",
+      "12",
+      "14",
+      "16"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "Which of the following algorithm design technique is used in the quick sort algorithm?",
+    "options": [
+      "Dynamic programming",
+      "Backtracking",
+      "Divide and conquer",
+      "Greedy method"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "Which of the following statement is true ?",
+    "options": [
+      "Optimal binary search tree construction can be performed efficiently using dynamic programming.",
+      "Breath first search cannot be used to find converted components of a graph.",
+      "Given the prefix and post fix walks over a binary tree.The binary tree cannot be uniquely constructed",
+      "Depth first search can be used to find connected components of a graph."
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "A search begins the search with the element that is located in the middle of array",
+    "options": [
+      "Serial",
+      "Random",
+      "Parallel",
+      "Binary"
+    ],
+    "correct_answer": "3"
+  },
+  {
+    "question": "From a complete graph, by removing maximum _______________ edges, we can construct a spanning tree.",
+    "options": [
+      "e-n+1",
+      "n-e+1",
+      "n+e-1",
+      "e-n-1"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "Heap is an example of",
+    "options": [
+      "complete binary tree",
+      "spanning tree",
+      "sparse tree",
+      "binary search tree"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "The complexity of linear search algorithm is",
+    "options": [
+      "O(n)",
+      "O(log n)",
+      "O(log n)",
+      "O(n log n)"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "To sort many large objects or structures, it would be most efficient to",
+    "options": [
+      "Place them in an array and sort the array",
+      "Place pointers to them in an array and sort the array",
+      "Place them in a linked list and sort the linked list",
+      "Place references to them in an array and sort the array"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "Which of the below given sorting techniques has highest best-case runtime complexity −",
+    "options": [
+      "quick sort",
+      "selection sort",
+      "insertion sort",
+      "bubble sort"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "Which of the following algorithm is not stable?",
+    "options": [
+      "Bubble Sort",
+      "Quick Sort",
+      "Merge Sort",
+      "Insertion Sort"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "Which of the following sorting procedure is the slowest?",
+    "options": [
+      "Quick Sort",
+      "Heap Sort",
+      "Shell Sort",
+      "Bubble Sort"
+    ],
+    "correct_answer": "3"
+  },
+  {
+    "question": "Which of the following uses memoization?",
+    "options": [
+      "Greedy approach",
+      "Divide and conquer approach",
+      "Dynamic programming approach",
+      "None of these"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "Which one of the below is not divide and conquer approach?",
+    "options": [
+      "Insertion Sort",
+      "Merge Sort",
+      "Shell Sort",
+      "Heap Sort"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "Relational Algebra is a __________ query language that takes two relation as input and produces another relation as output of the query.",
+    "options": [
+      "Relational",
+      "Structural",
+      "Procedural",
+      "Fundamental"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "Which of the following pattern is the basis of interaction management in many web-based systems?",
+    "options": [
+      "architecture",
+      "repository pattern",
+      "model-view-controller",
+      "different operating system"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "Which design identifies the software as a system with many components interacting with each other?",
+    "options": [
+      "Architectural design",
+      "High-level design",
+      "Detailed design",
+      "low-level design"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "The context diagram is also known as:____",
+    "options": [
+      "Level-0 DFD",
+      "Level-1 DFD",
+      "Level-2 DFD",
+      "Level-3 DFD"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "Baud means?",
+    "options": [
+      "The number of bits transmitted per unit time",
+      "The number of byted transmitted per unit time",
+      "The rate at which the signal changes",
+      "None of above"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "How long is an IPv6 address?",
+    "options": [
+      "32 bits",
+      "128 bits",
+      "128 bytes",
+      "64 bits"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "Loss in signal power as light travels down the fiber is called? ",
+    "options": [
+      "Attenuation",
+      "Propagation",
+      "Scattering",
+      "Interruption"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "Protocols are?",
+    "options": [
+      "Agreements on how communication components and DTE's are to communicate",
+      "Logical communication channels for transferring data",
+      "Physical communication channels sued for transferring data",
+      "Logical communication channels sued for transferring data"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "Under mark parity,each parity bit is?",
+    "options": [
+      "Alternated between 0 and 1",
+      "Always set to 0",
+      "Always set to 1",
+      "Not used"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "Although they've fallen out of favor, which of the following devices is used to connect different network segments and manage the traffic between them?",
+    "options": [
+      "Bridge",
+      "Hub",
+      "Gateway",
+      "Repeater"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "How often are BPDUs sent from a layer 2 device?",
+    "options": [
+      "Every 2 seconds",
+      "Never",
+      "Every 10 minutes",
+      "Every 30 seconds"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "In dial up remote access a client uses the ---- to create a physical connection to a part on a remote access server of the private network.",
+    "options": [
+      "onlineexam.telephone network",
+      "Banks branch network",
+      "Private network",
+      "onlineexam.local network"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "In OSI model dialogue control and token management are responsibilities of ? [Image of the 7 layers of the OSI model]",
+    "options": [
+      "Session Layer",
+      "Network layer",
+      "Transport layer",
+      "Data link layer"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "Star Topology is Based On a Central Device that can be __________ ? [Image of a star network topology diagram]",
+    "options": [
+      "Hub",
+      "Switch",
+      "Router",
+      "Both Hub and Switch"
+    ],
+    "correct_answer": "3"
+  },
+  {
+    "question": "Switch is a Device of _________ Layer of OSI Model. ",
+    "options": [
+      "Network Layer",
+      "Data Link Layer",
+      "Application Layer",
+      "Session Layer"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "What is a stub network?",
+    "options": [
+      "A network that has only one entry and exit point.",
+      "A network with only one entry and no exit point.",
+      "A network with more than one exit point.",
+      "A network with more than one exit and entry point."
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "What protocols are used to configure trunking on a switch?",
+    "options": [
+      "VLAN Trunking Protocol",
+      "VLAN",
+      "802.1Q",
+      "ISL"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "Which of the following devices takes data sent from one network device and forwards it to all devices on the network regardless of the intended recipient?",
+    "options": [
+      "DNS Server",
+      "Switch",
+      "Hub",
+      "Gateway"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "Which of the following devices takes data sent from one network device and forwards it to the destination node based on MAC address?",
+    "options": [
+      "Hub",
+      "Switch",
+      "Gateway",
+      "Modem"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "Which of the following services use TCP?",
+    "options": [
+      "DHCP",
+      "SMTP",
+      "FTP",
+      "TFTP"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "Which of the following terms is used to describe a hardware- or software-based device that protects networks from outside threats?",
+    "options": [
+      "NIC",
+      "Gateway",
+      "Firewall",
+      "Hub"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "Which protocol does Ping use?",
+    "options": [
+      "TCP",
+      "ARP",
+      "ICMP",
+      "BootP"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "Which router command allows you to view the entire contents of all access lists?",
+    "options": [
+      "show all access-lists",
+      "show access-lists",
+      "show ip interface",
+      "show interface"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "You have 10 users plugged into a hub running 10Mbps half duplex. There is a server connected to the switch running 10Mbps half-duplex as well. How much bandwidth does each host have to the server?",
+    "options": [
+      "100 kbps",
+      "10 Mbps",
+      "1 Mbps",
+      "2 Mbps"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "................. is a more generalized single source shortest path algorithm which can find t he shortest path in a graph with negative weighted edges.",
+    "options": [
+      "Kruskal's algorithm",
+      "Prim's algorithm",
+      "Dijkstra algorithm",
+      "Bellman ford algorithm"
+    ],
+    "correct_answer": "3"
+  },
+  {
+    "question": "A ....... is a data structure that organizes data similar to a line in the supermarket, where the first one in line is the first one out.",
+    "options": [
+      "Queue as linked list",
+      "Stack as linked list",
+      "Both of them",
+      "Neither of them"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "A distributed network configuration in which all data/information pass through a central computer is",
+    "options": [
+      "bus network",
+      "star network",
+      "ring network",
+      "Point-to-point network"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "A front-end processor is",
+    "options": [
+      "a user computer system",
+      "a processor in a large-scale computer that executes operating system instructions",
+      "a minicomputer that relieves main-frame computers at a computer centre of communications control functions",
+      "preliminary processor of batch jobs"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "A noiseless 3 KHz Channel transmits bits with binary level signals. What is the maximum data rate?",
+    "options": [
+      "3 Kbps",
+      "6 Kbps",
+      "12 Kbps",
+      "24 Kbps"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "A remote batch-processing operation in which data is solely input to a central computer would require a:",
+    "options": [
+      "Telegraph line",
+      "Simplex lines",
+      "Mixedband channel",
+      "duplex lines"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "A station in a network forwards incoming packets by placing them on its shortest output queue. What routing algorithm is being used?",
+    "options": [
+      "hot potato routing",
+      "Flooding",
+      "static routing",
+      "delta routing"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "Avalanche photodiode receivers can detect hits of transmitted data by receiving",
+    "options": [
+      "100 photons",
+      "200 photons",
+      "300 photons",
+      "400 photons"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "Carrier is",
+    "options": [
+      "One or more conductors that serve as a common connection for a related group of devices",
+      "a continuous frequency capable of being modulated or impressed with a second signal",
+      "the condition when two or more sections attempt to use the same channel at the same time",
+      "a collection of interconnected functional units that provides a data communications service among stations attached to the network"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "Contention is",
+    "options": [
+      "One or more conductors that serve as a common connection for a related group of devices",
+      "a continuous frequency capable of being modulated or impressed with a second signal",
+      "the condition when two or more stations attempt to use the same channel at the same time",
+      "a collection of interconnected functional units that provides a data communications service among stations attached to the network"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "Eight stations are competing for the use of a shared channel using the 'Adaptive tree Walk Protocol'. If the stations 7 and 8 are suddenly become ready at once, how many bit slots are needed to resolve the contention?",
+    "options": [
+      "7 slots",
+      "5 slots",
+      "10 slots",
+      "14 slots"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "Frames from one LAN can be transmitted to another LAN via the device",
+    "options": [
+      "Router",
+      "Bridge",
+      "Repeater",
+      "Modem"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "How many bits internet address is assigned to each host on a TCP/IP internet which is used in all communications with the host?",
+    "options": [
+      "16 - bits",
+      "32 - bits",
+      "48 - bits",
+      "64 - bits"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "How many digits of the DNIC (Data Network Identification Code) identify the country?",
+    "options": [
+      "first three",
+      "first four",
+      "first five",
+      "first six"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "How many hosts are attached to each of the local area networks at your site?",
+    "options": [
+      "128",
+      "254",
+      "256",
+      "64"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "ICMP (Internet Control Message Protocol) is",
+    "options": [
+      "a TCP/IP protocol used to dynamically bind a high level IP Address to a low-level physical hardware address",
+      "a TCP/IP high level protocol for transferring files from one machine to another",
+      "a protocol used to monitor computers",
+      "a protocol that handles error and control messages"
+    ],
+    "correct_answer": "3"
+  },
+  {
+    "question": "If you get both local and remote echoes, every character you type will appear on the screen",
+    "options": [
+      "once",
+      "twice",
+      "three times",
+      "never"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "In CRC there is no error if the remainder at the receiver is _____.",
+    "options": [
+      "equal to the remainder at the sender",
+      "zero",
+      "nonzero",
+      "the quotient at the sender"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "Items in a priority queue are entered in a _____________ order",
+    "options": [
+      "Random",
+      "Order of priority",
+      "as and when they come",
+      "same priority"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "Satellite-Switched Time-Division Multiple Access (SS/TDMA) is",
+    "options": [
+      "the method of determining which device has access to the transmission medium at any time.",
+      "a medium access control technique for multiple access transmission media",
+      "a form of TDMA in which circuit switching is used to dynamically change the channel assignments",
+      "All of the above"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "The floyd-warshall all pairs shortest path algorithm computes the shortest paths between each pair of nodes in .......................",
+    "options": [
+      "O(logn)",
+      "O(log 2n)",
+      "O(n^2)",
+      "O(n^3)"
+    ],
+    "correct_answer": "3"
+  },
+  {
+    "question": "The Internet Control Message Protocol (ICMP)",
+    "options": [
+      "allows gateways to send error a control messages to other gateways or hosts",
+      "provides communication between the Internet Protocol Software on one machine and the Internet Protocol Software on another",
+      "reports error conditions to the original source, the source must relate errors to individual application programs and take action to correct the problem",
+      "All of the above"
+    ],
+    "correct_answer": "3"
+  },
+  {
+    "question": "The probability that a single bit will be in error on a typical public telephone line using 4800 bps modem is 10 to the power -3. If no error detection mechanism is used, the residual error rate for a communication line using 9-bit frames is approximately equal to",
+    "options": [
+      "0.003",
+      "0.009",
+      "0.991",
+      "0.999"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "The slowest transmission speeds are those of",
+    "options": [
+      "twisted-pair wire",
+      "coaxial cable",
+      "fiber-optic cable",
+      "microwaves"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "The synchronous modems are more costly than the asynchronous modems because",
+    "options": [
+      "they produce large volume of data",
+      "they contain clock recovery circuits",
+      "they transmit the data with stop and start bits.",
+      "they operate with a larger bandwidth"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "The term 'duplex' refers to the ability of the data receiving stations to echo back a confirming message to the sender. In full duplex data transmission, both the sender and the receiver",
+    "options": [
+      "cannot talk at once",
+      "can receive and send data simultaneously",
+      "can send or receive data one at a time",
+      "can do one way data transmission only"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "To connect a computer with a device in the same room, you might be likely to use",
+    "options": [
+      "a coaxial cable",
+      "a dedicated line",
+      "a ground station",
+      "All of the above"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "Usually, it takes 10-bits to represent one character. How many characters can be transmitted at a speed of 1200 BPS?",
+    "options": [
+      "10",
+      "12",
+      "120",
+      "1200"
+    ],
+    "correct_answer": "2"
+  },
+
+
+  {
+    "question": "What are the most commonly used transmission speeds in BPS used in data communication?",
+    "options": [
+      "300",
+      "1200",
+      "2400",
+      "9600"
+    ],
+    "correct_answer": "3"
+  },
+  {
+    "question": "What can greatly reduce TCP/IP configuration problems?",
+    "options": [
+      "WINS Server",
+      "WINS Proxy",
+      "DHCP Server",
+      "PDC"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "What is the default subnet mask for a class C network?",
+    "options": [
+      "127.0.0.1",
+      "255.0.0.0",
+      "255.255.0.0",
+      "255.255.255.0"
+    ],
+    "correct_answer": "3"
+  },
+  {
+    "question": "What is the port number for NNTP?",
+    "options": [
+      "119",
+      "80",
+      "79",
+      "70"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "What part of 192.168.10.51 is the Network ID, assuming a default subnet mask?",
+    "options": [
+      "192",
+      "192.168.10",
+      "0.0.0.5",
+      "51"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "When you ping the loopback address, a packet is sent where?",
+    "options": [
+      "On the network",
+      "Down through the layers of the IP architecture and then up the layers again",
+      "Across the wire",
+      "Through the loopback dongle"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "Usually, it takes 10-bits to represent one character. How many characters can be transmitted at a speed of 1200 BPS?",
+    "options": [
+      "10",
+      "120",
+      "240",
+      "1200"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "Which of the following condition is used to transmit two packets over a medium at the same time?",
+    "options": [
+      "Contention",
+      "Collision",
+      "Synchronous",
+      "Asynchronous"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "Which of the following device is used to connect two systems, especially if the systems use different protocols?",
+    "options": [
+      "Hub",
+      "Bridge",
+      "Gateway",
+      "Repeater"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "Which of the following is not a disadvantage of wireless LAN?",
+    "options": [
+      "Slower data transmission",
+      "Higher error rate",
+      "Interference of transmissions from different computers",
+      "All of the above"
+    ],
+    "correct_answer": "3"
+  },
+  {
+    "question": "Which of the following is used for modulation and demodulation?",
+    "options": [
+      "Modem",
+      "Protocols",
+      "Gateway",
+      "Multiplexer"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "Which of the following TCP/IP protocol allows an application program on one machine to send a datagram to an application program on another machine?",
+    "options": [
+      "UDP",
+      "VMTP",
+      "X.25",
+      "SMTP"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "Which of the following TCP/IP protocol is used for transferring electronic mail messages from one machine to another?",
+    "options": [
+      "FTP",
+      "SNMP",
+      "SMTP",
+      "RPC"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "Which of the following technique is used for fragment?",
+    "options": [
+      "A technique used in best effort delivery systems to avoid endlessly looping packets",
+      "A technique used by protocols in which a lower level protocol accepts a message from a higher level protocol and places it in the data portion of the low level frame",
+      "One of the pieces that results when an IP gateway divides an IP datagram into smaller pieces for transmission across a network that cannot handle the original datagram size",
+      "All of these"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "Which of the following ways is a pre-order traversal?",
+    "options": [
+      "Root->left sub tree-> right sub tree",
+      "Root->right sub tree-> left sub tree",
+      "right sub tree->left sub tree->Root",
+      "left sub tree-> right sub tree->Root"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "You have a class A network address 10.0.0.0 with 40 subnets, but are required to add 60 new subnets very soon. You would like to still allow for the largest possible number of host IDs per subnet. Which subnet mask should you assign?",
+    "options": [
+      "255.240.0.0",
+      "255.248.0.0",
+      "255.255.255.255",
+      "255.254.0.0"
+    ],
+    "correct_answer": "3"
+  },
+  {
+    "question": "Your company has a LAN in its downtown office and has now set up a LAN in the manufacturing plant in the suburbs. To enable everyone to share data and resources between the two LANs, what type of device(s) are needed to connect them?",
+    "options": [
+      "Modem",
+      "Cable",
+      "Hub",
+      "Router"
+    ],
+    "correct_answer": "3"
+  },
+  {
+    "question": "Hacking is the term given to__________ operation",
+    "options": [
+      "Carding",
+      "Scutching",
+      "Combing",
+      "Pulling"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "Error detection at the data link layer is achieved by?",
+    "options": [
+      "Bit stuffing",
+      "Cyclic redundancy codes",
+      "Hamming codes",
+      "Equalization"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "How many collision domains are created when you segment a network with a 12-port switch?",
+    "options": [
+      "1",
+      "12",
+      "5",
+      "2"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "In communication satellite, multiple repeaters are known as?",
+    "options": [
+      "Detectors",
+      "Modulators",
+      "Stations",
+      "Transponders"
+    ],
+    "correct_answer": "3"
+  },
+  {
+    "question": "The topology with highest reliability is?",
+    "options": [
+      "Bus topology",
+      "Star topology",
+      "Ring Topology",
+      "Mesh Topology"
+    ],
+    "correct_answer": "3"
+  },
+  {
+    "question": "Which data communication method is used to transmit the data over a serial communication link?",
+    "options": [
+      "Simplex",
+      "Half-duplex",
+      "Full-duplex",
+      "Half and Full Duplex"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "................ keeps two sets of vertices; S, the set of vertices whose shortest paths from the source have already been determined and V-S, the remaining vertices.",
+    "options": [
+      "Kruskal's algorithm",
+      "Prim's algorithm",
+      "Dijkstra algorithm",
+      "Bellman ford algorithm"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "...... is the term used to insert an element into stack.",
+    "options": [
+      "Push",
+      "Pull",
+      "Pump",
+      "Pop"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "........ form of access is used to add remove nodes from a stack.",
+    "options": [
+      "LIFO",
+      "FIFO",
+      "Both A and B",
+      "Neither A nor B"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "......... form of access is used to add and remove nodes from a queue.",
+    "options": [
+      "LIFO, Last In First Out",
+      "FIFO, First In First Out",
+      "Both a and b",
+      "Neither a nor b"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": ".......... is the term used to delete an element from the stack.",
+    "options": [
+      "Push",
+      "Pull",
+      "Pop",
+      "Pump"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "................. turns out that one can find the shortest paths from a given source to all points in a graph in the same time.",
+    "options": [
+      "Kruskal's algorithm",
+      "Prim's algorithm",
+      "Dijkstra algorithm",
+      "Bellman ford algorithm"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "A binary tree whose every node has either zero or two children is called .......",
+    "options": [
+      "Complete binary tree",
+      "Binary search tree",
+      "Extended binary tree",
+      "Data structure"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "A connected graph T without any cycles is called ........",
+    "options": [
+      "Free graph",
+      "No cyclic graph",
+      "Non cycle graph",
+      "Trees"
+    ],
+    "correct_answer": "3"
+  },
+  {
+    "question": "A pointer variable which contains the location at the top element of the stack is called .....",
+    "options": [
+      "Top",
+      "Last",
+      "Final",
+      "End"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "A queue is a .........",
+    "options": [
+      "FIFO",
+      "FILO",
+      "LOFI",
+      "LIFO"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "A sample application of ................. algorithm is to solve critical path problem, i.e. finding the longest path through a DAG.",
+    "options": [
+      "DAG application path algorithm",
+      "DAG shortest path algorithm",
+      "DAG critical path algorithm",
+      "Bellman ford algorithm"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "A terminal node in a binary tree is called ............",
+    "options": [
+      "Root",
+      "Leaf",
+      "Child",
+      "Branch"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "Binary trees with threads are called as .......",
+    "options": [
+      "Threaded trees",
+      "Pointer trees",
+      "Special Trees",
+      "Special Pointer trees"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "Breadth First search is used in",
+    "options": [
+      "Binary trees",
+      "Stacks",
+      "Graphs",
+      "Queues"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "Deletion operation is done using ......... in a queue.",
+    "options": [
+      "Front",
+      "Rear",
+      "Top",
+      "List"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "Every node N in a binary tree T except the root has a unique parent called the ......... of N.",
+    "options": [
+      "Antecedents",
+      "Predecessor",
+      "Forerunner",
+      "Precursor"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "Graph G is .............. if for any pair u, v of nodes in G there is a path from u to v or path from v to u.",
+    "options": [
+      "Leterally connected",
+      "Widely Connected",
+      "Unilaterally connected",
+      "Literally connected"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "Header node is used in .....",
+    "options": [
+      "Stacks",
+      "Queues",
+      "Linked List",
+      "Binary trees"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "Identify the data structure which allows deletions at both ends of the list but insertion at only one end.",
+    "options": [
+      "Input restricted dequeue",
+      "Output restricted dequeue",
+      "Priority queue",
+      "Stack"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "In _____________tree, the heights of the two child subtrees of any node differ by at most one",
+    "options": [
+      "Binary tree",
+      "Red Black Tree",
+      "Splay tree",
+      "AVL tree"
+    ],
+    "correct_answer": "3"
+  },
+  {
+    "question": "In a 2-tree, nodes with 0 children are called ............",
+    "options": [
+      "Exterior node",
+      "Outer node",
+      "External node",
+      "Inner node"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "In a graph if E=(u,v) means ......",
+    "options": [
+      "u is adjacent to v but v is not adjacent to u",
+      "e begins at u and ends at v",
+      "u is predecessor and v is successor",
+      "v is predecessor and u is successor"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "In Binary trees nodes with no successor are called ......",
+    "options": [
+      "End nodes",
+      "Terminal nodes",
+      "Final nodes",
+      "Last nodes"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "In linked representation of stack ....... holds the elements of the stack.",
+    "options": [
+      "INFO fields",
+      "TOP fields",
+      "LINK fields",
+      "NULL fields"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "In linked representation of stack the null pointer of the last node in the list signals ..........",
+    "options": [
+      "Beginning of the stack",
+      "Bottom of the stack",
+      "Middle of the stack",
+      "In between some value"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "In the linked representation of the stack ......... behaves as the top pointer variable of stack.",
+    "options": [
+      "Stop pointer",
+      "Begin pointer",
+      "Start pointer",
+      "Avail pointer"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "Key value pair is usually seen in",
+    "options": [
+      "Hash table",
+      "Heaps",
+      "Splay trees",
+      "Skip lists"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "Linked representation of binary tree needs ......... parallel arrays.",
+    "options": [
+      "4",
+      "2",
+      "3",
+      "5"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "New nodes are added to the ......... of the queue.",
+    "options": [
+      "Front",
+      "Back",
+      "Middle",
+      "Both ends"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "On which principle does queue work?",
+    "options": [
+      "FILO",
+      "LIFO",
+      "LILO",
+      "FIFO"
+    ],
+    "correct_answer": "3"
+  },
+  {
+    "question": "Other name for directed graph is ..........",
+    "options": [
+      "Direct graph",
+      "Digraph",
+      "Dir - graph",
+      "Directional graph"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "Rather than build a subgraph one edge at a time ............................... builds a tree one vertex at a time.",
+    "options": [
+      "Kruskal's algorithm",
+      "Prim's algorithm",
+      "Dijkstra algorithm",
+      "Bellman ford algorithm"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "Sequential representation of binary tree uses ........",
+    "options": [
+      "Array with pointers",
+      "Single linear array",
+      "Two dimensional arrays",
+      "Three dimensional arrays"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "Stack follows the strategy of ........",
+    "options": [
+      "LIFO",
+      "FIFO",
+      "LRU",
+      "RANDOM"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "The ..................... process updates the costs of all the vertices V, connected to a vertex U, if we could improve the best estimate of the shortest path to V by including (U,V) in the path to V.",
+    "options": [
+      "Relaxation",
+      "Improvement",
+      "Shortening",
+      "Costing"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "The elements are removed from a stack in .......... order.",
+    "options": [
+      "Hierarchical",
+      "Reverse",
+      "Alternate",
+      "Sequential"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "The insertion operation in the stack is called .........",
+    "options": [
+      "Insert",
+      "Push",
+      "Pop",
+      "Top"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "The operation of processing each element in the list is known as ......",
+    "options": [
+      "Sorting",
+      "Merging",
+      "Inserting",
+      "Traversal"
+    ],
+    "correct_answer": "3"
+  },
+  {
+    "question": "The result of prim's algorithm is a total time bound of ..................",
+    "options": [
+      "O(logn)",
+      "O(m+n logn)",
+      "O(mn)",
+      "O(m logn)"
+    ],
+    "correct_answer": "3"
+  },
+  {
+    "question": "The retrieval of items in a stack is ........... operation.",
+    "options": [
+      "Push",
+      "Pop",
+      "Retrieval",
+      "Access"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "The term enqueue and dequeue is related to",
+    "options": [
+      "Trees",
+      "Stacks",
+      "Queues",
+      "Linked Lists"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "The term ParentTree and Child is related to",
+    "options": [
+      "Trees",
+      "Stacks",
+      "Queues",
+      "Linked Lists"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "The term push and pop is related to",
+    "options": [
+      "Trees",
+      "Stacks",
+      "Queues",
+      "Linked Lists"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "The time required in best case for search operation in binary tree is",
+    "options": [
+      "O(n)",
+      "O(1)",
+      "O(2n)",
+      "O(log n)"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "To represent hierarchical relationship between elements, Which data structure is suitable?",
+    "options": [
+      "Dequeue",
+      "Priority queue",
+      "Tree",
+      "Graph"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "TREE[1]=NULL indicates tree is ........",
+    "options": [
+      "Overflow",
+      "Underflow",
+      "Empty",
+      "Full"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "Trees are said .......... if they are similar and have same contents at corresponding nodes.",
+    "options": [
+      "Duplicate",
+      "Carbon copy",
+      "Replica",
+      "Copies"
+    ],
+    "correct_answer": "3"
+  },
+  {
+    "question": "What happens when you push a new node onto a stack?",
+    "options": [
+      "The new node is placed at the front of the linked list",
+      "The new node is placed at the back of the linked list",
+      "The new node is placed at the middle of the linked list",
+      "No Changes happens"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "What is the peculiarity of red black trees?",
+    "options": [
+      "In red-black trees, the root do not contain data.",
+      "In red-black trees, the leaf nodes are not relevant and do not contain data.",
+      "In red-black trees, the leaf nodes are relevant but do not contain data.",
+      "The nodes are red and black in colour"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "Which data structure allows deleting data elements from front and inserting at rear?",
+    "options": [
+      "Stacks",
+      "Queues",
+      "Dequeues",
+      "Binary Search Tree"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "Which data structure is used in breadth first search of a graph to hold nodes?",
+    "options": [
+      "Stack",
+      "Queue",
+      "Tree",
+      "Array"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "Which is the pointer associated with the stack?",
+    "options": [
+      "FIRST",
+      "FRONT",
+      "TOP",
+      "REAR"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "Which of the following data structure can't store the non-homogeneous data elements?",
+    "options": [
+      "Arrays",
+      "Records",
+      "Pointers",
+      "Stacks"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "Which of the following data structure is non linear type?",
+    "options": [
+      "Strings",
+      "Lists",
+      "Stacks",
+      "Graphs"
+    ],
+    "correct_answer": "3"
+  },
+  {
+    "question": "Which of the following is an application of stack?",
+    "options": [
+      "Finding factorial",
+      "Tower of Hanoi",
+      "Infix to postfix",
+      "All of the above"
+    ],
+    "correct_answer": "3"
+  },
+  {
+    "question": "Which of the following linked list below have only last node of the list pointing to the first node?",
+    "options": [
+      "Circular doubly linked list",
+      "Circular linked list",
+      "Circular singly linked list",
+      "Doubly linked list"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "Which of the following name does not relate to stacks?",
+    "options": [
+      "FIFO",
+      "LIFO",
+      "Piles",
+      "Push down"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "Which of the following data structure has cycles?",
+    "options": [
+      "Graphs",
+      "AVL trees",
+      "Binary search trees",
+      "Heap trees"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "__________ fabric produced from plating terry cam.",
+    "options": [
+      "Polar fleece fabric",
+      "Velour fabric",
+      "Elastic terry fabric",
+      "Double face terry fabric"
+    ],
+    "correct_answer": "3"
+  },
+  {
+    "question": "__________ fabrics have more number of binding points.",
+    "options": [
+      "6 X 6 matt weave",
+      "2 X 4 warp rib",
+      "1 X 1 plain weave",
+      "4 X 2 weft rib"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "__________ is a method repairing the garments where yarns are worked into the weave",
+    "options": [
+      "Threading",
+      "Piecing",
+      "Mending",
+      "Darning"
+    ],
+    "correct_answer": "3"
+  },
+  {
+    "question": "__________ is the assortment of fashion products that a company offers for sale at any point in time.",
+    "options": [
+      "Fashion",
+      "Collection",
+      "Product range",
+      "Gevels"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "__________ is work aids used in automatic pocket sewing",
+    "options": [
+      "Binders",
+      "Folders",
+      "Jigs",
+      "Hemmers"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "Fabric defects are assigned point values based on the __________ in the fabric.",
+    "options": [
+      "Scope of defect",
+      "Length of defect",
+      "Width of the defect",
+      "Depth of defect"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "Identify the needle position during loop formation, the latch is closed by the old loop and the new yarn is held by the latch head.",
+    "options": [
+      "Rest position",
+      "Cast-off position",
+      "Tucking-in position",
+      "Knock-over position"
+    ],
+    "correct_answer": "3"
+  },
+  {
+    "question": "One of following is the most important point to be considered for drawing female figures compare to male.",
+    "options": [
+      "Shoulder and hip should be narrower",
+      "Rib cage and hip shoulder should be narrower",
+      "Waist and hip shoulder should be narrower",
+      "Neck and shoulder should be narrower"
+    ],
+    "correct_answer": "3"
+  },
+  {
+    "question": "The __________ refers to the rise, wide popularity or acceptance by masses of people, and then the decline in the acceptance of style",
+    "options": [
+      "Fashion cycle",
+      "Promotion",
+      "Design for caste",
+      "Research"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "The fabric produced by the bonding and interlocking fibres are called as __________",
+    "options": [
+      "Felting",
+      "Weaving",
+      "Netting",
+      "Knitting"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "“One-click-try” concept is applicable for __________",
+    "options": [
+      "Just in Time",
+      "RFID",
+      "Texture Mapping",
+      "Virtual fitting"
+    ],
+    "correct_answer": "3"
+  },
+  {
+    "question": "Which Indian dress symbolises the synthesis of Hindu-Muslim dress form?",
+    "options": [
+      "Brahmika sari",
+      "Chapkan",
+      "Nehru jacket",
+      "Gandhi's cap"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "Which of the following was not a change brought about in women's dress as a result of the World Wars?",
+    "options": [
+      "Skirts and hair became shorter",
+      "Women stopped wearing jewellery",
+      "Bright colours came into vogue",
+      "Clothes became plainer and simpler"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "Build & Fix Model is suitable for programming exercises of ___________ LOC (Line of Code)",
+    "options": [
+      "100-200",
+      "200-400",
+      "400-1000",
+      "Above 1000"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "RAD stands for _______",
+    "options": [
+      "Relative Application Development",
+      "Rapid Application Development",
+      "Rapid Application Document",
+      "Requirement Application Document"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "__ read the data by reflecting pulses of laser beams on the surface",
+    "options": [
+      "Magnetic disk",
+      "Optical disk",
+      "Floppy disk",
+      "ROM"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "___ is the process of determining correctness.",
+    "options": [
+      "Prediction",
+      "Verification",
+      "Correctness",
+      "Validation"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "____ is an industrialized approach to software development",
+    "options": [
+      "Software Architecture Development",
+      "Component Based Development",
+      "Industrial Architecture Development",
+      "Rapid Architecture Development"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "____ is usually expressed in terms of bugs/LOC.",
+    "options": [
+      "MTTR",
+      "Defect rate",
+      "MTTF",
+      "MHRT"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "____ model shows how entities are composed of other entities",
+    "options": [
+      "Stimulus response",
+      "Data processing",
+      "Composition",
+      "Architectural"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "____ processor has to check continuously till device becomes ready for transferring the data?",
+    "options": [
+      "DMA",
+      "Interrupt-initiated I/O",
+      "IOP",
+      "DCP"
+    ],
+    "correct_answer": "3"
+  },
+  {
+    "question": "____ usecase is not complete and has no initiation actors.",
+    "options": [
+      "Concrete usecase",
+      "Abstract usecase",
+      "State",
+      "Activity"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "_____ are project results delivered to customers",
+    "options": [
+      "Data",
+      "Deliverables",
+      "Milestones",
+      "Output"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "_____ denotes the measure of strength of association established by a connection from one object to another.",
+    "options": [
+      "Cohesion",
+      "Coupling",
+      "Decomposition",
+      "Elaboration"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "_____ diagrams show the configuration of run time processing elements and the software components,processes and objects that live in them",
+    "options": [
+      "Usecase",
+      "Deployment",
+      "Activity",
+      "State Chart"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "_____ is an agile software development technique in which two programmers work together at one workstation",
+    "options": [
+      "HP Programming",
+      "Pair programming",
+      "Usecase analysis",
+      "Prototyping"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "_____ is the concept in which a process is copied into main memory from the secondary memory according to the requirement.",
+    "options": [
+      "Swapping",
+      "Segmentation",
+      "Paging",
+      "Demand paging"
+    ],
+    "correct_answer": "3"
+  },
+  {
+    "question": "_____ is the process of executing a program with the intent of finding errors.",
+    "options": [
+      "Requirements Verification",
+      "Testing",
+      "Design verification",
+      "Code verification"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "______ are used to illustrate the boundaries of a system",
+    "options": [
+      "Data models",
+      "Context models",
+      "ER models",
+      "Entity models"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "______ describe system services or functions",
+    "options": [
+      "NonFunctional requirements",
+      "Design constraints",
+      "Attribute",
+      "Functional requirements"
+    ],
+    "correct_answer": "3"
+  },
+  {
+    "question": "______ describes the spiral model as a 'process model generator', where choices based on a project's risks generate an appropriate process model for the project.",
+    "options": [
+      "Boehm",
+      "Royce",
+      "William Harry",
+      "Pareto"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "______ is a scenario depicting a user system interaction",
+    "options": [
+      "Use Case",
+      "Attribute",
+      "Class",
+      "Object"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "______ is a structured document setting out detailed descriptions of the system services",
+    "options": [
+      "Requirements specification document",
+      "User manual",
+      "Service document",
+      "Installation guide"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "______ is often used for risk management when an exceptional risk that, though unlikely, would have catastrophic consequences.",
+    "options": [
+      "Business usecase plan",
+      "Contingency plan",
+      "Catastrophic plan",
+      "Process Plan"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "______ prototype is a simulation of the user interface",
+    "options": [
+      "Horizontal",
+      "Analysis",
+      "Domain",
+      "Vertical"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "______ show task dependencies and the the critical path",
+    "options": [
+      "Activity charts",
+      "Bar chart",
+      "State chart",
+      "Event chart"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "______ show the a system and its relationship with other systems",
+    "options": [
+      "Data models",
+      "Context models",
+      "Architectural models",
+      "Entity models"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "______ uses same language to talk about analysis,design,programming and database design",
+    "options": [
+      "Traditional software development approach",
+      "Object oriented approach",
+      "Waterfall approach",
+      "Spiral approach"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "_______ acknowledge the programmatic need for milestones, for keeping a project on track, but encourage iterations",
+    "options": [
+      "Rational Unified Process",
+      "Waterfall model",
+      "Sequential model",
+      "Throw away Prototyping"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "_______ are a natural way to structure requirements elicitation",
+    "options": [
+      "Feasibility study",
+      "Viewpoints",
+      "Activity diagram",
+      "Component view"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "_______ are expressed in a mathematical notation with precisely defined vocabulary, syntax and semantics.",
+    "options": [
+      "Formal specifications",
+      "Data specifications",
+      "Requirements specification",
+      "Design specifications"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "_______ diagrams are called as Implementation diagram.",
+    "options": [
+      "Component and Collaboration",
+      "Component and State chart",
+      "Component and Deployment",
+      "Sequence and Collaboration"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "_______ is an approach to software development that allows us to create objects that represent tangible elements of the business independent of how they are represented to the user through an interface or physically stored in a database.",
+    "options": [
+      "waterfall",
+      "Structured architecture",
+      "Layered Architecture",
+      "Software architecture"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "_______ is an inherent part of most prototype development systems",
+    "options": [
+      "Traditional programming",
+      "DOS Programming",
+      "Fortran Programming",
+      "Visual programming"
+    ],
+    "correct_answer": "3"
+  },
+  {
+    "question": "_______ is the number of functions which are called by function X",
+    "options": [
+      "Cohesion",
+      "Coupling",
+      "Fan-out",
+      "Fan-in"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "________ acknowledges that we do not understand all the requirements and builds only those that are well understood",
+    "options": [
+      "Throw away Prototyping",
+      "Paper prototyping",
+      "Evolutionary prototyping",
+      "Storyboarding"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "________ are an alternative function-related measure to function points when 4Gls or similar languages are used for development",
+    "options": [
+      "Object class",
+      "Object points",
+      "function points",
+      "kloc"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "________ chart is a tool that depicts project as network diagram that is capable of graphically representing main events of project in both parallel and consecutive way",
+    "options": [
+      "PERT",
+      "Bar",
+      "Network",
+      "Project"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "________ in the textual description are considered to be methods of classes",
+    "options": [
+      "Adjectives",
+      "Nouns",
+      "Pronouns",
+      "Verb"
+    ],
+    "correct_answer": "3"
+  },
+  {
+    "question": "________ is a version of software product developed in the early stages of product's life cycle for specific and experimental purposes.",
+    "options": [
+      "Class",
+      "Prototype",
+      "Object",
+      "Requirements"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "________ is the interaction between software components or objects.",
+    "options": [
+      "Aggregation",
+      "Coupling",
+      "Decomposition",
+      "Cohesion"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "________ is the process of checking the requirements for validity, consistency, completeness, realism and verifiability.",
+    "options": [
+      "Requirement gathering",
+      "Requirement specification",
+      "Requirement documentation",
+      "Requirements validation"
+    ],
+    "correct_answer": "3"
+  },
+  {
+    "question": "________ is to test every statement in the objects method by executing it at least once.",
+    "options": [
+      "Bottom up testing",
+      "Topup testing",
+      "Statement testing coverage",
+      "Integration testing"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "________ techniques include the use of very high-level languages, database programming and prototype construction from reusable components",
+    "options": [
+      "Requirement analysis",
+      "Prototyping",
+      "Implementation",
+      "Design"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "_________ is an effective and decorative way of distributing fullness over a given area",
+    "options": [
+      "Gathers",
+      "Flares",
+      "Godets",
+      "Pleats"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "_________ affect the organisation developing or procuring the software",
+    "options": [
+      "Emergent risks",
+      "Product risks",
+      "People risks",
+      "Business risks"
+    ],
+    "correct_answer": "3"
+  },
+  {
+    "question": "_________ are responsible for producing or consuming data",
+    "options": [
+      "objects",
+      "class",
+      "Viewpoints",
+      "Input device"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "_________ is an engineering discipline which is concerned with all aspects of software production.",
+    "options": [
+      "Systems Engineering",
+      "Computer engineering",
+      "Software engineering",
+      "Production Engineering"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "_________ method is used to establish priority by serially connecting all devices that request an interrupt.",
+    "options": [
+      "Vectored-interrupting",
+      "Daisy chain",
+      "Priority",
+      "Polling"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "_________ provides a broad view of an entire system or subsystem, focusing on user interaction more than low-level system functionality, such as database access.",
+    "options": [
+      "Rapid prototype",
+      "Analysis prototype",
+      "Horizontal prototype",
+      "Vetical prototype"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "_________ register keeps tracks of the instructions stored in program stored in memory.",
+    "options": [
+      "AR (Address Register)",
+      "XR (Index Register)",
+      "PC (Program Counter)",
+      "AC (Accumulator)"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "__________ is referred to as generalisation and is shown ‘upwards’ rather than ‘downwards’ in a hierarchy",
+    "options": [
+      "Aggregation",
+      "Inheritance",
+      "Composition",
+      "Decomposition"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "__________ may be used to show the processes and the flow of information from one process to another",
+    "options": [
+      "Data flow models",
+      "ER model",
+      "Architecture model",
+      "Context models"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "__________ show schedule against calendar time",
+    "options": [
+      "Activity chart",
+      "Bar charts",
+      "state chart",
+      "event chart"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "___________ are used to describe the logical structure of data processed by the system",
+    "options": [
+      "State machine",
+      "Context model",
+      "Architectural model",
+      "Semantic data models"
+    ],
+    "correct_answer": "3"
+  },
+  {
+    "question": "___________ are rectangles with the name at the top, attributes in the middle section and operations in the bottom section",
+    "options": [
+      "DFD",
+      "State machine",
+      "Object classes",
+      "Entity"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "___________ can be created quickly from a set of reusable components plus some mechanism to ‘glue’ these component together",
+    "options": [
+      "Design",
+      "Entity",
+      "Prototypes",
+      "Component"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "____________ are lists of all of the names used in the system models.",
+    "options": [
+      "System model list",
+      "Data dictionaries",
+      "HAsh table",
+      "Entity list"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "____________ are the end-point of a process activity",
+    "options": [
+      "Deliverables",
+      "Milestones",
+      "Outcome",
+      "Output"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "____________ helps the analyst to understand the functionality of the system and models are used to communicate with customers",
+    "options": [
+      "Business modelling",
+      "Project scheduling",
+      "System modelling",
+      "Project planning"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "____________ involves executing the system with test cases that are derived from the specification of the real data to be processed by the system",
+    "options": [
+      "Design verification",
+      "System testing",
+      "Debugging",
+      "Requirements valiudation"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "_____________ is concerned with modifying the system after it is in use",
+    "options": [
+      "Design",
+      "Coding",
+      "Analysis",
+      "Evolution"
+    ],
+    "correct_answer": "3"
+  },
+  {
+    "question": "______________ have no instances but define the common behaviors that can be inherited by more specific classes",
+    "options": [
+      "Concrete class",
+      "Base class",
+      "Abstract classes",
+      "Facade class"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "______________ provides a scheme for refining the subsystems or components of a software system or the relationship among them.",
+    "options": [
+      "Decomposition",
+      "Design pattern",
+      "Architecture",
+      "MVC"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "_______________ can be suited to projects where requirements and scope are fixed, the product itself is firm and stable, and the technology is clearly understood",
+    "options": [
+      "Incremental model",
+      "Prototyping model",
+      "Waterfall model",
+      "Spiral model"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "_______________ refers to user interface prototype",
+    "options": [
+      "vertical prototype",
+      "domain prototype",
+      "analysis prototype",
+      "horizontal prototype"
+    ],
+    "correct_answer": "3"
+  },
+  {
+    "question": "_______________clarifies complex requirements by drilling down to actual system functionality.",
+    "options": [
+      "Horizontal prototype",
+      "Vertical prototype",
+      "Analysis prototype",
+      "Domain protype"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "_______________refers to the creation of a model that will eventually be discarded rather than becoming part of the final delivered software.",
+    "options": [
+      "Waterfall model",
+      "Throwaway prototyping",
+      "Analysis",
+      "Evolutionary prototyping"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "_____________is the task of predicting correspondence",
+    "options": [
+      "Validation",
+      "Verification",
+      "correctness",
+      "prediction"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "_____________models that show the systems response to events",
+    "options": [
+      "ER diagram",
+      "State machine",
+      "Context diagram",
+      "Event diagram"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "____________are a natural way to structure requirements elicitation",
+    "options": [
+      "DBMS",
+      "Viewpoints",
+      "Process model",
+      "Methods"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "____________checks the consistency of routine and procedure declarations and their use.",
+    "options": [
+      "Database anlysis",
+      "Interface analysis",
+      "Business layer analysis",
+      "Path analysis"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "___________are assumptions or relationships among model elements specifying conditions and propositions that must be maintained as true.",
+    "options": [
+      "Class",
+      "stereotype",
+      "constraints",
+      "Node"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "___________in the UML are used to model interaction between objects",
+    "options": [
+      "Usecase diagram",
+      "State machine",
+      "Sequence diagrams",
+      "Component diagram"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "__________affect schedule or resources",
+    "options": [
+      "Product risks",
+      "Project risks",
+      "Business risks",
+      "Hardware risks"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "__________don’t know what they really want",
+    "options": [
+      "Analyst",
+      "Programmers",
+      "Designers",
+      "Stakeholders"
+    ],
+    "correct_answer": "3"
+  },
+  {
+    "question": "__________is the process of formally documenting the user and system requirements and creating a software requirements document.",
+    "options": [
+      "Feasibility study",
+      "Requirements specification",
+      "Requirement verification",
+      "Requirement specification"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "_________shows how entities have common characteristics",
+    "options": [
+      "Data processing model",
+      "Classification model",
+      "Architectural model",
+      "Stimulus/response model"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "________can be viewed as a collection of procedures or behaviours that, taken together, reflect the behaviour of a system over time.",
+    "options": [
+      "Static model",
+      "Dynamic model",
+      "Implementation model",
+      "Architectural model"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "________shows the system’s reaction to events",
+    "options": [
+      "Data processing model",
+      "Composition model",
+      "Stimulus/response model",
+      "Classification model"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "________shows the system’s context or environment",
+    "options": [
+      "Behavioural perspective",
+      "Structural perspective",
+      "Cognitive perspective",
+      "External perspective"
+    ],
+    "correct_answer": "3"
+  },
+  {
+    "question": "________state in a state chart is shown as a circle surrounding a small dot,a bull’s- eye.",
+    "options": [
+      "Initial",
+      "Middle",
+      "Intermediate",
+      "Final"
+    ],
+    "correct_answer": "3"
+  },
+  {
+    "question": "_______may be used to ‘draw’ the interface and simulate its functionality with components associated with interface entities",
+    "options": [
+      "Developer",
+      "visual generators",
+      "User interface generators",
+      "Program generators"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "______emphasize the use of events and states to determine the overall activity of the system.",
+    "options": [
+      "State diagram",
+      "Usecase Diagram",
+      "Sequence Diagram",
+      "Component diagram"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "______relies on constant code improvement, user involvement in the development team and pairwise programming.",
+    "options": [
+      "Extreme programming",
+      "Spiral approach",
+      "Prototyping",
+      "Waterfall approach"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "______testing exercises the system beyond its maximum design load.",
+    "options": [
+      "usability",
+      "stress",
+      "acceptance",
+      "beta"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "_____approach to systems development rapidly develops software to quickly and incrementally implement the design by using tools such as CASE.",
+    "options": [
+      "SAD",
+      "RAD",
+      "MAC",
+      "CSC"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "_____identifies generalities among entities",
+    "options": [
+      "Process",
+      "Data hiding",
+      "Partitioning",
+      "Abstraction"
+    ],
+    "correct_answer": "3"
+  },
+  {
+    "question": "_____identifies the structural (part-of) relationships between entities",
+    "options": [
+      "Data hiding",
+      "Projection",
+      "Partitioning",
+      "Abstraction"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "_____model is suitable for software development, when the requirements are well defined",
+    "options": [
+      "Prototyping",
+      "Formal specification",
+      "Spiral",
+      "Waterfall"
+    ],
+    "correct_answer": "3"
+  },
+  {
+    "question": "_____perspective shows the system or data architecture",
+    "options": [
+      "Source",
+      "Structural",
+      "Behavioral",
+      "External"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "____encapsulates core data and functionality.",
+    "options": [
+      "model",
+      "view",
+      "controller",
+      "facade"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "____prototype is an aid for exploring the problem domain",
+    "options": [
+      "vertical",
+      "analysis",
+      "horizontal",
+      "domain"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "A 4-way set-associative cache memory unit with a capacity of 16 KB is built using a block size of 8 words. The word length is 32 bits. The size of the physical address space is 4 GB. The number of bits for the TAG field is _____",
+    "options": [
+      "5",
+      "15",
+      "20",
+      "25"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "A 8bit flip-flop will have",
+    "options": [
+      "2 binary cells",
+      "4 binary cells",
+      "6 binary cells",
+      "8 binary cells"
+    ],
+    "correct_answer": "3"
+  },
+  {
+    "question": "A _____ is a function or procedure that is defined for a class and typically can access the internal state of an object of that class to perform some operation",
+    "options": [
+      "attribute",
+      "method",
+      "class",
+      "object"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "A _____ is an implementation of an object's behavior",
+    "options": [
+      "method",
+      "attribute",
+      "class",
+      "object"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "A _______ is a probability that some adverse circumstance will occur.",
+    "options": [
+      "plan",
+      "risk",
+      "schedule",
+      "milestone"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "A _______ strategy can detect the serious flaws early in the implementation.",
+    "options": [
+      "bottom up testing",
+      "testing",
+      "top down testing",
+      "integration testing"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "A _________ is instructive information that captures the essential structure and insight of a successfully family of proven solutions to a recurring problem that arises within certain context and system of forces",
+    "options": [
+      "class",
+      "pattern",
+      "model",
+      "component"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "A __________ is an old system that still provides essential business services",
+    "options": [
+      "biometric system",
+      "database system",
+      "legacy system",
+      "OBS system"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "A ___________ is the one that has s high probability of detecting an as-yet undiscovered error",
+    "options": [
+      "bad test cases",
+      "good test cases",
+      "average test cases",
+      "worst test cases"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "A _____________decides whether or not the proposed system is worthwhile",
+    "options": [
+      "planning",
+      "requirement elicitation",
+      "feasibility study",
+      "requirement validation"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "A ____________is a more complete elaboration of a single subsystem or function",
+    "options": [
+      "horizontal prototype",
+      "vertical prototype",
+      "domain prototype",
+      "analysis prototype"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "A _______can be viewed as a snapshot of a system's parameters at rest or at a specific point in time.",
+    "options": [
+      "Dynamic model",
+      "Static model",
+      "Event model",
+      "Working model"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "A B-tree grows at .............",
+    "options": [
+      "root",
+      "leaves",
+      "branches",
+      "stem"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "A BCD counter is a",
+    "options": [
+      "mod-5 counter",
+      "mod-10 counter",
+      "mod-15 counter",
+      "mod-20 counter"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "A binary number's value changes most drastically when the ________ is changed.",
+    "options": [
+      "MSB",
+      "Frequency",
+      "LSB",
+      "Duty Cycle"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "A binary tree grows at ...............",
+    "options": [
+      "root",
+      "leaves",
+      "branches",
+      "stem"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "A binary variable can take values",
+    "options": [
+      "0 only",
+      "0 and -1",
+      "0 and 1",
+      "1 and 2"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "A company is developing an advance version of their current software available in the market, what model approach would they prefer?",
+    "options": [
+      "RAD",
+      "Iterative Enhancement",
+      "Both a & b",
+      "Spiral"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "A computer has twenty physical page frames which contain pages numbered 101 through 120. Now a program accesses the pages numbered 1, 2, …, 100 in that order, and repeats the access sequence THRICE. Which one of the following page replacement policies experiences the same number of page faults as the optimal page replacement policy for this program?",
+    "options": [
+      "Last-in-first-out",
+      "First-in-first-out",
+      "Least-recently-used",
+      "Most-recently-used"
+    ],
+    "correct_answer": "3"
+  },
+  {
+    "question": "A computer system supports 32-bit virtual addresses as well as 32-bit physical addresses. Since the virtual address space is of the same size as the physical address space, the operating system designers decide to get rid of the virtual memory entirely. Which one of the following is true?",
+    "options": [
+      "Efficient implementation of multi-user support is no longer possible",
+      "The processor cache organization can be made more efficient now",
+      "Hardware support for memory management is no longer needed",
+      "CPU scheduling can be made more efficient now"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "A CPU generates 32-bit virtual addresses. The page size is 4 KB. The processor has a translation look-aside buffer (TLB) which can hold a total of 128 page table entries and is 4-way set associative. The minimum size of the TLB tag is:",
+    "options": [
+      "11 bits",
+      "13 bits",
+      "15 bits",
+      "18 bits"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "A data structure is required for storing a set of integers such that each of the following operations can be done in (log n) time, where n is the number of elements in the set. Delection of the smallest element, Insertion of an element if it is not already present in the set. Which of the following data structures can be used for this purpose?",
+    "options": [
+      "A heap can be used but not a balanced binary search tree",
+      "A balanced binary search tree can be used but not a heap",
+      "Both balanced binary search tree and heap can be used",
+      "Neither balanced binary search tree nor heap can be used"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "A decimal counter has",
+    "options": [
+      "5 states",
+      "10 states",
+      "15 states",
+      "20 states"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "A decoder converts ________.",
+    "options": [
+      "noncoded information into coded form",
+      "coded information into noncoded form",
+      "HIGHs to LOWs",
+      "LOWs to HIGHs"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "A demultiplexer has ________.",
+    "options": [
+      "one data input and a number of selection inputs, and they have several outputs",
+      "one input and one output",
+      "several inputs and several outputs",
+      "several inputs and one output"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "A flipflop can maintain a",
+    "options": [
+      "n states",
+      "tri state",
+      "binary state",
+      "octa state"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "A full subtractotwo inputs and two outputsr circuit requires ________.",
+    "options": [
+      "two inputs and two outputs",
+      "two inputs and three outputs",
+      "three inputs and one output",
+      "three inputs and two outputs"
+    ],
+    "correct_answer": "3"
+  },
+  {
+    "question": "A group of binary cells is called",
+    "options": [
+      "counter",
+      "register",
+      "latch",
+      "flipflop"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "A leaky bucket algorithm shapes bursty traffic into fixed-rate traffic by averaging the",
+    "options": [
+      "Data Rate",
+      "Average Rate",
+      "Traffic Rate",
+      "Traffic Shaping"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "A memory buffer used to accommodate a speed differential is called",
+    "options": [
+      "stack pointer",
+      "• cache",
+      "accumulator",
+      "disk buffer"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "A memory buffer used to accommodate a speed differential is called",
+    "options": [
+      "stack pointer",
+      "cache",
+      "accumulator",
+      "disk buffer"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "A message is much more general than a ______.",
+    "options": [
+      "function call",
+      "object",
+      "class",
+      "state"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "A microprogram is sequencer perform the operation ?",
+    "options": [
+      "Read",
+      "Write",
+      "Read and Write",
+      "Read and Execute"
+    ],
+    "correct_answer": "3"
+  },
+  {
+    "question": "A multi-dimensional array array[0:2, 10:20, 3:4, -10:2] contains _________ elements.",
+    "options": [
+      "240",
+      "858",
+      "390",
+      "160"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "A multilevel page table is preferred in comparison to a single level page table for translating virtual address to physical address because",
+    "options": [
+      "It reduces the memory access time to read or write and memory location",
+      "It helps to reduce the size of page table needed to implement the virtual address space of a process",
+      "It is required by the translation lookaside buffer",
+      "It helps to reduce the number of page faults in page replacement algorithms."
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "A network with Bandwidth of 10 Mbps can pass only an average of 12000 frames per minute with each frame carrying an average of 10000 bits. What is the throughput of this network",
+    "options": [
+      "5Mbps",
+      "10Mbps",
+      "2Mbps",
+      "100Mbps"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "A non-relocatable program is one which",
+    "options": [
+      "cannot be made to execute in any area of storage other than the one designated for it at the time of its coding or translation.",
+      "can itself performs the relocation of its address sensitive portions.",
+      "consists of a program and relevant information for its relocation.",
+      "None of the above"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "A number in scientific notation, that has no leading 0s is called a",
+    "options": [
+      "Denormalized number",
+      "Normalized number",
+      "Integers",
+      "Whole number"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "A packet which is sent by a node to source to inform it of congestion is called",
+    "options": [
+      "Control Packet",
+      "Congestion Packet",
+      "Change Packet",
+      "Choke Packet"
+    ],
+    "correct_answer": "3"
+  },
+  {
+    "question": "A page fault occurs ?",
+    "options": [
+      "when the page is not in the memory",
+      "when the page is in the memory",
+      "when the process enters the blocked state",
+      "when the process is in the ready state"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "A process executes the code fork(); fork(); fork(); The total number of child processes created is",
+    "options": [
+      "3",
+      "4",
+      "7",
+      "8"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "A process is thrashing if:",
+    "options": [
+      "it is spending less time paging than executing",
+      "swapping can not take place",
+      "it is spending more time paging than executing",
+      "page fault occurs"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "A RAM chip has a capacity of 1024 words of 8 bits each (1K × 8). The number of 2 × 4 decoders with enable line needed to construct a 16K × 16 RAM from 1K × 8 RAM is",
+    "options": [
+      "4",
+      "5",
+      "6",
+      "7"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "A scheduling algorithm assigns priority proportional to the waiting time of a process. Every process starts with priority zero (the lowest priority). The scheduler re-evaluates the process priorities every T time units and decides the next process to schedule. Which one of the following is TRUE if the processes have no I/O operations and all arrive at time zero?",
+    "options": [
+      "This algorithm is equivalent to the first-come-first-serve algorithm",
+      "This algorithm is equivalent to the round-robin algorithm.",
+      "This algorithm is equivalent to the shortest-job first algorithm..",
+      "This algorithm is equivalent to the shortest-remaining time-first algorithm"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "A self contained block of statements that perform a coherent task of some kind is called a?",
+    "options": [
+      "Monitor",
+      "Function",
+      "Program",
+      "Structure"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "A set of physical addresses is also known as",
+    "options": [
+      "Disk Space",
+      "Address Space",
+      "Memory Space",
+      "Locations"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "A social scientists spends a considerable time observing and analysing how people actually work is said to be ____________",
+    "options": [
+      "analysis",
+      "ethnographic analysis",
+      "usecase analysis",
+      "design verification"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "A system program that combines the separately compiled modules of a program into a form suitable for execution",
+    "options": [
+      "load and go",
+      "assembler",
+      "linking loader",
+      "cross compiler"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "A system program that sets up an executable program in main memory ready for execution is",
+    "options": [
+      "assembler",
+      "linker",
+      "compiler",
+      "loader"
+    ],
+    "correct_answer": "3"
+  },
+  {
+    "question": "A system uses FIFO policy for page replacement. It has 4 page frames with no pages loaded to begin with . The system first accesses 100 distinct pages in some order and then accesses the same 100 pages but now in the reverse order .How many page faults will occur ?",
+    "options": [
+      "196",
+      "197",
+      "194",
+      "198"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "A system which supports _______ allows object classes to inherit from several super-classes",
+    "options": [
+      "Multi path inheritance",
+      "Hierarchical inheritance",
+      "Multiple inheritance",
+      "Simple Inheritence"
+    ],
+    "correct_answer": "2"
+  },
+
+
+  {
+    "question": "A thread is usually defined as a ‘light weight process’ because an operating system (OS) maintains smaller data structures for a thread than for a process. In relation to this, which of the followings is TRUE?",
+    "options": [
+      "On per-thread basis, the OS maintains only CPU register state",
+      "The OS does not maintain a separate stack for each thread",
+      "On per-thread basis, the OS does not maintain virtual memory state",
+      "On per thread basis, the OS maintains only scheduling and accounting information."
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "According to a statistical report: “over 30% of all software projects are cancelled before completion and over 70% of the remainder fail to deliver expected features”. What must be the reason for such a situation?",
+    "options": [
+      "Poor change management",
+      "Poor requirements management",
+      "Poor quality control",
+      "All of the mentioned"
+    ],
+    "correct_answer": "3"
+  },
+  {
+    "question": "According to Boolean algebra x.x is equal to",
+    "options": [
+      "x",
+      "1",
+      "0",
+      "x'"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "Adder subtractor operating on mode 1 at (X xor 1) gives",
+    "options": [
+      "1",
+      "0",
+      "x",
+      "x'"
+    ],
+    "correct_answer": "3"
+  },
+  {
+    "question": "Addition of -6 and -13",
+    "options": [
+      "11101101",
+      "167 11101010",
+      "11101110",
+      "11111010"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "Addressing mode used in instruction add r1,r2,r3 is",
+    "options": [
+      "Indirect",
+      "Base",
+      "Register",
+      "Immediate"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "After 9 counts BCD counter goes back to",
+    "options": [
+      "0",
+      "9",
+      "1",
+      "10"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "After the following code fragment, what is the value in fname? String str; int fname; str = \"Foolish boy.\"; fname = str.indexOf(\"fool\");",
+    "options": [
+      "0",
+      "2",
+      "-1",
+      "4"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "All key stakeholders gathers together for a short but intensely focused period for ____",
+    "options": [
+      "Ethanography",
+      "Requirement workshop",
+      "Interviewing",
+      "Business meeting"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "All the wrapper classes (Integer, Boolean, Float, Short, Long, Double and Character) in java",
+    "options": [
+      "are private",
+      "are serializable",
+      "are immutatable",
+      "are final"
+    ],
+    "correct_answer": "3"
+  },
+  {
+    "question": "An empty list is one which has no",
+    "options": [
+      "nodes",
+      "168 data",
+      "nodes and data",
+      "address"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "An encoder converts ________.",
+    "options": [
+      "noncoded information into coded form",
+      "coded information into noncoded form",
+      "HIGHs to LOWs",
+      "LOWs to HIGHs"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "An identity element w.r.t addition",
+    "options": [
+      "x-1",
+      "x+1",
+      "x-0",
+      "x+0"
+    ],
+    "correct_answer": "3"
+  },
+  {
+    "question": "An interrupt that can be temporarily ignored is",
+    "options": [
+      "Vectored interrupt",
+      "Non-maskable interrupt",
+      "Maskable interrupt",
+      "High priority interrupt"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "An interrupt that is reserved for unrecoverable memory errors is called……",
+    "options": [
+      "maskable interrupt",
+      "non maskable interrupt",
+      "Both (1) & (2)",
+      "None of the above"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "An__________, start with the best understood parts",
+    "options": [
+      "throw away prototype",
+      "evolutionary prototype",
+      "design prototype",
+      "169 coding prototype"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "AND gates are converted to NAND gates using",
+    "options": [
+      "invert OR",
+      "AND invert",
+      "NAND invert",
+      "NOR"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "Anshi's IP address is 192.168.1.21 and uses mask of 255.255.255.240. Jenny's IP is 192.168.1.14/28. Their computers are connected together using a crossover Ethernet cable. Why can' they ping each other?",
+    "options": [
+      "The subnet masks are different",
+      "Because they are in different subnets.",
+      "Because the router does not support subnetting",
+      "Because it should be a straight through cable."
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "Any number with an exponent of zero is equal to:",
+    "options": [
+      "zero",
+      "one",
+      "that number",
+      "ten"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "Applications like Banking and reservations require which type of OS?",
+    "options": [
+      "Real Time",
+      "Hard Real Time",
+      "Soft Real Time",
+      "None of the above"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "Arrange the following steps to form a basic/general Engineering Process Model 1. Test, 2. Design, 3. Install, 4. Specification, 5. Manufacture, 6. Maintain",
+    "options": [
+      "2, 4, 5, 1, 6, 3",
+      "4, 2, 5, 1, 3, 6",
+      "2, 4, 5, 1, 3, 6",
+      "4, 2, 5, 1, 6, 3"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "As per Boolean algebra theorem (x')' is equal to",
+    "options": [
+      "x'",
+      "x",
+      "1",
+      "0"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "ASCII stands for",
+    "options": [
+      "African standard code for information interchange",
+      "American standard code for integer interchange",
+      "American standard code for information interchange",
+      "African standard code for integer interchange"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "Assign the proper odd parity bit to the code 111001.",
+    "options": [
+      "1111011",
+      "1111001",
+      "0111111",
+      "0011111"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "Assume that a File is an abstract class and has toFile() method. ImageFile and BinaryFile are concrete classes of the abstract class File. Also, assume that the method toFile() is implemented in both Binary File and Image File. Which implementation method will be called when a File references an ImageFile object in memory and the toFile method is called?",
+    "options": [
+      "Binary File",
+      "Image File",
+      "Both File and Binary Files",
+      "none"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "Assume that the value 3929.92 is of type ‘float’. How to assign this value after declaring the variable ‘interest’ of type float?",
+    "options": [
+      "interest = 3929.92",
+      "interest = (Float)3929.92",
+      "interest = 3929.92 (float)",
+      "interest = 3929.92f"
+    ],
+    "correct_answer": "3"
+  },
+  {
+    "question": "Assume that there are 3 page frames which are initially empty. If the page reference string is 1, 2, 3, 4, 2, 1, 5, 3, 2, 4, 6, the number of page faults using the optimal replacement policy is__________.",
+    "options": [
+      "5",
+      "6",
+      "8",
+      "7"
+    ],
+    "correct_answer": "3"
+  },
+  {
+    "question": "Assume the following method is properly synchronized and called from a thread A on an object B: wait(2000); After calling this method, when will the thread A become a candidate to get another turn at the CPU?",
+    "options": [
+      "After thread A is notified, or after two seconds.",
+      "After the lock on B is released, or after two seconds.",
+      "Two seconds after thread A is notified.",
+      "Two seconds after lock B is released."
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "Asynchronous sequential logic circuits are used when primary need is",
+    "options": [
+      "time",
+      "pressure",
+      "speed",
+      "accuracy"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "At Conceptual level Class diagrams should include:",
+    "options": [
+      "operations only",
+      "attributes only",
+      "constants",
+      "Variables"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "At start of addition carry flag is",
+    "options": [
+      "enabled",
+      "stored",
+      "cleared",
+      "loaded"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "At start of lamp handball game ball (indicator lamp) is placed at",
+    "options": [
+      "top",
+      "left",
+      "bottom",
+      "right"
+    ],
+    "correct_answer": "3"
+  },
+  {
+    "question": "BCD stands for",
+    "options": [
+      "binary counter design",
+      "binary counter decimal",
+      "binary coded design",
+      "binary coded decimal"
+    ],
+    "correct_answer": "3"
+  },
+  {
+    "question": "BCD to 7 segment is",
+    "options": [
+      "decoder",
+      "encoder",
+      "mux",
+      "demux"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "Because of virtual memory, the memory can be shared among:",
+    "options": [
+      "threads",
+      "none of the mentioned",
+      "instructions",
+      "processes"
+    ],
+    "correct_answer": "3"
+  },
+  {
+    "question": "Besides nand gate universal gate is",
+    "options": [
+      "AND gate",
+      "OR gate",
+      "NOR gate",
+      "XOR gate"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "Binary code that distinguishes ten elements must contain at least",
+    "options": [
+      "Two Bits",
+      "Three Bits",
+      "Four Bits",
+      "Five Bits"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "Binary counter that count incrementally and decremently is called",
+    "options": [
+      "up-down counter",
+      "LSI counters",
+      "down counter",
+      "up counter"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "Binary logic consists of binary values and",
+    "options": [
+      "Arithmetic operations",
+      "Logical operations",
+      "Numeric operations",
+      "Addition operations"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "Binary ripple counter is made up of",
+    "options": [
+      "T flipflop",
+      "JK flipflop",
+      "RS flipflop",
+      "T and JK flip flop"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "Borrow in two bit (x,y) subtraction is 0, as long as",
+    "options": [
+      "y>x",
+      "x=y",
+      "x>=y",
+      "y>=x"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "By default counters are incremented by",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "Cache memory acts between",
+    "options": [
+      "CPU and RAM",
+      "RAM and ROM",
+      "CPU and Hard Disk",
+      "CPU and ROM"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "Cache memory-",
+    "options": [
+      "has greater capacity than RAM",
+      "is faster to access than CPU Registers",
+      "is permanent storage",
+      "faster to access than RAM"
+    ],
+    "correct_answer": "3"
+  },
+  {
+    "question": "Change in state from 00 to 11 will cause change in",
+    "options": [
+      "first variable",
+      "second variable",
+      "third variable",
+      "all variables"
+    ],
+    "correct_answer": "3"
+  },
+  {
+    "question": "Change is state occurs during",
+    "options": [
+      "pulse transition",
+      "outputs",
+      "clock pulses",
+      "inputs"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "Characters that can be specified in 6-bit code are",
+    "options": [
+      "61",
+      "62",
+      "63",
+      "64"
+    ],
+    "correct_answer": "3"
+  },
+  {
+    "question": "Circuits that employs memory elements in addition to gates is called",
+    "options": [
+      "combinational circuit",
+      "sequential circuit",
+      "combinational sequence",
+      "series"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "Class diagram is a ___________aspect of collaboration",
+    "options": [
+      "object",
+      "structural",
+      "behavioral",
+      "model"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "class X implements Runnable { public static void main(String args[]) { /* Missing code? */ } public void run() {} } Which of the following line of code is suitable to start a thread?",
+    "options": [
+      "Thread t = new Thread(X);",
+      "Thread t = new Thread(X); t.start();",
+      "X run = new X(); Thread t = new Thread(run); t.start();",
+      "Thread t = new Thread(); x.run();"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "class X, class Y and class Z are derived from class BASE. This is _____________ inheritance",
+    "options": [
+      "Multiple",
+      "Multilevel",
+      "Hierarchical",
+      "Single"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "Classification of sequential circuit depends on timings of their",
+    "options": [
+      "feedback path",
+      "gates",
+      "signals",
+      "complex circuits"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "Clock generator, generates periodic train of",
+    "options": [
+      "feedback path",
+      "gates",
+      "clock pulses",
+      "sine pulses"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "Code conversion circuits mostly uses",
+    "options": [
+      "AND-OR gates",
+      "AND gates",
+      "OR gates",
+      "XOR gates"
+    ],
+    "correct_answer": "3"
+  },
+  {
+    "question": "Code not included in code conversion standard is",
+    "options": [
+      "BCD code",
+      "gray code",
+      "excess3 code",
+      "truth table"
+    ],
+    "correct_answer": "3"
+  },
+  {
+    "question": "Combinations that are not listed for input variables are",
+    "options": [
+      "overflows",
+      "carry",
+      "dont cares",
+      "zero bits"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "Connection from output to one of input gate is",
+    "options": [
+      "undefined",
+      "shifted",
+      "feedback",
+      "wire"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "Consider a disk system with 100 cylinders. The requests to access the cylinders occur in following sequence : 4, 34, 10, 7, 19, 73, 2, 15, 6, 20. Assuming that the head is currently at cylinder 50, what is the time taken to satisfy all requests if it takes 1 ms to move from one cylinder to adjacent one and shortest seek time first policy is used ?",
+    "options": [
+      "95ms",
+      "119 ms",
+      "233 ms",
+      "276 ms"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "Consider a hypothetical processor with an instruction of type LW R1, 20(R2), which during execution reads a 32-bit word from memory and stores it in a 32-bit register R1. The effective address of the memory location is obtained by the addition of a constant 20 and the contents of register R2. Which of the following best reflects the addressing mode implemented by this instruction for operand in memory.",
+    "options": [
+      "Immediate Addressing",
+      "Register Addressing",
+      "Register Indirect Scaled Addressing",
+      "Base Indexed Addressing"
+    ],
+    "correct_answer": "3"
+  },
+  {
+    "question": "Consider a set of n tasks with known runtimes , r1 r2...... rn to be run on a uniprocessor machine. Which of the following processor scheduling algorithms will result in the maximum throughput ?",
+    "options": [
+      "First-come-First-Served",
+      "Round-Robin",
+      "SJF",
+      "Highest-Response-Ratio Next"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "Consider a system having m resources of the same type. These resources are shared by 3 processes A, B and C which have peak demands of 3, 4 and 6 respectively. For what value of m deadlock will not occur ?",
+    "options": [
+      "7",
+      "9",
+      "10",
+      "13"
+    ],
+    "correct_answer": "3"
+  },
+  {
+    "question": "Consider the following Statement: “The output of a program shall be given within 10secs of event X 10% of the time”. What characteristic of SRS is being depicted here?",
+    "options": [
+      "Consistent",
+      "Verifiable",
+      "Non-verifiable",
+      "Correct"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "Consider the following code fragment: if (fork() == 0) { a = a + 5; printf(\"%d,%d\\n\", a, &a); } else { a = a –5; printf(\"%d, %d\\n\", a, &a); } Let u, v be the values printed by the parent process, and x, y be the values printed by the child process. Which one of the following is TRUE?",
+    "options": [
+      "u = x + 10 and v = y",
+      "u = x + 10 and v != y",
+      "u + 10 = x and v = y",
+      "u + 10 = x and v != y"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "Consider the following code snippet. What will be assigned to the variable fourthChar, if the code is executed? String str = new String(\"Java\"); char fourthChar = str.charAt(4);",
+    "options": [
+      "‘a’",
+      "'v'",
+      "null characater",
+      "throws StringIndexOutofBoundsException"
+    ],
+    "correct_answer": "3"
+  },
+  {
+    "question": "Consider the following sequence of micro operations. MBR ← PC, MAR ← X, PC ← Y, Memory ← MBR. Which one of the following is a possible operation performed by this sequence?",
+    "options": [
+      "Instruction fetch",
+      "Operand fetch",
+      "Conditional branch",
+      "Initiation of interrupt service"
+    ],
+    "correct_answer": "3"
+  },
+  {
+    "question": "Consider the following statements about user level threads and kernel level threads. Which one of the following statements is FALSE?",
+    "options": [
+      "Context switch time is longer for kernel level threads than for user level threads",
+      "Related kernal level thread can be scheduled on different processors in a multiprocessor system",
+      "User level threads do not need any hardware support",
+      "Blocking one kernel level thread blocks all related threads"
+    ],
+    "correct_answer": "3"
+  },
+  {
+    "question": "Consider the following table of arrival time and burst time for three processes P0, P1 and P2. Process Arrival time Burst Time P0 0 ms 9 ms P1 1 ms 4 ms P2 2 ms 9 ms. The pre-emptive shortest job first scheduling algorithm is used. Scheduling is carried out only at arrival or completion of processes. What is the average waiting time for the three processes?",
+    "options": [
+      "5.0 ms",
+      "4.33 ms",
+      "6.33",
+      "7.33"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "Consider the virtual page reference string 1, 2, 3, 2, 4, 1, 3, 2, 4, 1. On a demand paged virtual memory system running on a computer system that main memory size of 3 pages frames which are initially empty. Let LRU, FIFO and OPTIMAL denote the number of page faults under the corresponding page replacements policy. Then",
+    "options": [
+      "OPTIMAL < LRU < FIFO",
+      "OPTIMAL < FIFO < LRU",
+      "OPTIMAL = FIFO",
+      "OPTIMAL< = FIFO"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "Consider three CPU-intensive processes, which require 10, 20 and 30 time units and arrive at times 0, 2 and 6, respectively. How many context switches are needed if the operating system implements a shortest remaining time first scheduling algorithm? Do not count the context switches at time zero and at the end.",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "Consider three processes (process id 0, 1, 2 respectively) with compute time bursts 2, 4 and 8 time units. All processes arrive at time zero. Consider the longest remaining time first (LRTF) scheduling algorithm. In LRTF ties are broken by giving priority to the process with the lowest process id. The average turn around time is:",
+    "options": [
+      "13 units",
+      "14units",
+      "15 units",
+      "16 units"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "Consider three processes, all arriving at time zero, with total execution time of 10, 20 and 30 units, respectively. Each process spends the first 20% of execution time doing I/O, the next 70% of time doing computation, and the last 10% of time doing I/O again. The operating system uses a shortest remaining compute time first scheduling algorithm and schedules a new process either when the running process gets blocked on I/O or when the running process finishes its compute burst. Assume that all I/O operations can be overlapped as much as possible. For what percentage of time does the CPU remain idle?",
+    "options": [
+      "0%",
+      "89.4%",
+      "10.6%",
+      "30.0%"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "Constraints on the services or functions offered by the system such as timing constraints, constraints on the development process, standards, etc refers to _________",
+    "options": [
+      "Functional requirements",
+      "Non functional requirement",
+      "Benchmarks",
+      "ISO standards"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "Control of shift register labeled as SH/LD =0 will",
+    "options": [
+      "shift",
+      "store",
+      "load",
+      "add"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "Control of shift register labeled as SH/LD =1 will",
+    "options": [
+      "shift",
+      "store",
+      "load",
+      "add"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "Control unit in serial computer generates a",
+    "options": [
+      "reset signal",
+      "word-time signal",
+      "word signal",
+      "clear signal"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "Convert (0.6875)10 to binary",
+    "options": [
+      "0.1011",
+      "0.1011",
+      "0.0101",
+      "0.0111"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "Convert binary 111111110010 to hexadecimal.",
+    "options": [
+      "EE216",
+      "FF216",
+      "2FE16",
+      "FD216"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "Convert the fractional binary number 0000.1010 to decimal.",
+    "options": [
+      "0.625",
+      "0.50",
+      "0.55",
+      "0.10"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "Convert the fractional binary number 0001.0010 to decimal.",
+    "options": [
+      "1.40",
+      "1.125",
+      "1.20",
+      "1.80"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "Convert the fractional decimal number 6.75 to binary.",
+    "options": [
+      "0111.1100",
+      "0110.1010",
+      "0110.1100",
+      "0110.0110"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "Converting (-2047)10 into a 32-bit 2's complement",
+    "options": [
+      "1111 1111 1111 1111 1111 1000 0000 000",
+      "1111 1111 1111 1111 1111 1000 0000 1111",
+      "1111 1111 1111 1111 1111 1000 1111 000",
+      "0000 1111 1111 1111 1111 1000 0000 000"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "COTS stands for_____",
+    "options": [
+      "Commercial Off-The-Shelf systems",
+      "Commercial Off-The-Shelf states",
+      "Commercial Off-The System state",
+      "Commercial Off The System"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "Counters that transfer invalid states to valid states are called",
+    "options": [
+      "valid counters",
+      "self starting counters",
+      "invalid counters",
+      "undefined counters"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "CPU fetches the instruction from memory according to the value of:",
+    "options": [
+      "program counter",
+      "status register",
+      "instruction register",
+      "program status word"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "DataInputStream is an example of",
+    "options": [
+      "Output stream",
+      "I/O stream",
+      "Filtered stream",
+      "File stream"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "Decimal digit in BCD can be represented by",
+    "options": [
+      "1 input line",
+      "2 input lines",
+      "3 input lines",
+      "4 input lines"
+    ],
+    "correct_answer": "3"
+  },
+  {
+    "question": "Decimal digits are displayed on",
+    "options": [
+      "input",
+      "output",
+      "7 segment",
+      "flip flop"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "Decimal number 4 in excess-3 coding is",
+    "options": [
+      "110",
+      "111",
+      "1100",
+      "1110"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "Decimal number 5 in 2421 coding",
+    "options": [
+      "1011",
+      "1001",
+      "1010",
+      "1100"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "Definite time in a flipflop is called",
+    "options": [
+      "clear time",
+      "pulse time",
+      "hold time",
+      "reset time"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "Delay elements provide",
+    "options": [
+      "large memory",
+      "outputs",
+      "clock pulses",
+      "short term memory"
+    ],
+    "correct_answer": "3"
+  },
+  {
+    "question": "Demorgan law over addition is",
+    "options": [
+      "(x.y)'=x'y'",
+      "(x+y)'=x+'y'",
+      "(x+y)'=x'y'",
+      "(x+y)'=x'"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "Determine the output frequency for a frequency division circuit that contains 12 flip-flops with an input clock frequency of 20.48 MHz.",
+    "options": [
+      "10.24 kHz",
+      "5 kHz",
+      "30.24 kHz",
+      "15 kHz"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "Determine which of the following is valid character constant ?",
+    "options": [
+      "'//'",
+      "'\\0'",
+      "'xyz'",
+      "'\\052'"
+    ],
+    "correct_answer": "3"
+  },
+  {
+    "question": "Different ___________ may have conflicting requirements",
+    "options": [
+      "programmers",
+      "designers",
+      "stakeholders",
+      "analysts"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "Digital no system is said to be of base or radix",
+    "options": [
+      "8",
+      "10",
+      "2",
+      "16"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "Dijkstra algorithm is also called the ...................... shortest path problem.",
+    "options": [
+      "multiple source",
+      "single source",
+      "single destination",
+      "multiple destination"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "Dijkstra’s banking algorithm for resource allocation is used for",
+    "options": [
+      "Deadlock recovery",
+      "Deadlock avoidance",
+      "Deadlock detection",
+      "Deadlock prevention"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "Down counter decrement value by",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "During a class inheritance in CPP, if the visibility mode or mode of derivation is not provided, then by default visibility mode is___________.",
+    "options": [
+      "onlineexam.t",
+      "protected",
+      "private",
+      "friend"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "During the execution of a program which gets initialized first?",
+    "options": [
+      "IR",
+      "MAR",
+      "PC",
+      "MDR"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "During transfer of data between the processor and memory we use ______",
+    "options": [
+      "Cache",
+      "TLB",
+      "Buffers",
+      "Registers"
+    ],
+    "correct_answer": "3"
+  },
+  {
+    "question": "e*x=x*e=x is the",
+    "options": [
+      "commutative property",
+      "inverse property",
+      "associative property",
+      "identity element"
+    ],
+    "correct_answer": "3"
+  },
+  {
+    "question": "Each gate has a delay of",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "Each logic gate gives delay of",
+    "options": [
+      "1 to 5 ns",
+      "2 to 10 ns",
+      "3 to 10 ns",
+      "3 to 5 ns"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "Effect of change of input to more than one state is called",
+    "options": [
+      "undefined condition",
+      "race condition",
+      "reset condition",
+      "ideal condition"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "Effective access time is directly proportional to:",
+    "options": [
+      "hit ratio",
+      "memory access time",
+      "page-fault rate",
+      "none of the mentioned"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "Effective bandwidth is bandwidth that network needs to allocate for the",
+    "options": [
+      "Flow of Traffic",
+      "Flow of Data",
+      "Flow of Protocol",
+      "Flow of Amount"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "Electric digital systems use signals that have circuit elements having",
+    "options": [
+      "One stable state",
+      "Two stable states",
+      "Three stable states",
+      "Four stable states"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "Events are translated to ____ requests, which are sent either to the model or to the view",
+    "options": [
+      "client",
+      "source",
+      "service",
+      "multiple"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "Exclusive-OR is an",
+    "options": [
+      "prime function",
+      "undefined function",
+      "even function",
+      "odd function"
+    ],
+    "correct_answer": "3"
+  },
+  {
+    "question": "External fragmentation will not occur when :",
+    "options": [
+      "worst fit is used",
+      "first fit is used",
+      "no matter which algorithm is used, it will always occur",
+      "best fit is used"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "FAST stands for ________",
+    "options": [
+      "Functional Application Specification Technique",
+      "Fast Application Specification Technique",
+      "Facilitated Application Specification Technique",
+      "Facility Architecture Software Test"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "FAT stands for",
+    "options": [
+      "First Application Table",
+      "File Application Table",
+      "First Allocation Table",
+      "File Allocation Table"
+    ],
+    "correct_answer": "3"
+  },
+  {
+    "question": "Feedback among logic gates make asynchronous system",
+    "options": [
+      "stable",
+      "unstable",
+      "complex",
+      "combinational"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "file system with 300 GByte disk uses a file descriptor with 8 direct bloc addresses, I indirect block address and 1 doubly indirect block address. The size of each disk block is 128 Bytes and the size of each disk block address is 8 Bytes. The maximum possible file size in this file system is",
+    "options": [
+      "3 KBytes",
+      "35 KBytes",
+      "280 KBytes",
+      "dependent on the size of the disk"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "Fill in the blank to compile the code successfully?\n\nabstract class A \n{\n  int a = 100;\n  public abstract void showA(); \n}\n\npublic class B extends A\n{\n  _ _ _ _ _ _ _ _ _         // Fill the blank\n\n  public static void main(String []args)\n  { \n    A objA = new B();\n    objA.showA(); \n  }\n}",
+    "options": [
+      "onlineexam.abstract void showA() { }",
+      "onlineexam.void showA() { }",
+      "void showA() { }",
+      "onlineexam.B showA() { }"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "First Come First Serve (FCFS) Scheduling is…….",
+    "options": [
+      "used to reduce waiting time",
+      "easy to understand and implement",
+      "impossible to implement",
+      "None of the Above"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "First Come First Serve(FCFS) is",
+    "options": [
+      "Preemptive scheduling",
+      "Nonpreemptive scheduling",
+      "deadline scheduling",
+      "None of the above"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "Flipflops are",
+    "options": [
+      "level triggered",
+      "edge triggered",
+      "clock triggered",
+      "pulse triggered"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "Floating point representation is used to store",
+    "options": [
+      "Boolean values",
+      "whole numbers",
+      "real integers",
+      "integers"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "For operation of multiplication hardware needs minimum ALU of",
+    "options": [
+      "16",
+      "32",
+      "64",
+      "128"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "For the processes listed in the following table, which of the following scheduling schemes will give the lowest average turnaround time?\nProcess    Arrival Time    Processing Time\n  A              0              3\n  B              1              6\n  C              4              4\n  D              6              2",
+    "options": [
+      "First Come First Serve",
+      "Non-preemptive Shortest Job First",
+      "Shortest Remaining Time",
+      "Round Robin with Quantum value two"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "Fork is",
+    "options": [
+      "the dispatching of a task",
+      "the creation of a new process",
+      "the creation of a new job",
+      "increasing the priority of a task"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "Four different attributes to control traffic have been devised in",
+    "options": [
+      "IP Relay",
+      "Data Relay",
+      "Source Relay",
+      "Frame Relay"
+    ],
+    "correct_answer": "3"
+  },
+  {
+    "question": "Four gates in a package is called",
+    "options": [
+      "biruple",
+      "octruple",
+      "dualruple",
+      "quadruple"
+    ],
+    "correct_answer": "3"
+  },
+  {
+    "question": "Fragmentation of the file system",
+    "options": [
+      "can always be prevented",
+      "occurs only if the file system is used improperly",
+      "is a characteristic of all file systems",
+      "can be temporarily removed by compaction"
+    ],
+    "correct_answer": "3"
+  },
+  {
+    "question": "Frames from one LAN can be transmitted to another LAN via the device",
+    "options": [
+      "Router",
+      "Repeater",
+      "Modem",
+      "Bridge"
+    ],
+    "correct_answer": "3"
+  },
+  {
+    "question": "From among the following given scenarios determine the right one to justify interrupt mode of data-transfer",
+    "options": [
+      "Bulk transfer of several kilo-byte",
+      "Moderately large data transfer but more that 1 KB",
+      "keyboard inputs",
+      "Short events like mouse action"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "FTP server listens to connections on port",
+    "options": [
+      "19 and 20",
+      "20 and 21",
+      "21 and 22",
+      "20 and 22"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "Full adder consists of",
+    "options": [
+      "1 half adder",
+      "2 half adders",
+      "3 half adders",
+      "4 half adders"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "Garbage Collection in java is done by who?",
+    "options": [
+      "Java Compiler",
+      "Object class",
+      "System class",
+      "JVM"
+    ],
+    "correct_answer": "3"
+  },
+  {
+    "question": "Generally Dynamic RAM is used as main memory in a computer system as it",
+    "options": [
+      "Consumes less power",
+      "has higher speed",
+      "has lower cell density",
+      "needs refreshing circuitry"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "Give the decimal value of binary 10000110.",
+    "options": [
+      "13410",
+      "14410",
+      "11010",
+      "12610"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "Give the decimal value of binary 10010.",
+    "options": [
+      "610",
+      "910",
+      "1810",
+      "2010"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "Given the following code snippet;\n\nint salaries[];\nint index = 0;\nsalaries = new int[4];\nwhile (index < 4)\n{\nsalaries[index] = 10000;\nindex++;\n}\nWhat is the value of salaries [3]?",
+    "options": [
+      "10000",
+      "40000",
+      "4000",
+      "15000"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "Given the following code, which line will generate an error ?\n\nclass Test\n{\n  static int x = 100;              // line 3\n  int y = 200;                     // line 4 \n  public static void main(String []args)\n  {\n     final int z;                  // line 7\n     z = x + y;                    // line 8\n     System.out.println(z);\n  }\n}",
+    "options": [
+      "line 3",
+      "line 4",
+      "line 7",
+      "line 8"
+    ],
+    "correct_answer": "3"
+  },
+  {
+    "question": "Given the following declarations, which assignment is legal?\n\n// Class declarations :\ninterface A {}\nclass B {}\nclass C extends B implements A {}\nclass D implements A {}\n \n// Declaration statements :\nB b = new B();\nC c = new C();\nD d = new D();",
+    "options": [
+      "c = d;",
+      "d = c;",
+      "A a = d;",
+      "d = (D)c;"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "Given the statement , maruti.engine.bolts=25 . Which of the following is true?",
+    "options": [
+      "Structure bolts is nested within structure engine",
+      "Structure engine is nested within structure maruti",
+      "Structure maruti is nested within structure engine",
+      "Structure maruti nested within structure bolts"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "Graphs are examples of which type of data structure",
+    "options": [
+      "Linear and Hierarchical",
+      "Non-Linear and Hierarchical",
+      "Linear and Non-Hierarchical",
+      "Non-Linear and Non-Hierarchical"
+    ],
+    "correct_answer": "3"
+  },
+  {
+    "question": "Gray code representation of 14 is",
+    "options": [
+      "1010",
+      "1100",
+      "1001",
+      "1110"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "Group 1 contains some CPU scheduling algorithms and Group 2 contains some applications. Match entries in Group 1 to entries in Group 2.\n Group I                          Group II\n(P) Gang Scheduling              (1) Guaranteed Scheduling\n(Q) Rate Monotonic Scheduling    (2) Real-time Scheduling\n(R) Fair Share Scheduling        (3) Thread Scheduling",
+    "options": [
+      "P – 3 Q – 2 R – 1",
+      "P – 1 Q – 2 R – 3",
+      "P – 2 Q – 3 R – 1",
+      "P – 1 Q – 3 R – 2"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "How can such a restriction be enforced ?\nA method within a class is only accessible by classes that are defined within the same package as the class of the method.",
+    "options": [
+      "Declare the method with the keyword onlineexam.br>",
+      "Declare the method with keyword protected",
+      "Declare the method with keyword private",
+      "Without any accessibility specifiers."
+    ],
+    "correct_answer": "3"
+  },
+  {
+    "question": "How do we define a destructor?",
+    "options": [
+      "X~() {}",
+      "X() {}~",
+      "X() ~{}",
+      "~X() {}"
+    ],
+    "correct_answer": "3"
+  },
+  {
+    "question": "How is a J-K flip-flop made to toggle?",
+    "options": [
+      "J = 0, K = 0",
+      "J = 1, K = 0",
+      "J = 0, K = 1",
+      "J = 1, K = 1"
+    ],
+    "correct_answer": "3"
+  },
+  {
+    "question": "How is the capacity of running several program simultaneously known ?",
+    "options": [
+      "Multiprocessing",
+      "Multiprogramming",
+      "Multisystem",
+      "Multi resources"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "How many Scenarios are there in elicitation activities?",
+    "options": [
+      "One",
+      "Two",
+      "Three",
+      "Four"
+    ],
+    "correct_answer": "3"
+  },
+  {
+    "question": "How many 32K x 1 RAM chips are needed to provide a memory capacity of 256K-bytes?",
+    "options": [
+      "8",
+      "32",
+      "64",
+      "128"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "How many numeric data types are supported in Java?",
+    "options": [
+      "2",
+      "4",
+      "8",
+      "6"
+    ],
+    "correct_answer": "3"
+  },
+  {
+    "question": "How many subnets are created from a Class C addressing space that is using a /29 subnet mask?",
+    "options": [
+      "16",
+      "128",
+      "32",
+      "64"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "HUB is a _________ Device and Switch is a ________ Device.",
+    "options": [
+      "Unicast, Multicast",
+      "Multicast, Unicast",
+      "Broadcast, Unicast",
+      "None of Above"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "Human readable base representation of numbers is",
+    "options": [
+      "Binary",
+      "Decimal",
+      "Hex",
+      "Hexdecimal"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "IC no of NOT gate",
+    "options": [
+      "7402",
+      "7404",
+      "7401",
+      "7406"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "IC of 7 segment display contains",
+    "options": [
+      "4 leds",
+      "5 leds",
+      "6 leds",
+      "7 leds"
+    ],
+    "correct_answer": "3"
+  },
+  {
+    "question": "ICMP is primarily used for",
+    "options": [
+      "forwarding",
+      "addressing",
+      "error and diagnostic functions",
+      "routing"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "Identify the disadvantage of Spiral Model.",
+    "options": [
+      "Doesn’t work well for smaller projects",
+      "High amount of risk analysis",
+      "Strong approval and documentation control",
+      "Additional Functionality can be added at a later date"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "Identify the correct sequence in which the following packets are transmitted on the network by a host when a browser requests a webpage from a remote server, assuming that the host has just been restarted.",
+    "options": [
+      "HTTP GET request, DNS query, TCP SYN",
+      "DNS query, HTTP GET request, TCP SYN",
+      "DNS query, TCP SYN, HTTP GET request",
+      "TCP SYN, DNS query, HTTP GET request"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "If a block can be placed at every location in cache, this cache is said to be",
+    "options": [
+      "Indirectly mapped",
+      "Directly mapped",
+      "Fully associative",
+      "Partially associative"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "If a host broadcasts a frame that includes a source and destination hardware address, and its purpose is to assign IP addresses to itself, which protocol at the Network layer does the host use?",
+    "options": [
+      "RARP",
+      "ARPA",
+      "ICMP",
+      "TCP"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "If an Ethernet port on a router were assigned an IP address of 172.16.112.1/25, what would be the valid subnet address of this host?",
+    "options": [
+      "172.16.96.0",
+      "172.16.0.0",
+      "172.16.112.0",
+      "172.16.255.0"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "If an odd parity is adopted, parity bit is chosen in such that total no of 1's is",
+    "options": [
+      "odd",
+      "even",
+      "positive",
+      "negative"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "If every requirement can be checked by a cost-effective process, then the SRS is",
+    "options": [
+      "verifiable",
+      "traceable",
+      "modifiable",
+      "complete"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "If relocation is static and is done at assembly or load time, compaction _________.",
+    "options": [
+      "cannot be done",
+      "must not be done",
+      "must be done",
+      "can be done"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "If result = 2 + 3 * 5, what is the value and type of ‘result’ variable?",
+    "options": [
+      "17, byte",
+      "25, byte",
+      "17, int",
+      "25, int"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "If the data unit is 111111 and the divisor is 1010. In CRC method, what is the dividend at the transmission before division?",
+    "options": [
+      "1111110000",
+      "1111111010",
+      "111111000",
+      "111111"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "If the derived class is struct, then default visibility mode is_______",
+    "options": [
+      "onlineexam.t",
+      "protected",
+      "private",
+      "struct can’t inherit class"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "If the disk head is located initially at 32, find the number of disk moves required with FCFS if the disk queue of I/O blocks requests are 98, 37, 14, 124, 65, 67.",
+    "options": [
+      "331",
+      "321",
+      "355",
+      "361"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "If the quantum time of round robin algorithm is very large, then it is equivalent to:",
+    "options": [
+      "First in first out",
+      "Lottery scheduling",
+      "Shortest Job Next",
+      "None of the above"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "If you were to create client/server applications, which model would you go for?",
+    "options": [
+      "WINWIN Spiral Model",
+      "Spiral Model",
+      "Concurrent Model",
+      "Incremental Model"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "import keyword is used to?",
+    "options": [
+      "both built-in packages and user-defined packages into your java source file.",
+      "import only built-in packages into your java source file",
+      "import only user-defined packages into your java source file",
+      "None of the above"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "In a men head count, a __________ head end under the armpit usually includes the shoulder and the neck.",
+    "options": [
+      "1st",
+      "2nd",
+      "3rd",
+      "4th"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "In 14 pin gate pin no 14 is",
+    "options": [
+      "Vcc",
+      "Vdd",
+      "ground",
+      "AC"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "In 14 pin gate pin no 7 is",
+    "options": [
+      "Vcc",
+      "Vdd",
+      "ground",
+      "AC"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "In ____ mode, the authentication header is inserted immediately after the IP header.",
+    "options": [
+      "Tunnel",
+      "Transport",
+      "Authentication",
+      "Both A and B"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "In _____,the prototype is developed from an initial specification, delivered for experiment then discarded",
+    "options": [
+      "evolutionary prototyping",
+      "throw away prototyping",
+      "design prototyping",
+      "user prototyping"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "In _____________start with high-level system and integrate from the top-down replacing individual components by stubs where appropriate",
+    "options": [
+      "top-down testing",
+      "bottom up testing",
+      "sandwich testing",
+      "risk oriented testing"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "In a ________start with the least well-understood parts",
+    "options": [
+      "UI prototype",
+      "design prototype",
+      "throw-away prototype",
+      "evolutionary prototype"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "In a MAX heap tree .....",
+    "options": [
+      "value in a node is greater than every value in left subtree and smaller than right subtree",
+      "value in a node is greater than the values of its child nodes",
+      "value in a node is smaller than every value in left subtree and smaller than right subtree",
+      "value in a node is lesser than the values of its child nodes"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "In a packet switching network, if the message size is 48 bytes and each packet contains a header of 3 bytes. If 24 packets are required to transmit the message, the packet size is ................",
+    "options": [
+      "2 bytes",
+      "1 byte",
+      "4 bytes",
+      "5 bytes"
+    ],
+    "correct_answer": "3"
+  },
+  {
+    "question": "In a program using subroutine call instruction, it is necessary",
+    "options": [
+      "initialise program counter",
+      "Clear the accumulator",
+      "Reset the microprocessor",
+      "Clear the instruction register"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "In a tree, between any two nodes, there is _______-",
+    "options": [
+      "No path",
+      "Atleast one path",
+      "Atmost one path",
+      "Exactly one path"
+    ],
+    "correct_answer": "3"
+  },
+  {
+    "question": "In adder subtractor circuit when addition exceeds from 15 output carry becomes",
+    "options": [
+      "1",
+      "0",
+      "x",
+      "undefined"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "In an absolute loading scheme, which loader function(s) is (are) accomplished by programmer",
+    "options": [
+      "Allocation",
+      "Linking",
+      "Allocation and Linking",
+      "Reallocation"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "In associative mapping during LRU, the counter of the new block is set to ‘0’ and all the others are incremented by one,when _____ occurs.",
+    "options": [
+      "Miss",
+      "Hit",
+      "Delay",
+      "Delayed Hit"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "In asynchronous circuits changes occur with change",
+    "options": [
+      "inputs",
+      "outputs",
+      "clock pulses",
+      "time"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "In BCD no. 1010 has",
+    "options": [
+      "meaning",
+      "no meaning",
+      "value",
+      "Vcc"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "In Congestion Control, a bit can be set in a packet moving in direction opposite to congestion in",
+    "options": [
+      "Backward Signaling",
+      "Implicit Signaling",
+      "Source Signaling",
+      "Data Signaling"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "In Congestion Control, DVL stands for",
+    "options": [
+      "Delay Versus Line",
+      "Delay Versus Lose",
+      "Delay Versus Load",
+      "Delay Versus Louden"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "In Congestion Control, packet is put at end of input queue while waiting to be",
+    "options": [
+      "Checked",
+      "Entered",
+      "Reached",
+      "Controlled"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "In Congestion, CBR stands for",
+    "options": [
+      "Control Bit Rate",
+      "Constant Bit Rate",
+      "Constant Byte Rate",
+      "Control Byte Rate"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "In contiguous memory allocation :",
+    "options": [
+      "each process is contained in a single contiguous section of memory",
+      "all processes are contained in a single contiguous section of memory",
+      "the memory space is contiguous",
+      "the memory space is not contiguous"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "In DFDs, user interactions with the system is denoted by:",
+    "options": [
+      "Circle",
+      "Arrow",
+      "Rectangle",
+      "Triangle"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "In division, two operands (dividend and divisor) and answer (quotient) of divide are accompanied by a second answer called the",
+    "options": [
+      "Reminder",
+      "Multiplier",
+      "Divisor",
+      "Trap"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "In flipflop if set input is returned to 0, output",
+    "options": [
+      "changes",
+      "inverts",
+      "remain same",
+      "complements"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "In Integrated Services, when a source makes a reservation, it needs to define a",
+    "options": [
+      "Flow STCP",
+      "Flow Control",
+      "Flow Specification",
+      "Flow Solution"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "In link state routing algorithm after the construction of link state packets, new routes are computed using:",
+    "options": [
+      "DES algorithm",
+      "Dijkstra's algorithm",
+      "RSA algorithm",
+      "Packets"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "In mealy model outputs are functions of",
+    "options": [
+      "present state",
+      "input state",
+      "next state",
+      "present and input state"
+    ],
+    "correct_answer": "3"
+  },
+  {
+    "question": "In moore model outputs are functions of",
+    "options": [
+      "present state",
+      "input state",
+      "next state",
+      "Present state and inputstate"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "In most of logic gates 1 means",
+    "options": [
+      "0 V",
+      "1 V",
+      "5 V",
+      "10 V"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "In Multipath inheritance, in order to remove duplicate set of records in child class then",
+    "options": [
+      "Write Virtual function in parent classes",
+      "Write virtual functions is base class",
+      "Make base class as virtual base class",
+      "All of these"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "In Operating Systems, a single thread is termed as",
+    "options": [
+      "Light Weight Process (LWP)",
+      "Heavy Weight Process (HWP)",
+      "Both (1) & (2)",
+      "None of the above"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "In OSI network architecture, the dialogue control and token management are responsibilities of ?",
+    "options": [
+      "network layer",
+      "session layer",
+      "transport layer",
+      "data link layer"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "In positive logic, ________.",
+    "options": [
+      "a HIGH = 1, a LOW = 0",
+      "a LOW = 1, a HIGH = 0",
+      "only HIGHs are present",
+      "only LOWs are present"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "In Quality of Service, Jitter is variation in delay for packets belonging to the",
+    "options": [
+      "Data Flow",
+      "Same Flow",
+      "Protocol Flow",
+      "IP Flow"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "In round robin CPU scheduling as time quantum is increased the average turn around time",
+    "options": [
+      "increases",
+      "decreases",
+      "remains constant",
+      "varies irregularly"
+    ],
+    "correct_answer": "3"
+  },
+  {
+    "question": "In signed-magnitude binary division, if the dividend is (11100) 2 and divisor is (10011) 2 then the result is",
+    "options": [
+      "(00100) 2",
+      "(10100) 2",
+      "(11001) 2",
+      "(01100) 2"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "In stack organization the insertion operation is known as ?",
+    "options": [
+      "Pop",
+      "Push",
+      "Down",
+      "Upper"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "In T flipflop when state of T flipflop has to be complemented T must be",
+    "options": [
+      "0",
+      "1",
+      "t",
+      "t+1"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "In Unix, “cat” command is used to display ……",
+    "options": [
+      "file names",
+      "folder names",
+      "file contents",
+      "None of the above"
+    ],
+    "correct_answer": "2"
+  },
+
+
+  {
+    "question": "In Unix, “file” command is used to determine ……",
+    "options": [
+      "file name",
+      "file type",
+      "file content",
+      "None of the above"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "In virtual memory systems, Dynamic address translation",
+    "options": [
+      "is the hardware necessary to implement paging",
+      "stores pages at a specific location on disk",
+      "is part of the operating system paging algorithm",
+      "is useless when swapping is used"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "In virtual memory systems, Dynamic address translation (Variation)",
+    "options": [
+      "is the hardware necessary to implemented paging",
+      "is useless when swapping is used.",
+      "stores pages at a specifies location on disk",
+      "is part of the operating system paging algorithm"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "Increasing the RAM of a computer typically improves performance because:",
+    "options": [
+      "Larger RAMs are faster",
+      "Virtual memory increases",
+      "Fewer page faults occur",
+      "Fewer segmentation faults occur"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "Individual components are tested is termed as_________",
+    "options": [
+      "Regression testing",
+      "System testing",
+      "Module testing",
+      "Sub-system testing"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "Information when is written in cache, both to block in cache and block present in lower-level memory, refers to",
+    "options": [
+      "Miss rate",
+      "Write-back",
+      "Write-through",
+      "Dirty bit"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "Inheritance is the property of object-oriented systems that allows objects to be built from other ____________",
+    "options": [
+      "attributes",
+      "objects",
+      "method",
+      "class"
+    ],
+    "correct_answer": "3"
+  },
+  {
+    "question": "Instability condition can be determined from",
+    "options": [
+      "table",
+      "map",
+      "graph",
+      "logic diagram"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "Instruction that are used for reading from memory by an IOP called ?",
+    "options": [
+      "Commands",
+      "Pulses",
+      "Blocks",
+      "Interrupt"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "int a[10] will occupy ________ number of bytes in the memory (assuming 16-bit integer environment)",
+    "options": [
+      "2",
+      "10",
+      "12",
+      "20"
+    ],
+    "correct_answer": "3"
+  },
+  {
+    "question": "Internal state and input values altogether are called",
+    "options": [
+      "full state",
+      "total state",
+      "initial state",
+      "output state"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "Interoperability requirements, legislative requirements are examples of __________",
+    "options": [
+      "organizational requirement",
+      "Product requirements",
+      "External requirements",
+      "Process requirements"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "Interprocess communication",
+    "options": [
+      "allows processes to synchronize activity",
+      "is required for all processes",
+      "is usually done via disk drives",
+      "is never necessary"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "Interrupt latency should be…… for Real Time Operating Systems (RTOS)?",
+    "options": [
+      "minimal",
+      "maximum",
+      "zero",
+      "None of the above"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "Interrupts form an important part of _____ systems",
+    "options": [
+      "Batch processing",
+      "Multitasking",
+      "Real-time processing",
+      "Multi-user"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "ISO recommended international testing condition is:",
+    "options": [
+      "20°C & 65% RH",
+      "30°C & 65% RH",
+      "20°C & 75% RH",
+      "30°C & 75% RH"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "J=K=0 will make flip-flops",
+    "options": [
+      "changed",
+      "reversed",
+      "unchanged",
+      "stopped"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "Java source codes are compiled and converted to",
+    "options": [
+      "Objectcodes",
+      "Assemblycodes",
+      "Binarycodes",
+      "Bytecodes"
+    ],
+    "correct_answer": "3"
+  },
+  {
+    "question": "Kruskal algorithm follows ___________ approach.",
+    "options": [
+      "Divide and Conquer",
+      "Dynamic programming",
+      "Greedy",
+      "Backtracking"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "Lamp handball game uses application of",
+    "options": [
+      "unidirectional shift register",
+      "bidirectional shift register",
+      "serial shift register",
+      "parallel shift register"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "Latches are",
+    "options": [
+      "level triggered",
+      "edge triggered",
+      "clock triggered",
+      "pulse triggered"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "Late delivery of hardware or support software is an example for __________",
+    "options": [
+      "product risk",
+      "people risk",
+      "technology risk",
+      "organizational risk"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "Layer-2 Switch is also called",
+    "options": [
+      "Multiport Hub",
+      "Multiport Switch",
+      "Multiport Bridge",
+      "Multiport NIC"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "LED stands for",
+    "options": [
+      "light emitting diode",
+      "light emitting device",
+      "light electronic diode",
+      "light electronic device"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "Left most position in lamp handball game is the",
+    "options": [
+      "wall",
+      "fence",
+      "ball",
+      "indicator"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "Let the page fault service time be 10ms in a computer with average memory access time being 20ns. If one page fault is generated for every 10^6 memory accesses, what is the effective access time for the memory?",
+    "options": [
+      "21ns",
+      "30ns",
+      "23ns",
+      "35ns"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "Let the time taken to switch between user and kernel modes of execution be t1 while the time taken to switch between two processes be t2. Which of the following is TRUE?",
+    "options": [
+      "t1 > t2",
+      "t1 = t2",
+      "t1 < t2",
+      "nothing can be said about the relation between t1 and t2"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "Linear arrays are also called",
+    "options": [
+      "Straight line array",
+      "One-dimensional array",
+      "Vertical array",
+      "Horizontal array"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "Links between dependent requirements refers to _____",
+    "options": [
+      "Design traceability",
+      "Requirement traceability",
+      "Source traceability",
+      "Feature traceability"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "Links from the requirements to the design refers to ______traceability",
+    "options": [
+      "Design",
+      "Requirements",
+      "Source",
+      "Destination"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "Logic probe is used for",
+    "options": [
+      "testing",
+      "debugging",
+      "monitoring",
+      "controlling"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "Long Term Scheduler is a……",
+    "options": [
+      "CPU scheduler",
+      "process swapping scheduler",
+      "job scheduler",
+      "None of the above"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "M flip-flops produces",
+    "options": [
+      "2^m-1 states",
+      "2-1 states",
+      "2^m+1 states",
+      "2^m states"
+    ],
+    "correct_answer": "3"
+  },
+  {
+    "question": "Main function of shared memory is:",
+    "options": [
+      "to use primary memory efficiently",
+      "to do intra process communication",
+      "to do inter process communication",
+      "to use secondary memory efficiently"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "Making of transition table consists of",
+    "options": [
+      "2 steps",
+      "4 steps",
+      "5 steps",
+      "6 steps"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "Mandating a particular IDE, programming language or development method are examples of ___________",
+    "options": [
+      "product requirements",
+      "process requirements",
+      "organisational requirement",
+      "benchmarks"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "Match the following: A. Repeaters (1. Data Link Layer) B. Bridges (2. Network Layer) C. Routers (3. Physical Layer)",
+    "options": [
+      "A--->3, B---->1, C---->2",
+      "A --->2, B--->3, C--->1",
+      "A--->3, B----->2, C---->1",
+      "A---->1, B---->2, C---->3"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "Match the following: 1. Segments (A. Associated with Data Link Layer) 2. Packets (B. Associated with Network Layer) 3. Frames (C. Associated with Transport Layer)",
+    "options": [
+      "1--->A; 2---->B; 3 --->C",
+      "1--->A; 2---->C; 3 --->B",
+      "1--->C; 2---->A; 3 --->B",
+      "1--->C; 2---->B; 3 --->A"
+    ],
+    "correct_answer": "3"
+  },
+  {
+    "question": "MAX heap can be used to sort the data in an ____________",
+    "options": [
+      "Ascending order",
+      "Descending order",
+      "Both ascending or descending order",
+      "Random order"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "Maxterms are also called",
+    "options": [
+      "standard sum",
+      "standard product",
+      "standard division",
+      "standard subtraction"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "Medium term scheduler is based on",
+    "options": [
+      "Scroll in, Scroll out",
+      "Fetch in, Fetch out",
+      "Swap in, Swap out",
+      "None of the above"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "Memory management is :",
+    "options": [
+      "not used in modern operating system",
+      "replaced with virtual memory on current systems",
+      "not used on multiprogramming systems",
+      "critical for even the simplest operating systems"
+    ],
+    "correct_answer": "3"
+  },
+  {
+    "question": "Memory that is called a read write memory is",
+    "options": [
+      "ROM",
+      "EPROM",
+      "RAM",
+      "Registers"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "Memory unit accessed by content is called",
+    "options": [
+      "Read only memory",
+      "Programmable Memory",
+      "Virtual Memory",
+      "Associative Memory"
+    ],
+    "correct_answer": "3"
+  },
+  {
+    "question": "Message queuing is managed by?",
+    "options": [
+      "Shell",
+      "Kernel",
+      "Fork",
+      "None of the above"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "Minimum number of queues required for priority queue implementation?",
+    "options": [
+      "5",
+      "4",
+      "3",
+      "2"
+    ],
+    "correct_answer": "3"
+  },
+  {
+    "question": "Misunderstandings between software users and developers are exposed by _________",
+    "options": [
+      "white box testing",
+      "testing",
+      "coding",
+      "prototyping"
+    ],
+    "correct_answer": "3"
+  },
+  {
+    "question": "Momentary change in state of flipflop is called",
+    "options": [
+      "feedback path",
+      "tri state",
+      "signals",
+      "trigger"
+    ],
+    "correct_answer": "3"
+  },
+  {
+    "question": "Most preceded operator is",
+    "options": [
+      "parenthesis",
+      "AND",
+      "OR",
+      "NOT"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "Most significant bit of arithmetic addition is called",
+    "options": [
+      "overflow",
+      "carry",
+      "output",
+      "zero bit"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "Mostly gates works on",
+    "options": [
+      "5 V",
+      "4 V",
+      "3 V",
+      "2 V"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "Multiple inheritance is not supported in Java because?",
+    "options": [
+      "To remove ambiguity and provide more maintainable and clear design.",
+      "Java is a Object oriented language.",
+      "Multiple inheritance is not an important feature.",
+      "All of above"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "Multiple variable xor is defined as",
+    "options": [
+      "inverted or function",
+      "prime function",
+      "even function",
+      "odd function"
+    ],
+    "correct_answer": "3"
+  },
+  {
+    "question": "Multiprogramming systems:",
+    "options": [
+      "Are easier to develop than single programming systems",
+      "Execute each job faster",
+      "Are used only one large mainframe computers.",
+      "Execute more jobs in the same time period"
+    ],
+    "correct_answer": "3"
+  },
+  {
+    "question": "MVC stands for ______",
+    "options": [
+      "Memento View Controller",
+      "Model View Controller",
+      "Model View Component",
+      "Movie View Controller"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "Naming states is done in",
+    "options": [
+      "transition table",
+      "stable state",
+      "flow table",
+      "excitation table"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "NAND latch works when both inputs are",
+    "options": [
+      "1",
+      "0",
+      "inverted",
+      "dont cares"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "Negative transition in flip-flops are referred to as",
+    "options": [
+      "clock",
+      "negative edge",
+      "positive edge",
+      "positive edge and negative edge"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "Next state of B(t) will be",
+    "options": [
+      "B(t-1)",
+      "B(t+1)",
+      "B(t-2)",
+      "B(t+2)"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "No of NAND gate is",
+    "options": [
+      "7000",
+      "7200",
+      "7400",
+      "7800"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "Nor function is dual of",
+    "options": [
+      "and function",
+      "or function",
+      "xor function",
+      "nand function"
+    ],
+    "correct_answer": "3"
+  },
+  {
+    "question": "Not operation is obtained by using one input",
+    "options": [
+      "AND gate",
+      "OR gate",
+      "NAND gate",
+      "XOR gate"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "Nouns in the textual description are considered to be _______.",
+    "options": [
+      "Methods",
+      "Class",
+      "File",
+      "Node"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "Objects are grouped into ______",
+    "options": [
+      "Classes",
+      "Methods",
+      "Procedures",
+      "Records"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "Old, valuable systems must be maintained and updated are termed as___________",
+    "options": [
+      "Normalized system",
+      "Concurrent systems",
+      "Distributed systems",
+      "Legacy systems"
+    ],
+    "correct_answer": "3"
+  },
+  {
+    "question": "One hex digit is sometimes referred to as a(n):",
+    "options": [
+      "byte",
+      "nibble",
+      "grouping",
+      "instruction"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "One that is not postulate of Boolean algebra",
+    "options": [
+      "commutative",
+      "duality",
+      "associative",
+      "identity element"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "One that shows distributive law of addition over multiplication",
+    "options": [
+      "x+(y.z)=(x.y)+(x.z)",
+      "x+(y.z)=(x+y).(x+z)",
+      "x+(y.z)=(x.y).(x+z)",
+      "x.(y+z)=(x+y).(x+z)"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "One userlevel thread is mapped to many kernel level thread is known as….",
+    "options": [
+      "One to Many model",
+      "One to One model",
+      "Many to One model",
+      "None of the above"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "Operating System maintains the page table for:",
+    "options": [
+      "each process",
+      "each thread",
+      "each instruction",
+      "each address"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "OR gates are converted to NAND gates using",
+    "options": [
+      "invert OR",
+      "AND invert",
+      "NAND invert",
+      "EX-OR"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "Outputs of SR latch are",
+    "options": [
+      "x and y",
+      "a and b",
+      "s and r",
+      "q and q'"
+    ],
+    "correct_answer": "3"
+  },
+  {
+    "question": "Packets wait in a buffer (queue) until node is ready to process them in",
+    "options": [
+      "Out-of-Order Ones",
+      "First-in First out",
+      "Out-of-Reach Ones",
+      "First-in-First Ones"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "Page fault occurs when",
+    "options": [
+      "When a requested page is in memory",
+      "When a requested page is not in memory",
+      "When a page is corrupted",
+      "When an exception is thrown"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "Page stealing",
+    "options": [
+      "is a sign of an efficient system",
+      "should be the tuning goal",
+      "is taking page frames from other working sets",
+      "is taking larger disk spaces for pages paged out"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "Page table level that says if page has been modified, is known as",
+    "options": [
+      "Presence",
+      "Dirty",
+      "Read/Write",
+      "Page size"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "Parallel load transfer is done in",
+    "options": [
+      "1 cycle",
+      "2 cycle",
+      "3 cycle",
+      "4 cycle"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "Parity checker is used for",
+    "options": [
+      "detection",
+      "testing",
+      "debugging",
+      "error"
+    ],
+    "correct_answer": "3"
+  },
+  {
+    "question": "PC Program Counter is also called ...................",
+    "options": [
+      "instruction pointer",
+      "memory pointer",
+      "data counter",
+      "file pointer"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "Physical memory is divided into sets of finite size called as ______ .",
+    "options": [
+      "Frames",
+      "Pages",
+      "Blocks",
+      "Vectors"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "Pipeline implement",
+    "options": [
+      "fetch instruction",
+      "decode instruction",
+      "fetch operand",
+      "calculate operand"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "PLA stands for",
+    "options": [
+      "programmable lead array",
+      "programmable logic agency",
+      "predicted logic array",
+      "programmable logic array"
+    ],
+    "correct_answer": "3"
+  },
+  {
+    "question": "poor relationships amongst team member is ________risk",
+    "options": [
+      "product",
+      "people",
+      "business",
+      "technology"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "Pre-emptive scheduling is the strategy of temporarily suspending a running process",
+    "options": [
+      "to allow starving processes to run",
+      "before the CPU time slice expires",
+      "when it requests I/O",
+      "to avoid collision"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "Predict Output, if the below code is run with given command? \nCommand Line : java myprog good morning everyone\n\npublic class myprog \n{ \n   public static void main(String argv[]) \n   { \n     System.out.println(argv[1]) \n   } \n}",
+    "options": [
+      "myprog",
+      "good",
+      "morning",
+      "everyone"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "Predict the output of following C++ program \n#include \nusing namespace std; \nclass Empty {}; \nint main() \n{ \n  cout << sizeof(Empty); \n  return 0; \n}",
+    "options": [
+      "A non-zero value",
+      "Compiler Error",
+      "Runtime Error"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "Predict the output of following program. \n#include \nusing namespace std; \nclass A \n{ \nprotected: \n    int x; \npublic: \n    A() {x = 0;} \n    friend void show(); \n}; \nclass B: public A \n{ \npublic: \n    B() : y (0) {} \nprivate: \n    int y; \n}; \nvoid show() \n{ \n    A a; \n    B b; \n    cout << \"The default value of A::x = \" << a.x << \" \"; \n    cout << \"The default value of B::y = \" << b.y; \n}",
+    "options": [
+      "Compiler Error in show() because x is protected in class A",
+      "Compiler Error in show() because y is private in class b"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "Present states of asynchronous circuits are also called",
+    "options": [
+      "secondary variables",
+      "primary variables",
+      "excitation variables",
+      "short term memory"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "Prim's algorithm follows ___________ search",
+    "options": [
+      "Global",
+      "Local",
+      "Binary",
+      "Linear"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "Primed or unprimed variable is",
+    "options": [
+      "map",
+      "logic gates",
+      "literal",
+      "graph"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "Process Control Block (PCB) is also called……",
+    "options": [
+      "Program Control Block",
+      "Memory Control Block",
+      "Task Control Block",
+      "None of the above"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "Producer – Consumer problem, one of the classical problems of synchronization is also called……",
+    "options": [
+      "Bounded Buffer Problem",
+      "Readers Writers Problem",
+      "Dining Philosophers Problem",
+      "None of the above"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "Product of 1011 and 101",
+    "options": [
+      "110111",
+      "110011",
+      "111011",
+      "111100"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "Program always deals with:",
+    "options": [
+      "logical address",
+      "physical address",
+      "absolute address",
+      "relative address"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "Prototyping is an important technique of ____________",
+    "options": [
+      "requirements validation",
+      "requirement specification",
+      "feasibility study",
+      "coding"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "PSW is saved in stack when there is a",
+    "options": [
+      "interrupt recognised",
+      "execution of RST instruction",
+      "Execution of CALL instruction",
+      "Execution of RET instruction"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "public class MyRunnable implements Runnable { public void run() { // some code here } } which of these will create and start this thread?",
+    "options": [
+      "new Runnable(MyRunnable).start();",
+      "new Thread(MyRunnable).run();",
+      "new Thread(new MyRunnable()).start();",
+      "new MyRunnable().start();"
+    ],
+    "correct_answer": "2"
+  },
+  {
+    "question": "Purpose of process is to deliver software",
+    "options": [
+      "in time",
+      "with acceptable quality",
+      "that is cost efficient",
+      "both a & b"
+    ],
+    "correct_answer": "3"
+  },
+  {
+    "question": "Race condition is present in",
+    "options": [
+      "synchronous logic circuit",
+      "asynchronous logic circuit",
+      "ideal logic circuit",
+      "both a and b"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "Race in which stable state depends on order is called",
+    "options": [
+      "critical race",
+      "identical race",
+      "non critical race",
+      "defined race"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "Rate of movement of light in lamp handball game is determined by clock's",
+    "options": [
+      "input",
+      "frequency",
+      "voltage",
+      "current"
+    ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "Rather than AND-OR gates combinational circuits are made by",
+    "options": [
+      "NAND-NOR",
+      "NAND-OR",
+      "OR only",
+      "AND only"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "Recursion is sometimes called ?",
+    "options": [
+      "Circular definition",
+      "Complex definition",
+      "Proceedure",
+      "Union"
+    ],
+    "correct_answer": "0"
+  },
+  {
+    "question": "Reduction of flip-flops in a sequential circuit is referred to as",
+    "options": [
+      "reduction",
+      "state reduction",
+      "next state",
+      "Assignment"
+    ],
+    "correct_answer": "1"
   }
 
 
