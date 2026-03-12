@@ -6145,7 +6145,7 @@
       "1 Mbps",
       "2 Mbps"
     ],
-    "correct_answer": "1"
+    "correct_answer": "2"
   },
   {
     "question": "................. is a more generalized single source shortest path algorithm which can find t he shortest path in a graph with negative weighted edges.",
@@ -9459,7 +9459,7 @@
       "OPTIMAL = FIFO",
       "OPTIMAL< = FIFO"
     ],
-    "correct_answer": "2"
+    "correct_answer": "1"
   },
   {
     "question": "Consider three CPU-intensive processes, which require 10, 20 and 30 time units and arrive at times 0, 2 and 6, respectively. How many context switches are needed if the operating system implements a shortest remaining time first scheduling algorithm? Do not count the context switches at time zero and at the end.",
@@ -11441,7 +11441,7 @@
       "inverted",
       "dont cares"
     ],
-    "correct_answer": "1"
+    "correct_answer": "0"
   },
   {
     "question": "Negative transition in flip-flops are referred to as",
