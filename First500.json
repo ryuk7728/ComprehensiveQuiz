@@ -4301,7 +4301,7 @@
       "+a*b/cd",
       "None"
     ],
-    "correct_answer": "2"
+    "correct_answer": "3"
   },
   {
     "question": "The term MAX and MIN is related to the",
