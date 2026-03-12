@@ -4973,7 +4973,7 @@
       "run time",
       "Analysis time"
     ],
-    "correct_answer": "1"
+    "correct_answer": "2"
   },
   {
     "question": "The TTL field has value 10. How many routers (max) can process this datagram?",
