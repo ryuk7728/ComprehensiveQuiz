@@ -5665,7 +5665,7 @@
       "QMNPRO",
       "QMNPOR"
     ],
-    "correct_answer": "0"
+    "correct_answer": "2"
   },
   {
     "question": "The following numbers are inserted into an empty binary search tree in the given order: 10, 1, 3, 5, 15, 12, 16. What is the height of the binary search tree (the height is the maximum distance of a leaf node from the root)?",
